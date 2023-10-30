@@ -1,0 +1,2361 @@
+2023-10-30 19:04:54.627 [INF] App server is starting.
+2023-10-30 19:05:19.655 [INF] App server is starting.
+2023-10-30 19:05:51.058 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:05:51.060 [INF] HeartBeat
+2023-10-30 19:05:51.061 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:05:51.629 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:05:51.631 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:05:51.631 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:05:51.635 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 19:05:52.127 [INF] -------------Request-Begin------------
+2023-10-30 19:05:52.127 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-10-30 19:05:52.127 [INF] 
+
+2023-10-30 19:05:52.127 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:05:52.127 [INF] -------------Request-End------------
+2023-10-30 19:06:37.517 [INF] App server is starting.
+2023-10-30 19:07:08.494 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:07:08.496 [INF] HeartBeat
+2023-10-30 19:07:08.497 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:07:09.023 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:07:09.025 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:07:09.025 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:07:09.028 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 19:07:09.518 [INF] -------------Request-Begin------------
+2023-10-30 19:07:09.518 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello",
+  "fullName": "uhud durmus",
+  "profit": 0,
+  "role": "admin"
+}
+2023-10-30 19:07:09.518 [INF] 
+
+2023-10-30 19:07:09.518 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"email":"uhud@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"admin","addresses":[],"orders":[]}}
+2023-10-30 19:07:09.518 [INF] -------------Request-End------------
+2023-10-30 19:07:18.306 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:07:18.306 [INF] HeartBeat
+2023-10-30 19:07:18.306 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:07:18.356 [INF] -------------Request-Begin------------
+2023-10-30 19:07:18.356 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "uhud1@gmail.com",
+  "password": "hello",
+  "fullName": "uhud durmus",
+  "profit": 0,
+  "role": "user"
+}
+2023-10-30 19:07:18.356 [INF] 
+
+2023-10-30 19:07:18.356 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"uhud1@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"user","addresses":[],"orders":[]}}
+2023-10-30 19:07:18.356 [INF] -------------Request-End------------
+2023-10-30 19:07:21.551 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:07:21.551 [INF] HeartBeat
+2023-10-30 19:07:21.551 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:07:21.575 [INF] -------------Request-Begin------------
+2023-10-30 19:07:21.575 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "uhud2@gmail.com",
+  "password": "hello",
+  "fullName": "uhud durmus",
+  "profit": 0,
+  "role": "user"
+}
+2023-10-30 19:07:21.575 [INF] 
+
+2023-10-30 19:07:21.575 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":3,"email":"uhud2@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"user","addresses":[],"orders":[]}}
+2023-10-30 19:07:21.575 [INF] -------------Request-End------------
+2023-10-30 19:07:24.519 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:07:24.519 [INF] HeartBeat
+2023-10-30 19:07:24.519 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:07:24.534 [INF] -------------Request-Begin------------
+2023-10-30 19:07:24.534 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "uhud3@gmail.com",
+  "password": "hello",
+  "fullName": "uhud durmus",
+  "profit": 0,
+  "role": "user"
+}
+2023-10-30 19:07:24.534 [INF] 
+
+2023-10-30 19:07:24.534 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":4,"email":"uhud3@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"user","addresses":[],"orders":[]}}
+2023-10-30 19:07:24.534 [INF] -------------Request-End------------
+2023-10-30 19:07:31.651 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:07:31.651 [INF] HeartBeat
+2023-10-30 19:07:31.651 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:07:31.664 [INF] -------------Request-Begin------------
+2023-10-30 19:07:31.665 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "uhud4@gmail.com",
+  "password": "hello",
+  "fullName": "uhud durmus",
+  "profit": 0,
+  "role": "user"
+}
+2023-10-30 19:07:31.665 [INF] 
+
+2023-10-30 19:07:31.665 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":5,"email":"uhud4@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"user","addresses":[],"orders":[]}}
+2023-10-30 19:07:31.665 [INF] -------------Request-End------------
+2023-10-30 19:07:35.889 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:07:35.889 [INF] HeartBeat
+2023-10-30 19:07:35.889 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:07:36.078 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2023-10-30 19:07:36.118 [INF] -------------Request-Begin------------
+2023-10-30 19:07:36.118 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: 
+2023-10-30 19:07:36.118 [INF] 
+
+2023-10-30 19:07:36.118 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"uhud@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"admin","addresses":[],"orders":[]},{"id":2,"email":"uhud1@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"user","addresses":[],"orders":[]},{"id":3,"email":"uhud2@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"user","addresses":[],"orders":[]},{"id":4,"email":"uhud3@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"user","addresses":[],"orders":[]},{"id":5,"email":"uhud4@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"user","addresses":[],"orders":[]}]}
+2023-10-30 19:07:36.118 [INF] -------------Request-End------------
+2023-10-30 19:07:55.202 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:07:55.202 [INF] HeartBeat
+2023-10-30 19:07:55.202 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:07:55.247 [INF] -------------Request-Begin------------
+2023-10-30 19:07:55.247 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:07:55.247 [INF] 
+
+2023-10-30 19:07:55.247 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:07:55.247 [INF] -------------Request-End------------
+2023-10-30 19:08:00.080 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:08:00.080 [INF] HeartBeat
+2023-10-30 19:08:00.080 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:08:00.091 [INF] -------------Request-Begin------------
+2023-10-30 19:08:00.091 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:08:00.091 [INF] 
+
+2023-10-30 19:08:00.091 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:08:00.091 [INF] -------------Request-End------------
+2023-10-30 19:08:26.660 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:08:26.660 [INF] HeartBeat
+2023-10-30 19:08:26.660 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:08:26.709 [INF] -------------Request-Begin------------
+2023-10-30 19:08:26.709 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:08:26.709 [INF] 
+
+2023-10-30 19:08:26.709 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:08:26.709 [INF] -------------Request-End------------
+2023-10-30 19:08:31.852 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:08:31.853 [INF] HeartBeat
+2023-10-30 19:08:31.853 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:08:31.860 [INF] -------------Request-Begin------------
+2023-10-30 19:08:31.860 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: 
+2023-10-30 19:08:31.860 [INF] 
+
+2023-10-30 19:08:31.860 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"email":"uhud@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"admin","addresses":[],"orders":[]},{"id":2,"email":"uhud1@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"user","addresses":[],"orders":[]},{"id":3,"email":"uhud2@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"user","addresses":[],"orders":[]},{"id":4,"email":"uhud3@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"user","addresses":[],"orders":[]},{"id":5,"email":"uhud4@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"user","addresses":[],"orders":[]}]}
+2023-10-30 19:08:31.860 [INF] -------------Request-End------------
+2023-10-30 19:09:26.681 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:09:26.682 [INF] HeartBeat
+2023-10-30 19:09:26.683 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:10:48.847 [INF] -------------Request-Begin------------
+2023-10-30 19:10:48.847 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:10:48.847 [INF] 
+
+2023-10-30 19:10:48.847 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:10:48.847 [INF] -------------Request-End------------
+2023-10-30 19:11:58.530 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:11:58.530 [INF] HeartBeat
+2023-10-30 19:11:58.530 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:11:58.541 [INF] -------------Request-Begin------------
+2023-10-30 19:11:58.541 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:11:58.541 [INF] 
+
+2023-10-30 19:11:58.541 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:11:58.541 [INF] -------------Request-End------------
+2023-10-30 19:12:00.240 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:12:00.240 [INF] HeartBeat
+2023-10-30 19:12:00.240 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:12:00.257 [INF] -------------Request-Begin------------
+2023-10-30 19:12:00.257 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:12:00.257 [INF] 
+
+2023-10-30 19:12:00.257 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:12:00.257 [INF] -------------Request-End------------
+2023-10-30 19:12:57.573 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:12:57.573 [INF] HeartBeat
+2023-10-30 19:12:57.573 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:12:57.618 [INF] -------------Request-Begin------------
+2023-10-30 19:12:57.618 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:12:57.618 [INF] 
+
+2023-10-30 19:12:57.618 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:12:57.618 [INF] -------------Request-End------------
+2023-10-30 19:15:43.828 [INF] App server is starting.
+2023-10-30 19:15:57.602 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:15:57.604 [INF] HeartBeat
+2023-10-30 19:15:57.605 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:15:58.135 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:15:58.137 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:15:58.137 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:15:58.140 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 19:15:58.726 [INF] -------------Request-Begin------------
+2023-10-30 19:15:58.726 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:15:58.726 [INF] 
+
+2023-10-30 19:15:58.726 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:15:58.726 [INF] -------------Request-End------------
+2023-10-30 19:16:15.618 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:16:15.618 [INF] HeartBeat
+2023-10-30 19:16:15.618 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:16:15.673 [INF] -------------Request-Begin------------
+2023-10-30 19:16:15.673 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:16:15.673 [INF] 
+
+2023-10-30 19:16:15.673 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:16:15.673 [INF] -------------Request-End------------
+2023-10-30 19:16:16.511 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:16:16.511 [INF] HeartBeat
+2023-10-30 19:16:16.511 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:16:16.536 [INF] -------------Request-Begin------------
+2023-10-30 19:16:16.536 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:16:16.536 [INF] 
+
+2023-10-30 19:16:16.536 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:16:16.536 [INF] -------------Request-End------------
+2023-10-30 19:16:17.064 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:16:17.064 [INF] HeartBeat
+2023-10-30 19:16:17.064 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:16:17.080 [INF] -------------Request-Begin------------
+2023-10-30 19:16:17.080 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:16:17.080 [INF] 
+
+2023-10-30 19:16:17.080 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:16:17.080 [INF] -------------Request-End------------
+2023-10-30 19:16:31.560 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:16:31.560 [INF] HeartBeat
+2023-10-30 19:16:31.560 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:16:31.576 [INF] -------------Request-Begin------------
+2023-10-30 19:16:31.576 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:16:31.576 [INF] 
+
+2023-10-30 19:16:31.576 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:16:31.576 [INF] -------------Request-End------------
+2023-10-30 19:16:32.179 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:16:32.179 [INF] HeartBeat
+2023-10-30 19:16:32.179 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:16:32.198 [INF] -------------Request-Begin------------
+2023-10-30 19:16:32.198 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:16:32.198 [INF] 
+
+2023-10-30 19:16:32.198 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:16:32.198 [INF] -------------Request-End------------
+2023-10-30 19:16:32.632 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:16:32.632 [INF] HeartBeat
+2023-10-30 19:16:32.632 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:16:32.648 [INF] -------------Request-Begin------------
+2023-10-30 19:16:32.648 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:16:32.649 [INF] 
+
+2023-10-30 19:16:32.649 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:16:32.649 [INF] -------------Request-End------------
+2023-10-30 19:16:33.075 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:16:33.075 [INF] HeartBeat
+2023-10-30 19:16:33.075 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:16:33.091 [INF] -------------Request-Begin------------
+2023-10-30 19:16:33.091 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:16:33.091 [INF] 
+
+2023-10-30 19:16:33.091 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:16:33.091 [INF] -------------Request-End------------
+2023-10-30 19:17:18.332 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:17:18.332 [INF] HeartBeat
+2023-10-30 19:17:18.332 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:17:18.368 [INF] -------------Request-Begin------------
+2023-10-30 19:17:18.368 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:17:18.368 [INF] 
+
+2023-10-30 19:17:18.368 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:17:18.368 [INF] -------------Request-End------------
+2023-10-30 19:17:19.865 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:17:19.865 [INF] HeartBeat
+2023-10-30 19:17:19.865 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:17:19.881 [INF] -------------Request-Begin------------
+2023-10-30 19:17:19.881 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:17:19.881 [INF] 
+
+2023-10-30 19:17:19.881 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:17:19.881 [INF] -------------Request-End------------
+2023-10-30 19:17:20.257 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:17:20.257 [INF] HeartBeat
+2023-10-30 19:17:20.257 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:17:20.274 [INF] -------------Request-Begin------------
+2023-10-30 19:17:20.274 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:17:20.274 [INF] 
+
+2023-10-30 19:17:20.274 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:17:20.274 [INF] -------------Request-End------------
+2023-10-30 19:17:20.395 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:17:20.395 [INF] HeartBeat
+2023-10-30 19:17:20.395 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:17:20.400 [INF] -------------Request-Begin------------
+2023-10-30 19:17:20.401 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:17:20.401 [INF] 
+
+2023-10-30 19:17:20.401 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:17:20.401 [INF] -------------Request-End------------
+2023-10-30 19:17:28.119 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:17:28.119 [INF] HeartBeat
+2023-10-30 19:17:28.119 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:17:28.135 [INF] -------------Request-Begin------------
+2023-10-30 19:17:28.135 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:17:28.135 [INF] 
+
+2023-10-30 19:17:28.135 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:17:28.135 [INF] -------------Request-End------------
+2023-10-30 19:20:47.434 [INF] App server is starting.
+2023-10-30 19:20:55.078 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:20:55.080 [INF] HeartBeat
+2023-10-30 19:20:55.081 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:20:55.589 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:20:55.590 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:20:55.590 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:20:55.594 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 19:20:56.188 [INF] -------------Request-Begin------------
+2023-10-30 19:20:56.188 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:20:56.188 [INF] 
+
+2023-10-30 19:20:56.189 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:20:56.189 [INF] -------------Request-End------------
+2023-10-30 19:21:01.498 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:21:01.498 [INF] HeartBeat
+2023-10-30 19:21:01.498 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:21:01.541 [INF] -------------Request-Begin------------
+2023-10-30 19:21:01.541 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-10-30 19:21:01.541 [INF] 
+
+2023-10-30 19:21:01.541 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:21:01.541 [INF] -------------Request-End------------
+2023-10-30 19:21:27.192 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:21:27.192 [INF] HeartBeat
+2023-10-30 19:21:27.192 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:21:55.105 [INF] -------------Request-Begin------------
+2023-10-30 19:21:55.106 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-10-30 19:21:55.106 [INF] 
+
+2023-10-30 19:21:55.106 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:21:55.106 [INF] -------------Request-End------------
+2023-10-30 19:21:56.452 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:21:56.452 [INF] HeartBeat
+2023-10-30 19:21:56.452 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:24:56.888 [INF] -------------Request-Begin------------
+2023-10-30 19:24:56.888 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "string"
+}
+2023-10-30 19:24:56.888 [INF] 
+
+2023-10-30 19:24:56.888 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:24:56.888 [INF] -------------Request-End------------
+2023-10-30 19:25:15.063 [INF] App server is starting.
+2023-10-30 19:25:23.009 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:25:23.010 [INF] HeartBeat
+2023-10-30 19:25:23.011 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:25:23.522 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:25:23.524 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:25:23.524 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:25:23.528 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 19:25:24.119 [INF] -------------Request-Begin------------
+2023-10-30 19:25:24.120 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "string"
+}
+2023-10-30 19:25:24.120 [INF] 
+
+2023-10-30 19:25:24.120 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:25:24.120 [INF] -------------Request-End------------
+2023-10-30 19:27:27.181 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:27:27.181 [INF] HeartBeat
+2023-10-30 19:27:27.181 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:27:27.337 [INF] -------------Request-Begin------------
+2023-10-30 19:27:27.337 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:27:27.337 [INF] 
+
+2023-10-30 19:27:27.337 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T19:32:27.3323005+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6InVodWRAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6InVodWQgZHVybXVzIiwiZXhwIjoxNjk4NjgzNTQ3LCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.eKe01ad1TLNtjdv7jLYRRz8G1QK4uh_XxLlIjiF72Hg","email":"uhud@gmail.com"}}
+2023-10-30 19:27:27.337 [INF] -------------Request-End------------
+2023-10-30 19:27:35.955 [INF] App server is starting.
+2023-10-30 19:27:44.875 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:27:44.877 [INF] HeartBeat
+2023-10-30 19:27:44.878 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:27:45.401 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:27:45.403 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:27:45.403 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:27:45.407 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 19:27:45.984 [INF] -------------Request-Begin------------
+2023-10-30 19:27:45.984 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:27:45.984 [INF] 
+
+2023-10-30 19:27:45.984 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:27:45.984 [INF] -------------Request-End------------
+2023-10-30 19:27:50.715 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:27:50.715 [INF] HeartBeat
+2023-10-30 19:27:50.715 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:27:50.769 [INF] -------------Request-Begin------------
+2023-10-30 19:27:50.769 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:27:50.769 [INF] 
+
+2023-10-30 19:27:50.769 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:27:50.769 [INF] -------------Request-End------------
+2023-10-30 19:27:52.385 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:27:52.385 [INF] HeartBeat
+2023-10-30 19:27:52.385 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:27:52.409 [INF] -------------Request-Begin------------
+2023-10-30 19:27:52.409 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:27:52.409 [INF] 
+
+2023-10-30 19:27:52.409 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:27:52.409 [INF] -------------Request-End------------
+2023-10-30 19:27:52.892 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:27:52.892 [INF] HeartBeat
+2023-10-30 19:27:52.892 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:27:52.908 [INF] -------------Request-Begin------------
+2023-10-30 19:27:52.908 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:27:52.908 [INF] 
+
+2023-10-30 19:27:52.908 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:27:52.908 [INF] -------------Request-End------------
+2023-10-30 19:27:58.080 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:27:58.081 [INF] HeartBeat
+2023-10-30 19:27:58.081 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:27:58.086 [INF] -------------Request-Begin------------
+2023-10-30 19:27:58.086 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "string"
+}
+2023-10-30 19:27:58.086 [INF] 
+
+2023-10-30 19:27:58.087 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:27:58.087 [INF] -------------Request-End------------
+2023-10-30 19:28:29.873 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:28:29.873 [INF] HeartBeat
+2023-10-30 19:28:29.873 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:28:29.893 [INF] -------------Request-Begin------------
+2023-10-30 19:28:29.893 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "string"
+}
+2023-10-30 19:28:29.893 [INF] 
+
+2023-10-30 19:28:29.893 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:28:29.893 [INF] -------------Request-End------------
+2023-10-30 19:28:37.307 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:28:37.307 [INF] HeartBeat
+2023-10-30 19:28:37.307 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:28:37.327 [INF] -------------Request-Begin------------
+2023-10-30 19:28:37.327 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:28:37.327 [INF] 
+
+2023-10-30 19:28:37.327 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:28:37.327 [INF] -------------Request-End------------
+2023-10-30 19:28:39.093 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:28:39.093 [INF] HeartBeat
+2023-10-30 19:28:39.093 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:28:39.109 [INF] -------------Request-Begin------------
+2023-10-30 19:28:39.109 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:28:39.109 [INF] 
+
+2023-10-30 19:28:39.109 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:28:39.109 [INF] -------------Request-End------------
+2023-10-30 19:29:11.509 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:29:11.509 [INF] HeartBeat
+2023-10-30 19:29:11.509 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:29:11.527 [INF] -------------Request-Begin------------
+2023-10-30 19:29:11.527 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:29:11.527 [INF] 
+
+2023-10-30 19:29:11.527 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:29:11.527 [INF] -------------Request-End------------
+2023-10-30 19:29:12.576 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:29:12.576 [INF] HeartBeat
+2023-10-30 19:29:12.576 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:29:12.593 [INF] -------------Request-Begin------------
+2023-10-30 19:29:12.593 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:29:12.593 [INF] 
+
+2023-10-30 19:29:12.593 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-10-30 19:29:12.593 [INF] -------------Request-End------------
+2023-10-30 19:29:28.563 [INF] App server is starting.
+2023-10-30 19:29:35.715 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:29:35.717 [INF] HeartBeat
+2023-10-30 19:29:35.718 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:29:36.246 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:29:36.248 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:29:36.248 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:29:36.251 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 19:30:55.044 [INF] App server is starting.
+2023-10-30 19:31:01.643 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:31:01.644 [INF] HeartBeat
+2023-10-30 19:31:01.645 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:31:02.161 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:31:02.163 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:31:02.163 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:31:02.166 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 19:31:10.090 [INF] -------------Request-Begin------------
+2023-10-30 19:31:10.091 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:31:10.091 [INF] 
+
+2023-10-30 19:31:10.091 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T19:36:10.0756037+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6InVodWRAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6InVodWQgZHVybXVzIiwiZXhwIjoxNjk4NjgzNzcwLCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.8DZNHbuCALUWVq5PR2B7BsXh18VZjJJ9FsmTeFoy6D8","email":"uhud@gmail.com"}}
+2023-10-30 19:31:10.091 [INF] -------------Request-End------------
+2023-10-30 19:31:46.037 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:31:46.039 [INF] HeartBeat
+2023-10-30 19:31:46.039 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:31:46.244 [INF] -------------Request-Begin------------
+2023-10-30 19:31:46.244 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "uhud1@gmail.com",
+  "password": "hello",
+  "fullName": "uhud durmus",
+  "profit": 10,
+  "role": "user"
+}
+2023-10-30 19:31:46.244 [INF] 
+
+2023-10-30 19:31:46.244 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":12,"email":"uhud1@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":10,"role":"user","addresses":[],"orders":[]}}
+2023-10-30 19:31:46.244 [INF] -------------Request-End------------
+2023-10-30 19:31:50.501 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:31:50.501 [INF] HeartBeat
+2023-10-30 19:31:50.501 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:31:50.527 [INF] -------------Request-Begin------------
+2023-10-30 19:31:50.527 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "uhud2@gmail.com",
+  "password": "hello",
+  "fullName": "uhud durmus",
+  "profit": 10,
+  "role": "user"
+}
+2023-10-30 19:31:50.527 [INF] 
+
+2023-10-30 19:31:50.527 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":13,"email":"uhud2@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":10,"role":"user","addresses":[],"orders":[]}}
+2023-10-30 19:31:50.527 [INF] -------------Request-End------------
+2023-10-30 19:31:55.547 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:31:55.547 [INF] HeartBeat
+2023-10-30 19:31:55.547 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:31:55.563 [INF] -------------Request-Begin------------
+2023-10-30 19:31:55.563 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "uhud3@gmail.com",
+  "password": "hello",
+  "fullName": "uhud durmus",
+  "profit": 10,
+  "role": "user"
+}
+2023-10-30 19:31:55.563 [INF] 
+
+2023-10-30 19:31:55.563 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":14,"email":"uhud3@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":10,"role":"user","addresses":[],"orders":[]}}
+2023-10-30 19:31:55.563 [INF] -------------Request-End------------
+2023-10-30 19:32:10.342 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:32:10.343 [INF] HeartBeat
+2023-10-30 19:32:10.343 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:32:10.353 [INF] -------------Request-Begin------------
+2023-10-30 19:32:10.353 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud3@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:32:10.353 [INF] 
+
+2023-10-30 19:32:10.353 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T19:37:10.3526482+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjE0IiwiUm9sZSI6InVzZXIiLCJFbWFpbCI6InVodWQzQGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6InVzZXIiLCJGdWxsTmFtZSI6InVodWQgZHVybXVzIiwiZXhwIjoxNjk4NjgzODMwLCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.FAyE5CbO9PmYpN0pnEav8KJJlSme68Pq4_hRQmm2yxE","email":"uhud3@gmail.com"}}
+2023-10-30 19:32:10.353 [INF] -------------Request-End------------
+2023-10-30 19:32:12.394 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:32:12.394 [INF] HeartBeat
+2023-10-30 19:32:12.394 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:32:12.398 [INF] -------------Request-Begin------------
+2023-10-30 19:32:12.399 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud3@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:32:12.399 [INF] 
+
+2023-10-30 19:32:12.399 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T19:37:12.3984289+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjE0IiwiUm9sZSI6InVzZXIiLCJFbWFpbCI6InVodWQzQGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6InVzZXIiLCJGdWxsTmFtZSI6InVodWQgZHVybXVzIiwiZXhwIjoxNjk4NjgzODMyLCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.wafE7rVWUfKTQp2IwwuKM4h0zaFl7qRghiJYJpK3prM","email":"uhud3@gmail.com"}}
+2023-10-30 19:32:12.399 [INF] -------------Request-End------------
+2023-10-30 19:32:42.196 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:32:42.196 [INF] HeartBeat
+2023-10-30 19:32:42.196 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:32:42.203 [INF] -------------Request-Begin------------
+2023-10-30 19:32:42.203 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Siyah Polo Yaka Tişört",
+  "description": "Klasik bir spor tarzı!",
+  "price": 29.99,
+  "pictureUrl": "https://www.ornek.com/polo_yaka_tisort_resmi.jpg",
+  "productType": "Unisex Giyim",
+  "productTypeId": 143,
+  "productBrand": "Sporlu Moda",
+  "productBrandId": 461,
+  "piece": 65
+}
+
+2023-10-30 19:32:42.203 [INF] 
+
+2023-10-30 19:32:42.203 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-30 19:32:42.203 [INF] -------------Request-End------------
+2023-10-30 19:32:50.617 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:32:50.617 [INF] HeartBeat
+2023-10-30 19:32:50.617 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:32:50.623 [INF] -------------Request-Begin------------
+2023-10-30 19:32:50.624 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:32:50.624 [INF] 
+
+2023-10-30 19:32:50.624 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T19:37:50.6231422+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6InVodWRAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6InVodWQgZHVybXVzIiwiZXhwIjoxNjk4NjgzODcwLCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.4FFh-SIl5P-Pey--8fLQ3BQEcq5nUxwW-jy-TpKvKmI","email":"uhud@gmail.com"}}
+2023-10-30 19:32:50.624 [INF] -------------Request-End------------
+2023-10-30 19:33:01.594 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:33:01.594 [INF] HeartBeat
+2023-10-30 19:33:01.594 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:33:01.690 [INF] -------------Request-Begin------------
+2023-10-30 19:33:01.690 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Siyah Polo Yaka Tişört",
+  "description": "Klasik bir spor tarzı!",
+  "price": 29.99,
+  "pictureUrl": "https://www.ornek.com/polo_yaka_tisort_resmi.jpg",
+  "productType": "Unisex Giyim",
+  "productTypeId": 143,
+  "productBrand": "Sporlu Moda",
+  "productBrandId": 461,
+  "piece": 65
+}
+
+2023-10-30 19:33:01.690 [INF] 
+
+2023-10-30 19:33:01.690 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"productNumber":0,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":29.99,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productTypeId":143,"productBrand":"Sporlu Moda","productBrandId":461,"piece":65}}
+2023-10-30 19:33:01.690 [INF] -------------Request-End------------
+2023-10-30 19:33:14.147 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:33:14.147 [INF] HeartBeat
+2023-10-30 19:33:14.147 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:33:14.163 [INF] -------------Request-Begin------------
+2023-10-30 19:33:14.163 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Deniz Şortu",
+  "description": "Tatil için mükemmel bir seçenek!",
+  "price": 19.99,
+  "pictureUrl": "https://www.ornek.com/short_resmi.jpg",
+  "productType": "Kadın Giyim",
+  "productTypeId": 141,
+  "productBrand": "Trendy Kadın",
+  "productBrandId": 459,
+  "piece": 28
+}
+
+2023-10-30 19:33:14.163 [INF] 
+
+2023-10-30 19:33:14.163 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"productNumber":0,"name":"Deniz Şortu","description":"Tatil için mükemmel bir seçenek!","price":19.99,"pictureUrl":"https://www.ornek.com/short_resmi.jpg","productType":"Kadın Giyim","productTypeId":141,"productBrand":"Trendy Kadın","productBrandId":459,"piece":28}}
+2023-10-30 19:33:14.163 [INF] -------------Request-End------------
+2023-10-30 19:33:18.127 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:33:18.127 [INF] HeartBeat
+2023-10-30 19:33:18.127 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:33:18.142 [INF] -------------Request-Begin------------
+2023-10-30 19:33:18.142 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Rahat Eşofman Altı",
+  "description": "Spor yaparken rahat hareket edin!",
+  "price": 29.99,
+  "pictureUrl": "https://www.ornek.com/esofman_alti_resmi.jpg",
+  "productType": "Erkek Giyim",
+  "productTypeId": 140,
+  "productBrand": "Moda Erkek",
+  "productBrandId": 458,
+  "piece": 40
+}
+
+2023-10-30 19:33:18.142 [INF] 
+
+2023-10-30 19:33:18.142 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"productNumber":0,"name":"Rahat Eşofman Altı","description":"Spor yaparken rahat hareket edin!","price":29.99,"pictureUrl":"https://www.ornek.com/esofman_alti_resmi.jpg","productType":"Erkek Giyim","productTypeId":140,"productBrand":"Moda Erkek","productBrandId":458,"piece":40}}
+2023-10-30 19:33:18.142 [INF] -------------Request-End------------
+2023-10-30 19:33:22.491 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:33:22.491 [INF] HeartBeat
+2023-10-30 19:33:22.491 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:33:22.496 [INF] -------------Request-Begin------------
+2023-10-30 19:33:22.496 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Yeşil Parka Ceket",
+  "description": "Açık hava etkinlikleri için ideal!",
+  "price": 119.99,
+  "pictureUrl": "https://www.ornek.com/parka_ceket_resmi.jpg",
+  "productType": "Kış Giyim",
+  "productTypeId": 139,
+  "productBrand": "Sıcak Stil",
+  "productBrandId": 457,
+  "piece": 13
+}
+
+2023-10-30 19:33:22.496 [INF] 
+
+2023-10-30 19:33:22.496 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"productNumber":0,"name":"Yeşil Parka Ceket","description":"Açık hava etkinlikleri için ideal!","price":119.99,"pictureUrl":"https://www.ornek.com/parka_ceket_resmi.jpg","productType":"Kış Giyim","productTypeId":139,"productBrand":"Sıcak Stil","productBrandId":457,"piece":13}}
+2023-10-30 19:33:22.496 [INF] -------------Request-End------------
+2023-10-30 19:33:28.236 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:33:28.236 [INF] HeartBeat
+2023-10-30 19:33:28.236 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:33:28.241 [INF] -------------Request-Begin------------
+2023-10-30 19:33:28.241 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Siyah Sweatshirt",
+  "description": "Rahatlığı şıklıkla birleştirin!",
+  "price": 39.99,
+  "pictureUrl": "https://www.ornek.com/sweatshirt_resmi.jpg",
+  "productType": "Unisex Giyim",
+  "productTypeId": 138,
+  "productBrand": "Sporlu Moda",
+  "productBrandId": 461,
+  "piece": 45
+}
+
+2023-10-30 19:33:28.241 [INF] 
+
+2023-10-30 19:33:28.241 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"productNumber":0,"name":"Siyah Sweatshirt","description":"Rahatlığı şıklıkla birleştirin!","price":39.99,"pictureUrl":"https://www.ornek.com/sweatshirt_resmi.jpg","productType":"Unisex Giyim","productTypeId":138,"productBrand":"Sporlu Moda","productBrandId":461,"piece":45}}
+2023-10-30 19:33:28.241 [INF] -------------Request-End------------
+2023-10-30 19:33:45.960 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:33:45.960 [INF] HeartBeat
+2023-10-30 19:33:45.960 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:33:45.974 [INF] -------------Request-Begin------------
+2023-10-30 19:33:45.974 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Siyah Blazer Ceket",
+  "description": "Resmi ve şık bir tarz!",
+  "price": 79.99,
+  "pictureUrl": "https://www.ornek.com/blazer_ceket_resmi.jpg",
+  "productType": "Unisex Giyim",
+  "productTypeId": 137,
+  "productBrand": "Stil Moda",
+  "productBrandId": 460,
+  "piece": 9
+}
+
+2023-10-30 19:33:45.974 [INF] 
+
+2023-10-30 19:33:45.974 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"productNumber":0,"name":"Siyah Blazer Ceket","description":"Resmi ve şık bir tarz!","price":79.99,"pictureUrl":"https://www.ornek.com/blazer_ceket_resmi.jpg","productType":"Unisex Giyim","productTypeId":137,"productBrand":"Stil Moda","productBrandId":460,"piece":9}}
+2023-10-30 19:33:45.974 [INF] -------------Request-End------------
+2023-10-30 19:33:53.938 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:33:53.938 [INF] HeartBeat
+2023-10-30 19:33:53.938 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:33:53.951 [INF] -------------Request-Begin------------
+2023-10-30 19:33:53.951 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Rahat Yazlık Elbise",
+  "description": "Sıcak havalarda serin kalın!",
+  "price": 59.99,
+  "pictureUrl": "https://www.ornek.com/yazlik_elbise_resmi.jpg",
+  "productType": "Kadın Giyim",
+  "productTypeId": 136,
+  "productBrand": "Trendy Kadın",
+  "productBrandId": 459,
+  "piece": 22
+}
+
+2023-10-30 19:33:53.951 [INF] 
+
+2023-10-30 19:33:53.951 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"productNumber":0,"name":"Rahat Yazlık Elbise","description":"Sıcak havalarda serin kalın!","price":59.99,"pictureUrl":"https://www.ornek.com/yazlik_elbise_resmi.jpg","productType":"Kadın Giyim","productTypeId":136,"productBrand":"Trendy Kadın","productBrandId":459,"piece":22}}
+2023-10-30 19:33:53.951 [INF] -------------Request-End------------
+2023-10-30 19:34:10.684 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:34:10.684 [INF] HeartBeat
+2023-10-30 19:34:10.684 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:34:10.691 [INF] -------------Request-Begin------------
+2023-10-30 19:34:10.691 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Gri Palto",
+  "description": "Şehirde şık ve sıcak kalın!",
+  "price": 149.99,
+  "pictureUrl": "https://www.ornek.com/palto_resmi.jpg",
+  "productType": "Kış Giyim",
+  "productTypeId": 134,
+  "productBrand": "Moda Erkek",
+  "productBrandId": 457,
+  "piece": 14
+}
+
+2023-10-30 19:34:10.691 [INF] 
+
+2023-10-30 19:34:10.691 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"productNumber":0,"name":"Gri Palto","description":"Şehirde şık ve sıcak kalın!","price":149.99,"pictureUrl":"https://www.ornek.com/palto_resmi.jpg","productType":"Kış Giyim","productTypeId":134,"productBrand":"Moda Erkek","productBrandId":457,"piece":14}}
+2023-10-30 19:34:10.691 [INF] -------------Request-End------------
+2023-10-30 19:34:17.266 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:34:17.266 [INF] HeartBeat
+2023-10-30 19:34:17.266 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:34:17.281 [INF] -------------Request-Begin------------
+2023-10-30 19:34:17.281 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Lacivert Polo Yaka Tişört",
+  "description": "Klasik bir spor tarzı!",
+  "price": 29.99,
+  "pictureUrl": "https://www.ornek.com/polo_yaka_tisort_resmi.jpg",
+  "productType": "Unisex Giyim",
+  "productTypeId": 133,
+  "productBrand": "Sporlu Moda",
+  "productBrandId": 461,
+  "piece": 60
+}
+
+2023-10-30 19:34:17.281 [INF] 
+
+2023-10-30 19:34:17.281 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"productNumber":0,"name":"Lacivert Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":29.99,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productTypeId":133,"productBrand":"Sporlu Moda","productBrandId":461,"piece":60}}
+2023-10-30 19:34:17.281 [INF] -------------Request-End------------
+2023-10-30 19:34:21.456 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:34:21.456 [INF] HeartBeat
+2023-10-30 19:34:21.456 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:34:21.470 [INF] -------------Request-Begin------------
+2023-10-30 19:34:21.470 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Desenli Mini Etek",
+  "description": "Genç ve enerjik tarz için mükemmel!",
+  "price": 29.99,
+  "pictureUrl": "https://www.ornek.com/etek_resmi.jpg",
+  "productType": "Kadın Giyim",
+  "productTypeId": 131,
+  "productBrand": "Trendy Kadın",
+  "productBrandId": 459,
+  "piece": 35
+}
+
+2023-10-30 19:34:21.470 [INF] 
+
+2023-10-30 19:34:21.471 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"productNumber":0,"name":"Desenli Mini Etek","description":"Genç ve enerjik tarz için mükemmel!","price":29.99,"pictureUrl":"https://www.ornek.com/etek_resmi.jpg","productType":"Kadın Giyim","productTypeId":131,"productBrand":"Trendy Kadın","productBrandId":459,"piece":35}}
+2023-10-30 19:34:21.471 [INF] -------------Request-End------------
+2023-10-30 19:34:26.624 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:34:26.624 [INF] HeartBeat
+2023-10-30 19:34:26.624 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:34:26.637 [INF] -------------Request-Begin------------
+2023-10-30 19:34:26.638 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Yün Kazak",
+  "description": "Soğuk hava için mükemmel bir seçenek!",
+  "price": 59.99,
+  "pictureUrl": "https://www.ornek.com/kazak_resmi.jpg",
+  "productType": "Kış Giyim",
+  "productTypeId": 129,
+  "productBrand": "Sıcak Moda",
+  "productBrandId": 462,
+  "piece": 18
+}
+
+2023-10-30 19:34:26.638 [INF] 
+
+2023-10-30 19:34:26.638 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"productNumber":0,"name":"Yün Kazak","description":"Soğuk hava için mükemmel bir seçenek!","price":59.99,"pictureUrl":"https://www.ornek.com/kazak_resmi.jpg","productType":"Kış Giyim","productTypeId":129,"productBrand":"Sıcak Moda","productBrandId":462,"piece":18}}
+2023-10-30 19:34:26.638 [INF] -------------Request-End------------
+2023-10-30 19:37:24.494 [INF] App server is starting.
+2023-10-30 19:37:38.833 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:37:38.834 [INF] HeartBeat
+2023-10-30 19:37:38.835 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:37:39.357 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:37:39.359 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:37:39.359 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:37:39.363 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 19:37:39.963 [INF] -------------Request-Begin------------
+2023-10-30 19:37:39.963 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:37:39.963 [INF] 
+
+2023-10-30 19:37:39.963 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T19:42:39.9467417+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6InVodWRAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6InVodWQgZHVybXVzIiwiZXhwIjoxNjk4Njg0MTU5LCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.Cj1xX9pX8AGMn9jdeqhJbJkxO1ETOEDWUDSgy7Br8I8","email":"uhud@gmail.com"}}
+2023-10-30 19:37:39.964 [INF] -------------Request-End------------
+2023-10-30 19:37:53.987 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:37:53.987 [INF] HeartBeat
+2023-10-30 19:37:53.987 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:37:54.155 [INF] -------------Request-Begin------------
+2023-10-30 19:37:54.155 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?Percente=0 
+Request Body: 
+2023-10-30 19:37:54.155 [INF] 
+
+2023-10-30 19:37:54.155 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?Percente=0 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"productNumber":0,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":29.99,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productTypeId":143,"productBrand":"Sporlu Moda","productBrandId":461,"piece":65},{"productNumber":0,"name":"Deniz Şortu","description":"Tatil için mükemmel bir seçenek!","price":19.99,"pictureUrl":"https://www.ornek.com/short_resmi.jpg","productType":"Kadın Giyim","productTypeId":141,"productBrand":"Trendy Kadın","productBrandId":459,"piece":28},{"productNumber":0,"name":"Rahat Eşofman Altı","description":"Spor yaparken rahat hareket edin!","price":29.99,"pictureUrl":"https://www.ornek.com/esofman_alti_resmi.jpg","productType":"Erkek Giyim","productTypeId":140,"productBrand":"Moda Erkek","productBrandId":458,"piece":40},{"productNumber":0,"name":"Yeşil Parka Ceket","description":"Açık hava etkinlikleri için ideal!","price":119.99,"pictureUrl":"https://www.ornek.com/parka_ceket_resmi.jpg","productType":"Kış Giyim","productTypeId":139,"productBrand":"Sıcak Stil","productBrandId":457,"piece":13},{"productNumber":0,"name":"Siyah Sweatshirt","description":"Rahatlığı şıklıkla birleştirin!","price":39.99,"pictureUrl":"https://www.ornek.com/sweatshirt_resmi.jpg","productType":"Unisex Giyim","productTypeId":138,"productBrand":"Sporlu Moda","productBrandId":461,"piece":45},{"productNumber":0,"name":"Siyah Blazer Ceket","description":"Resmi ve şık bir tarz!","price":79.99,"pictureUrl":"https://www.ornek.com/blazer_ceket_resmi.jpg","productType":"Unisex Giyim","productTypeId":137,"productBrand":"Stil Moda","productBrandId":460,"piece":9},{"productNumber":0,"name":"Rahat Yazlık Elbise","description":"Sıcak havalarda serin kalın!","price":59.99,"pictureUrl":"https://www.ornek.com/yazlik_elbise_resmi.jpg","productType":"Kadın Giyim","productTypeId":136,"productBrand":"Trendy Kadın","productBrandId":459,"piece":22},{"productNumber":0,"name":"Gri Palto","description":"Şehirde şık ve sıcak kalın!","price":149.99,"pictureUrl":"https://www.ornek.com/palto_resmi.jpg","productType":"Kış Giyim","productTypeId":134,"productBrand":"Moda Erkek","productBrandId":457,"piece":14},{"productNumber":0,"name":"Lacivert Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":29.99,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productTypeId":133,"productBrand":"Sporlu Moda","productBrandId":461,"piece":60},{"productNumber":0,"name":"Desenli Mini Etek","description":"Genç ve enerjik tarz için mükemmel!","price":29.99,"pictureUrl":"https://www.ornek.com/etek_resmi.jpg","productType":"Kadın Giyim","productTypeId":131,"productBrand":"Trendy Kadın","productBrandId":459,"piece":35},{"productNumber":0,"name":"Yün Kazak","description":"Soğuk hava için mükemmel bir seçenek!","price":59.99,"pictureUrl":"https://www.ornek.com/kazak_resmi.jpg","productType":"Kış Giyim","productTypeId":129,"productBrand":"Sıcak Moda","productBrandId":462,"piece":18}]}
+2023-10-30 19:37:54.155 [INF] -------------Request-End------------
+2023-10-30 19:38:51.361 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:38:51.361 [INF] HeartBeat
+2023-10-30 19:38:51.361 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:38:51.381 [INF] -------------Request-Begin------------
+2023-10-30 19:38:51.381 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?Percente=10 
+Request Body: 
+2023-10-30 19:38:51.381 [INF] 
+
+2023-10-30 19:38:51.381 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?Percente=10 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"productNumber":0,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":32.989,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productTypeId":143,"productBrand":"Sporlu Moda","productBrandId":461,"piece":65},{"productNumber":0,"name":"Deniz Şortu","description":"Tatil için mükemmel bir seçenek!","price":21.989,"pictureUrl":"https://www.ornek.com/short_resmi.jpg","productType":"Kadın Giyim","productTypeId":141,"productBrand":"Trendy Kadın","productBrandId":459,"piece":28},{"productNumber":0,"name":"Rahat Eşofman Altı","description":"Spor yaparken rahat hareket edin!","price":32.989,"pictureUrl":"https://www.ornek.com/esofman_alti_resmi.jpg","productType":"Erkek Giyim","productTypeId":140,"productBrand":"Moda Erkek","productBrandId":458,"piece":40},{"productNumber":0,"name":"Yeşil Parka Ceket","description":"Açık hava etkinlikleri için ideal!","price":131.989,"pictureUrl":"https://www.ornek.com/parka_ceket_resmi.jpg","productType":"Kış Giyim","productTypeId":139,"productBrand":"Sıcak Stil","productBrandId":457,"piece":13},{"productNumber":0,"name":"Siyah Sweatshirt","description":"Rahatlığı şıklıkla birleştirin!","price":43.989,"pictureUrl":"https://www.ornek.com/sweatshirt_resmi.jpg","productType":"Unisex Giyim","productTypeId":138,"productBrand":"Sporlu Moda","productBrandId":461,"piece":45},{"productNumber":0,"name":"Siyah Blazer Ceket","description":"Resmi ve şık bir tarz!","price":87.989,"pictureUrl":"https://www.ornek.com/blazer_ceket_resmi.jpg","productType":"Unisex Giyim","productTypeId":137,"productBrand":"Stil Moda","productBrandId":460,"piece":9},{"productNumber":0,"name":"Rahat Yazlık Elbise","description":"Sıcak havalarda serin kalın!","price":65.989,"pictureUrl":"https://www.ornek.com/yazlik_elbise_resmi.jpg","productType":"Kadın Giyim","productTypeId":136,"productBrand":"Trendy Kadın","productBrandId":459,"piece":22},{"productNumber":0,"name":"Gri Palto","description":"Şehirde şık ve sıcak kalın!","price":164.989,"pictureUrl":"https://www.ornek.com/palto_resmi.jpg","productType":"Kış Giyim","productTypeId":134,"productBrand":"Moda Erkek","productBrandId":457,"piece":14},{"productNumber":0,"name":"Lacivert Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":32.989,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productTypeId":133,"productBrand":"Sporlu Moda","productBrandId":461,"piece":60},{"productNumber":0,"name":"Desenli Mini Etek","description":"Genç ve enerjik tarz için mükemmel!","price":32.989,"pictureUrl":"https://www.ornek.com/etek_resmi.jpg","productType":"Kadın Giyim","productTypeId":131,"productBrand":"Trendy Kadın","productBrandId":459,"piece":35},{"productNumber":0,"name":"Yün Kazak","description":"Soğuk hava için mükemmel bir seçenek!","price":65.989,"pictureUrl":"https://www.ornek.com/kazak_resmi.jpg","productType":"Kış Giyim","productTypeId":129,"productBrand":"Sıcak Moda","productBrandId":462,"piece":18}]}
+2023-10-30 19:38:51.382 [INF] -------------Request-End------------
+2023-10-30 19:39:17.528 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:39:17.558 [INF] HeartBeat
+2023-10-30 19:39:17.558 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:39:17.603 [INF] -------------Request-Begin------------
+2023-10-30 19:39:17.603 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductType=Unisex%20Giyim&Percente=10 
+Request Body: 
+2023-10-30 19:39:17.603 [INF] 
+
+2023-10-30 19:39:17.603 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductType=Unisex%20Giyim&Percente=10 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"productNumber":0,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":32.989,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productTypeId":143,"productBrand":"Sporlu Moda","productBrandId":461,"piece":65},{"productNumber":0,"name":"Siyah Sweatshirt","description":"Rahatlığı şıklıkla birleştirin!","price":43.989,"pictureUrl":"https://www.ornek.com/sweatshirt_resmi.jpg","productType":"Unisex Giyim","productTypeId":138,"productBrand":"Sporlu Moda","productBrandId":461,"piece":45},{"productNumber":0,"name":"Siyah Blazer Ceket","description":"Resmi ve şık bir tarz!","price":87.989,"pictureUrl":"https://www.ornek.com/blazer_ceket_resmi.jpg","productType":"Unisex Giyim","productTypeId":137,"productBrand":"Stil Moda","productBrandId":460,"piece":9},{"productNumber":0,"name":"Lacivert Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":32.989,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productTypeId":133,"productBrand":"Sporlu Moda","productBrandId":461,"piece":60}]}
+2023-10-30 19:39:17.603 [INF] -------------Request-End------------
+2023-10-30 19:39:36.998 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:39:36.998 [INF] HeartBeat
+2023-10-30 19:39:36.998 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:39:37.022 [INF] -------------Request-Begin------------
+2023-10-30 19:39:37.022 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?minAmount=30&maxAmount=50&ProductType=Unisex%20Giyim&Percente=10 
+Request Body: 
+2023-10-30 19:39:37.022 [INF] 
+
+2023-10-30 19:39:37.023 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?minAmount=30&maxAmount=50&ProductType=Unisex%20Giyim&Percente=10 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"productNumber":0,"name":"Siyah Sweatshirt","description":"Rahatlığı şıklıkla birleştirin!","price":43.989,"pictureUrl":"https://www.ornek.com/sweatshirt_resmi.jpg","productType":"Unisex Giyim","productTypeId":138,"productBrand":"Sporlu Moda","productBrandId":461,"piece":45}]}
+2023-10-30 19:39:37.023 [INF] -------------Request-End------------
+2023-10-30 19:39:42.521 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:39:42.521 [INF] HeartBeat
+2023-10-30 19:39:42.521 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:39:42.528 [INF] -------------Request-Begin------------
+2023-10-30 19:39:42.528 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?minAmount=20&maxAmount=50&ProductType=Unisex%20Giyim&Percente=10 
+Request Body: 
+2023-10-30 19:39:42.528 [INF] 
+
+2023-10-30 19:39:42.528 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?minAmount=20&maxAmount=50&ProductType=Unisex%20Giyim&Percente=10 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"productNumber":0,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":32.989,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productTypeId":143,"productBrand":"Sporlu Moda","productBrandId":461,"piece":65},{"productNumber":0,"name":"Siyah Sweatshirt","description":"Rahatlığı şıklıkla birleştirin!","price":43.989,"pictureUrl":"https://www.ornek.com/sweatshirt_resmi.jpg","productType":"Unisex Giyim","productTypeId":138,"productBrand":"Sporlu Moda","productBrandId":461,"piece":45},{"productNumber":0,"name":"Lacivert Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":32.989,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productTypeId":133,"productBrand":"Sporlu Moda","productBrandId":461,"piece":60}]}
+2023-10-30 19:39:42.528 [INF] -------------Request-End------------
+2023-10-30 19:48:56.830 [INF] App server is starting.
+2023-10-30 19:49:20.350 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:49:20.352 [INF] HeartBeat
+2023-10-30 19:49:20.352 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:49:20.873 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:49:20.874 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:49:20.874 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 19:49:20.878 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 19:49:21.458 [INF] -------------Request-Begin------------
+2023-10-30 19:49:21.458 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 19:49:21.458 [INF] 
+
+2023-10-30 19:49:21.459 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T19:54:21.4446126+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6InVodWRAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6InVodWQgZHVybXVzIiwiZXhwIjoxNjk4Njg0ODYxLCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.FcFWiPkrqG1rMYwLLQpCvBKO-7uomSTY4snP1YQTyjc","email":"uhud@gmail.com"}}
+2023-10-30 19:49:21.459 [INF] -------------Request-End------------
+2023-10-30 19:49:38.164 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 19:49:38.164 [INF] HeartBeat
+2023-10-30 19:49:38.164 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 19:49:58.782 [INF] -------------Request-Begin------------
+2023-10-30 19:49:58.782 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?Gain=0&Tax=0 
+Request Body: 
+2023-10-30 19:49:58.782 [INF] 
+
+2023-10-30 19:49:58.782 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?Gain=0&Tax=0 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":35.3882,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productTypeId":143,"productBrand":"Sporlu Moda","productBrandId":461,"piece":65},{"id":2,"name":"Deniz Şortu","description":"Tatil için mükemmel bir seçenek!","price":23.5882,"pictureUrl":"https://www.ornek.com/short_resmi.jpg","productType":"Kadın Giyim","productTypeId":141,"productBrand":"Trendy Kadın","productBrandId":459,"piece":28},{"id":3,"name":"Rahat Eşofman Altı","description":"Spor yaparken rahat hareket edin!","price":35.3882,"pictureUrl":"https://www.ornek.com/esofman_alti_resmi.jpg","productType":"Erkek Giyim","productTypeId":140,"productBrand":"Moda Erkek","productBrandId":458,"piece":40},{"id":4,"name":"Yeşil Parka Ceket","description":"Açık hava etkinlikleri için ideal!","price":141.5882,"pictureUrl":"https://www.ornek.com/parka_ceket_resmi.jpg","productType":"Kış Giyim","productTypeId":139,"productBrand":"Sıcak Stil","productBrandId":457,"piece":13},{"id":5,"name":"Siyah Sweatshirt","description":"Rahatlığı şıklıkla birleştirin!","price":47.1882,"pictureUrl":"https://www.ornek.com/sweatshirt_resmi.jpg","productType":"Unisex Giyim","productTypeId":138,"productBrand":"Sporlu Moda","productBrandId":461,"piece":45},{"id":6,"name":"Siyah Blazer Ceket","description":"Resmi ve şık bir tarz!","price":94.3882,"pictureUrl":"https://www.ornek.com/blazer_ceket_resmi.jpg","productType":"Unisex Giyim","productTypeId":137,"productBrand":"Stil Moda","productBrandId":460,"piece":9},{"id":7,"name":"Rahat Yazlık Elbise","description":"Sıcak havalarda serin kalın!","price":70.7882,"pictureUrl":"https://www.ornek.com/yazlik_elbise_resmi.jpg","productType":"Kadın Giyim","productTypeId":136,"productBrand":"Trendy Kadın","productBrandId":459,"piece":22},{"id":8,"name":"Gri Palto","description":"Şehirde şık ve sıcak kalın!","price":176.9882,"pictureUrl":"https://www.ornek.com/palto_resmi.jpg","productType":"Kış Giyim","productTypeId":134,"productBrand":"Moda Erkek","productBrandId":457,"piece":14},{"id":9,"name":"Lacivert Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":35.3882,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productTypeId":133,"productBrand":"Sporlu Moda","productBrandId":461,"piece":60},{"id":10,"name":"Desenli Mini Etek","description":"Genç ve enerjik tarz için mükemmel!","price":35.3882,"pictureUrl":"https://www.ornek.com/etek_resmi.jpg","productType":"Kadın Giyim","productTypeId":131,"productBrand":"Trendy Kadın","productBrandId":459,"piece":35},{"id":11,"name":"Yün Kazak","description":"Soğuk hava için mükemmel bir seçenek!","price":70.7882,"pictureUrl":"https://www.ornek.com/kazak_resmi.jpg","productType":"Kış Giyim","productTypeId":129,"productBrand":"Sıcak Moda","productBrandId":462,"piece":18}]}
+2023-10-30 19:49:58.782 [INF] -------------Request-End------------
+2023-10-30 20:04:30.963 [INF] App server is starting.
+2023-10-30 20:05:47.581 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:05:47.583 [INF] HeartBeat
+2023-10-30 20:05:47.584 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:05:47.658 [INF] -------------Request-Begin------------
+2023-10-30 20:05:47.658 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: 
+2023-10-30 20:05:47.658 [INF] 
+
+2023-10-30 20:05:47.658 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-30 20:05:47.658 [INF] -------------Request-End------------
+2023-10-30 20:06:03.678 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:06:03.679 [INF] HeartBeat
+2023-10-30 20:06:03.679 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:06:04.127 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 20:06:04.129 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 20:06:04.129 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 20:06:04.133 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 20:06:04.724 [INF] -------------Request-Begin------------
+2023-10-30 20:06:04.724 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 20:06:04.724 [INF] 
+
+2023-10-30 20:06:04.724 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T20:11:04.7115299+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6InVodWRAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6InVodWQgZHVybXVzIiwiZXhwIjoxNjk4Njg1ODY0LCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.o7a1gWatum8QxgDjRJ45AwPS9nmr2Oa6g1hB-xytVbs","email":"uhud@gmail.com"}}
+2023-10-30 20:06:04.724 [INF] -------------Request-End------------
+2023-10-30 20:06:13.729 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:06:13.729 [INF] HeartBeat
+2023-10-30 20:06:13.729 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:06:13.852 [INF] -------------Request-Begin------------
+2023-10-30 20:06:13.852 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: 
+2023-10-30 20:06:13.852 [INF] 
+
+2023-10-30 20:06:13.852 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-10-30 20:06:13.852 [INF] -------------Request-End------------
+2023-10-30 20:06:47.724 [INF] App server is starting.
+2023-10-30 20:06:54.707 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:06:54.709 [INF] HeartBeat
+2023-10-30 20:06:54.710 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:06:55.221 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 20:06:55.223 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 20:06:55.223 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 20:06:55.227 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 20:06:55.835 [INF] -------------Request-Begin------------
+2023-10-30 20:06:55.835 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 20:06:55.835 [INF] 
+
+2023-10-30 20:06:55.835 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T20:11:55.8205657+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6InVodWRAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6InVodWQgZHVybXVzIiwiZXhwIjoxNjk4Njg1OTE1LCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.fNsuf9gZcUKO2ILepd4G8LMNDRA7EwhCVU2-ZCfTrzQ","email":"uhud@gmail.com"}}
+2023-10-30 20:06:55.835 [INF] -------------Request-End------------
+2023-10-30 20:08:21.464 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:08:21.464 [INF] HeartBeat
+2023-10-30 20:08:21.464 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:08:21.670 [INF] -------------Request-Begin------------
+2023-10-30 20:08:21.670 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {
+  "userId": 12,
+  "name": "ürün 1",
+  "description": "açıklaması sarması uvu",
+  "price": 19,
+  "pictureUrl": "resim",
+  "productTypeId": "1",
+  "productBrandId": "2",
+  "piece": "1",
+  "status": "pending"
+}
+2023-10-30 20:08:21.670 [INF] 
+
+2023-10-30 20:08:21.670 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"userId":12,"name":"ürün 1","description":"açıklaması sarması uvu","price":19,"pictureUrl":"resim","productTypeId":"1","productBrandId":"2","piece":"1","status":"pending"}}
+2023-10-30 20:08:21.670 [INF] -------------Request-End------------
+2023-10-30 20:08:31.313 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:08:31.313 [INF] HeartBeat
+2023-10-30 20:08:31.313 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:08:31.398 [INF] -------------Request-Begin------------
+2023-10-30 20:08:31.398 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: 
+2023-10-30 20:08:31.398 [INF] 
+
+2023-10-30 20:08:31.398 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"userId":12,"name":"ürün 1","description":"açıklaması sarması uvu","price":19,"pictureUrl":"resim","productTypeId":"1","productBrandId":"2","piece":"1","status":"pending"}]}
+2023-10-30 20:08:31.398 [INF] -------------Request-End------------
+2023-10-30 20:09:35.329 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:09:35.330 [INF] HeartBeat
+2023-10-30 20:09:35.330 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:09:35.346 [INF] -------------Request-Begin------------
+2023-10-30 20:09:35.346 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes/1 
+QueryString:  
+Request Body: {
+  "userId": 0,
+  "name": "string",
+  "description": "string",
+  "price": 0,
+  "pictureUrl": "string",
+  "productTypeId": "string",
+  "productBrandId": "string",
+  "piece": "string",
+  "status": "active"
+}
+2023-10-30 20:09:35.346 [INF] 
+
+2023-10-30 20:09:35.346 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes/1 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-be95b2f297481c765808a47f1938d398-915f4ccba79d9a11-00","errors":{"Price":["Price is required.","Price must be greater than 0."],"UserId":["UserId is required."]}}
+2023-10-30 20:09:35.346 [INF] -------------Request-End------------
+2023-10-30 20:12:03.461 [INF] App server is starting.
+2023-10-30 20:12:10.958 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:12:10.960 [INF] HeartBeat
+2023-10-30 20:12:10.961 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:12:11.483 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 20:12:11.484 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 20:12:11.485 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 20:12:11.488 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 20:12:12.083 [INF] -------------Request-Begin------------
+2023-10-30 20:12:12.083 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 20:12:12.083 [INF] 
+
+2023-10-30 20:12:12.083 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T20:17:12.059587+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6InVodWRAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6InVodWQgZHVybXVzIiwiZXhwIjoxNjk4Njg2MjMxLCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.fmoErVd2CvwmR3Vh3bWzG02l3eHo0crZLSpqfKAUN0g","email":"uhud@gmail.com"}}
+2023-10-30 20:12:12.083 [INF] -------------Request-End------------
+2023-10-30 20:12:24.098 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:12:24.099 [INF] HeartBeat
+2023-10-30 20:12:24.099 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:12:24.255 [INF] -------------Request-Begin------------
+2023-10-30 20:12:24.255 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: 
+2023-10-30 20:12:24.256 [INF] 
+
+2023-10-30 20:12:24.256 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"userId":12,"name":"ürün 1","description":"açıklaması sarması uvu","price":19,"pictureUrl":"resim","productTypeId":"1","productBrandId":"2","piece":"1","status":"pending"}]}
+2023-10-30 20:12:24.256 [INF] -------------Request-End------------
+2023-10-30 20:12:50.569 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:12:50.569 [INF] HeartBeat
+2023-10-30 20:12:50.569 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:12:50.677 [INF] -------------Request-Begin------------
+2023-10-30 20:12:50.677 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes/1 
+QueryString: ?status=ready 
+Request Body: 
+2023-10-30 20:12:50.677 [INF] 
+
+2023-10-30 20:12:50.677 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes/1 
+QueryString: ?status=ready 
+StatusCode: 200 
+Response Body: {"success":true,"message":null}
+2023-10-30 20:12:50.677 [INF] -------------Request-End------------
+2023-10-30 20:13:13.457 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:13:13.457 [INF] HeartBeat
+2023-10-30 20:13:13.457 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:13:13.490 [INF] -------------Request-Begin------------
+2023-10-30 20:13:13.490 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: 
+2023-10-30 20:13:13.490 [INF] 
+
+2023-10-30 20:13:13.490 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"userId":12,"name":"ürün 1","description":"açıklaması sarması uvu","price":19,"pictureUrl":"resim","productTypeId":"1","productBrandId":"2","piece":"1","status":"ready"}]}
+2023-10-30 20:13:13.490 [INF] -------------Request-End------------
+2023-10-30 20:14:11.394 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:14:11.395 [INF] HeartBeat
+2023-10-30 20:14:11.396 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:14:11.441 [INF] -------------Request-Begin------------
+2023-10-30 20:14:11.441 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes/ByUserId/1 
+QueryString:  
+Request Body: 
+2023-10-30 20:14:11.441 [INF] 
+
+2023-10-30 20:14:11.441 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes/ByUserId/1 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-10-30 20:14:11.441 [INF] -------------Request-End------------
+2023-10-30 20:14:14.314 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:14:14.314 [INF] HeartBeat
+2023-10-30 20:14:14.314 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:14:14.352 [INF] -------------Request-Begin------------
+2023-10-30 20:14:14.352 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes/ByUserId/12 
+QueryString:  
+Request Body: 
+2023-10-30 20:14:14.352 [INF] 
+
+2023-10-30 20:14:14.352 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes/ByUserId/12 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"userId":12,"name":"ürün 1","description":"açıklaması sarması uvu","price":19,"pictureUrl":"resim","productTypeId":"1","productBrandId":"2","piece":"1","status":"ready"}]}
+2023-10-30 20:14:14.352 [INF] -------------Request-End------------
+2023-10-30 20:16:32.043 [INF] App server is starting.
+2023-10-30 20:24:44.045 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:24:44.046 [INF] HeartBeat
+2023-10-30 20:24:44.047 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:24:44.119 [INF] -------------Request-Begin------------
+2023-10-30 20:24:44.120 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-10-30 20:24:44.120 [INF] 
+
+2023-10-30 20:24:44.120 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-30 20:24:44.120 [INF] -------------Request-End------------
+2023-10-30 20:24:59.091 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:24:59.091 [INF] HeartBeat
+2023-10-30 20:24:59.091 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:24:59.553 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 20:24:59.555 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 20:24:59.555 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 20:24:59.559 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 20:25:00.144 [INF] -------------Request-Begin------------
+2023-10-30 20:25:00.144 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-30 20:25:00.144 [INF] 
+
+2023-10-30 20:25:00.144 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-30T20:30:00.12838+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6InVodWRAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6InVodWQgZHVybXVzIiwiZXhwIjoxNjk4Njg3MDAwLCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.3SUu4kKY91kfbUA7aVWow0Pus2jXn-1YmreOXGYbPqg","email":"uhud@gmail.com"}}
+2023-10-30 20:25:00.145 [INF] -------------Request-End------------
+2023-10-30 20:25:10.520 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:25:10.520 [INF] HeartBeat
+2023-10-30 20:25:10.520 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:25:10.645 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2023-10-30 20:25:10.672 [INF] -------------Request-Begin------------
+2023-10-30 20:25:10.672 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-10-30 20:25:10.672 [INF] 
+
+2023-10-30 20:25:10.672 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"email":"uhud@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"admin","addresses":[],"orders":[]}}
+2023-10-30 20:25:10.672 [INF] -------------Request-End------------
+2023-10-30 20:42:57.571 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:42:57.572 [INF] HeartBeat
+2023-10-30 20:42:57.572 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:42:57.579 [INF] -------------Request-Begin------------
+2023-10-30 20:42:57.580 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: 
+2023-10-30 20:42:57.580 [INF] 
+
+2023-10-30 20:42:57.580 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-30 20:42:57.580 [INF] -------------Request-End------------
+2023-10-30 20:52:23.249 [INF] App server is starting.
+2023-10-30 20:56:08.825 [INF] App server is starting.
+2023-10-30 20:56:09.783 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - VkApi.Controllers.TokenController.Post (Vk.Api). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 20:56:23.948 [INF] App server is starting.
+2023-10-30 20:56:31.320 [INF] App server is starting.
+2023-10-30 20:57:06.471 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:57:06.473 [INF] HeartBeat
+2023-10-30 20:57:06.474 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:57:48.653 [INF] App server is starting.
+2023-10-30 20:58:00.770 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:58:00.772 [INF] HeartBeat
+2023-10-30 20:58:00.772 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 20:58:01.302 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 20:58:01.304 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 20:58:01.304 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 20:58:01.307 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 20:58:01.761 [INF] -------------Request-Begin------------
+2023-10-30 20:58:01.761 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Siyah Polo Yaka Tişört",
+  "description": "Klasik bir spor tarzı!",
+  "price": 29.99,
+  "pictureUrl": "https://www.ornek.com/polo_yaka_tisort_resmi.jpg",
+  "productType": "Unisex Giyim",
+  "productTypeId": 143,
+  "productBrand": "Sporlu Moda",
+  "productBrandId": 461,
+  "piece": 65
+}
+
+2023-10-30 20:58:01.761 [INF] 
+
+2023-10-30 20:58:01.761 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":29.99,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productTypeId":143,"productBrand":"Sporlu Moda","productBrandId":461,"piece":65}}
+2023-10-30 20:58:01.761 [INF] -------------Request-End------------
+2023-10-30 20:58:32.315 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 20:58:32.315 [INF] HeartBeat
+2023-10-30 20:58:32.317 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:01:27.935 [INF] App server is starting.
+2023-10-30 21:01:35.704 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:01:35.706 [INF] HeartBeat
+2023-10-30 21:01:35.707 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:01:36.240 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:01:36.242 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:01:36.242 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:01:36.245 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 21:10:11.083 [INF] App server is starting.
+2023-10-30 21:10:18.068 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:10:18.069 [INF] HeartBeat
+2023-10-30 21:10:18.070 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:10:18.137 [INF] -------------Request-Begin------------
+2023-10-30 21:10:18.137 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: 
+2023-10-30 21:10:18.137 [INF] 
+
+2023-10-30 21:10:18.137 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-30 21:10:18.137 [INF] -------------Request-End------------
+2023-10-30 21:11:49.422 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:11:49.422 [INF] HeartBeat
+2023-10-30 21:11:49.422 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:11:49.478 [INF] -------------Request-Begin------------
+2023-10-30 21:11:49.478 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/CreateOrder 
+QueryString:  
+Request Body: {
+  "userId": 1,
+  "productId": 1,
+  "name": "Siyah Polo Yaka Tişört",
+  "description": "Klasik bir spor tarzı!",
+  "price": 29.99,
+  "pictureUrl": "https://www.ornek.com/polo_yaka_tisort_resmi.jpg",
+  "productType": "Unisex Giyim",
+  "productBrand": "Sporlu Moda",
+  "piece": 6,
+  "status": "pending"
+}
+2023-10-30 21:11:49.478 [INF] 
+
+2023-10-30 21:11:49.478 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/CreateOrder 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-45d96f60f3998ba7ec31795cef685eb3-76cb992aa401a279-00","errors":{"request":["The request field is required."],"$.price":["The JSON value could not be converted to System.Int32. Path: $.price | LineNumber: 5 | BytePositionInLine: 16."]}
+2023-10-30 21:11:49.478 [INF] -------------Request-End------------
+2023-10-30 21:12:10.961 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:12:10.961 [INF] HeartBeat
+2023-10-30 21:12:10.961 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:12:11.712 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:12:11.714 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:12:11.714 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:12:11.718 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 21:12:23.139 [FTL] Path=/vk/api/v1/Token/CreateOrder || Method=POST || Exception=Object reference not set to an instance of an object.
+2023-10-30 21:12:23.173 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id a20ed1e2-9697-4563-9619-8b77a6d37afc and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\durmu\Desktop\ödevfromhoca\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 21:12:23.199 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id a20ed1e2-9697-4563-9619-8b77a6d37afc and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-30 21:12:23.201 [ERR] Connection ID "18230571352530616332", Request ID "4000000d-000e-fd00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'The stream with Id a20ed1e2-9697-4563-9619-8b77a6d37afc and Tag  is disposed.'.
+   at Microsoft.IO.RecyclableMemoryStream.ThrowDisposedException() in /_/src/RecyclableMemoryStream.cs:line 1453
+   at Microsoft.IO.RecyclableMemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count) in /_/src/RecyclableMemoryStream.cs:line 997
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at VkApi.Middleware.ErrorHandlerMiddleware.Invoke(HttpContext context) in C:\Users\durmu\Desktop\ödevfromhoca\VkApi\Middleware\ErrorHandlerMiddleware.cs:line 33
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2023-10-30 21:14:24.636 [INF] App server is starting.
+2023-10-30 21:14:30.989 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:14:30.991 [INF] HeartBeat
+2023-10-30 21:14:30.992 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:14:31.530 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:14:31.531 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:14:31.531 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:14:31.535 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-30 21:16:28.455 [INF] App server is starting.
+2023-10-30 21:17:12.629 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-30 21:17:12.630 [INF] HeartBeat
+2023-10-30 21:17:12.631 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-30 21:17:13.168 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:17:13.170 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:17:13.170 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-30 21:17:13.173 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
