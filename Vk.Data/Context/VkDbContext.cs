@@ -13,6 +13,7 @@ public class VkDbContext : DbContext
 
     public DbSet<User> Users { get; set; }
     public DbSet<Product> Products { get; set; }
+    public DbSet<Message> Messages { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -20,6 +21,8 @@ public class VkDbContext : DbContext
         modelBuilder.ApplyConfiguration(new OrderConfigruration());
         modelBuilder.ApplyConfiguration(new ProductConfigruration());
         modelBuilder.ApplyConfiguration(new AddressConfigruration());
+        modelBuilder.ApplyConfiguration(new MessageConfigruration());
+
         base.OnModelCreating(modelBuilder);
     }
 

@@ -40,15 +40,6 @@ public class OrderesController : ControllerBase
         return result;
     }
 
-    [HttpGet("ByUserId/{Userid}")]
-    [Authorize(Roles = "admin")]
-
-    public async Task<ApiResponse<List<OrderResponse>>> GetByUserId(int Userid)
-    {
-        var operation = new GetOrderByUserIdQuery(Userid);
-        var result = await mediator.Send(operation);
-        return result;
-    }
 
 
     [HttpPost]

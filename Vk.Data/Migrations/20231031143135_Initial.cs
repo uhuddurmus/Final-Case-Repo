@@ -15,6 +15,27 @@ namespace Vk.Data.Migrations
                 name: "dbo");
 
             migrationBuilder.CreateTable(
+                name: "Messages",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UserId = table.Column<int>(type: "int", nullable: false),
+                    UserName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Text = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: false),
+                    RoomName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    InsertUserId = table.Column<int>(type: "int", nullable: false),
+                    InsertDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    UpdateUserId = table.Column<int>(type: "int", nullable: false),
+                    UpdateDate = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    IsActive = table.Column<bool>(type: "bit", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Messages", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Product",
                 schema: "dbo",
                 columns: table => new
@@ -158,6 +179,9 @@ namespace Vk.Data.Migrations
             migrationBuilder.DropTable(
                 name: "Address",
                 schema: "dbo");
+
+            migrationBuilder.DropTable(
+                name: "Messages");
 
             migrationBuilder.DropTable(
                 name: "Order",

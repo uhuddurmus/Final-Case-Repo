@@ -33,6 +33,7 @@ public class Startup
 
     public void ConfigureServices(IServiceCollection services)
     {
+        services.AddSignalR();
         string connection = Configuration.GetConnectionString("MsSqlConnection");
         services.AddDbContext<VkDbContext>(opts => opts.UseSqlServer(connection));
 
@@ -97,7 +98,7 @@ public class Startup
         {
             options.AddPolicy("CorsPolicy",
                 builder => builder
-                    .WithOrigins("http://localhost:4200")  // Allow requests from this origin
+                    .WithOrigins("http://localhost:8080")  // Allow requests from this origin
                     .AllowAnyMethod()                       // Allow all HTTP methods
                     .AllowAnyHeader()                       // Allow all HTTP headers
                     .AllowCredentials()                     // Allow credentials (cookies, etc.)
@@ -155,6 +156,9 @@ public class Startup
         app.UseRouting();
         app.UseAuthorization();
 
-        app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+        app.UseEndpoints(endpoints => { 
+            endpoints.MapControllers();
+            endpoints.MapHub<ChatHub>("/chatHub");
+        });
     }
 }
