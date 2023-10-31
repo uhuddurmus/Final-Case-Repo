@@ -1,0 +1,955 @@
+2023-10-31 13:13:09.496 [INF] App server is starting.
+2023-10-31 13:14:19.500 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:14:19.502 [INF] HeartBeat
+2023-10-31 13:14:19.502 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:14:19.671 [INF] -------------Request-Begin------------
+2023-10-31 13:14:19.671 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello",
+  "fullName": "uhud durmus",
+  "profit": 0,
+  "role": "admin"
+}
+2023-10-31 13:14:19.671 [INF] 
+
+2023-10-31 13:14:19.672 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 13:14:19.672 [INF] -------------Request-End------------
+2023-10-31 13:14:54.972 [INF] App server is starting.
+2023-10-31 13:15:11.490 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:15:11.492 [INF] HeartBeat
+2023-10-31 13:15:11.493 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:15:12.488 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:15:12.490 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:15:12.490 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:15:12.494 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-31 13:15:13.392 [INF] -------------Request-Begin------------
+2023-10-31 13:15:13.392 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello",
+  "fullName": "uhud durmus",
+  "profit": 0,
+  "role": "admin"
+}
+2023-10-31 13:15:13.392 [INF] 
+
+2023-10-31 13:15:13.392 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"email":"uhud@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"admin","addresses":[],"orders":[]}}
+2023-10-31 13:15:13.392 [INF] -------------Request-End------------
+2023-10-31 13:15:33.459 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:15:33.461 [INF] HeartBeat
+2023-10-31 13:15:33.461 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:15:33.513 [INF] -------------Request-Begin------------
+2023-10-31 13:15:33.513 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "ahmet@gmail.com",
+  "password": "hello",
+  "fullName": "ahmet durmus",
+  "profit": 0,
+  "role": "user"
+}
+2023-10-31 13:15:33.513 [INF] 
+
+2023-10-31 13:15:33.513 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"ahmet durmus","profit":0,"role":"user","addresses":[],"orders":[]}}
+2023-10-31 13:15:33.513 [INF] -------------Request-End------------
+2023-10-31 13:15:41.646 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:15:41.646 [INF] HeartBeat
+2023-10-31 13:15:41.646 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:15:41.670 [INF] -------------Request-Begin------------
+2023-10-31 13:15:41.670 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "ali@gmail.com",
+  "password": "hello",
+  "fullName": "alidurmus",
+  "profit": 0,
+  "role": "user"
+}
+2023-10-31 13:15:41.670 [INF] 
+
+2023-10-31 13:15:41.670 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":3,"email":"ali@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"alidurmus","profit":0,"role":"user","addresses":[],"orders":[]}}
+2023-10-31 13:15:41.670 [INF] -------------Request-End------------
+2023-10-31 13:15:49.893 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:15:49.893 [INF] HeartBeat
+2023-10-31 13:15:49.893 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:15:49.913 [INF] -------------Request-Begin------------
+2023-10-31 13:15:49.913 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "ayşe@gmail.com",
+  "password": "hello",
+  "fullName": "ayşe",
+  "profit": 0,
+  "role": "user"
+}
+2023-10-31 13:15:49.913 [INF] 
+
+2023-10-31 13:15:49.913 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-414d5345d43d80ff9025aba50c8a065e-24701341dadc214a-00","errors":{"FullName":["Firstname length min value is 20."]}}
+2023-10-31 13:15:49.913 [INF] -------------Request-End------------
+2023-10-31 13:16:01.878 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:16:01.878 [INF] HeartBeat
+2023-10-31 13:16:01.879 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:16:01.885 [INF] -------------Request-Begin------------
+2023-10-31 13:16:01.885 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "ayşe@gmail.com",
+  "password": "hello",
+  "fullName": "ayşe durmus",
+  "profit": 0,
+  "role": "user"
+}
+2023-10-31 13:16:01.885 [INF] 
+
+2023-10-31 13:16:01.885 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":4,"email":"ayşe@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"ayşe durmus","profit":0,"role":"user","addresses":[],"orders":[]}}
+2023-10-31 13:16:01.885 [INF] -------------Request-End------------
+2023-10-31 13:18:47.796 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:18:47.797 [INF] HeartBeat
+2023-10-31 13:18:47.797 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:18:48.165 [INF] -------------Request-Begin------------
+2023-10-31 13:18:48.165 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "ayşe@gmail.com",
+  "password": "hello"
+}
+2023-10-31 13:18:48.165 [INF] 
+
+2023-10-31 13:18:48.165 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-31T13:23:48.1598018+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjQiLCJSb2xlIjoidXNlciIsIkVtYWlsIjoiYXnFn2VAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoidXNlciIsIkZ1bGxOYW1lIjoiYXnFn2UgZHVybXVzIiwiZXhwIjoxNjk4NzQ3ODI4LCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.o999Yk5KMutp7rNvFzvATHAEFqD2wuFf5afS7EsaO9s","email":"ayşe@gmail.com"}}
+2023-10-31 13:18:48.165 [INF] -------------Request-End------------
+2023-10-31 13:20:37.255 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:20:37.289 [INF] HeartBeat
+2023-10-31 13:20:37.289 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:20:37.321 [INF] -------------Request-Begin------------
+2023-10-31 13:20:37.321 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: 
+2023-10-31 13:20:37.321 [INF] 
+
+2023-10-31 13:20:37.321 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-10-31 13:20:37.321 [INF] -------------Request-End------------
+2023-10-31 13:21:23.569 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:21:23.569 [INF] HeartBeat
+2023-10-31 13:21:23.569 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:21:23.595 [INF] -------------Request-Begin------------
+2023-10-31 13:21:23.595 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {
+  "userId": 4,
+  "productId": 1,
+  "name": "elma",
+  "description": "kırmızı elma",
+  "price": 10,
+  "pictureUrl": "elma.com",
+  "productType": "meyve",
+  "productBrand": "meyvecioglu",
+  "piece": 2,
+  "status": "Pending"
+}
+2023-10-31 13:21:23.595 [INF] 
+
+2023-10-31 13:21:23.595 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-10-31 13:21:23.595 [INF] -------------Request-End------------
+2023-10-31 13:22:07.516 [INF] App server is starting.
+2023-10-31 13:22:20.427 [INF] App server is starting.
+2023-10-31 13:22:26.840 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:22:26.842 [INF] HeartBeat
+2023-10-31 13:22:26.843 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:22:27.370 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:22:27.371 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:22:27.371 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:22:27.375 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-31 13:22:27.839 [INF] -------------Request-Begin------------
+2023-10-31 13:22:27.839 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {
+  "userId": 4,
+  "productId": 1,
+  "name": "elma",
+  "description": "kırmızı elma",
+  "price": 10,
+  "pictureUrl": "elma.com",
+  "productType": "meyve",
+  "productBrand": "meyvecioglu",
+  "piece": 2,
+  "status": "Pending"
+}
+2023-10-31 13:22:27.839 [INF] 
+
+2023-10-31 13:22:27.839 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"}}
+2023-10-31 13:22:27.840 [INF] -------------Request-End------------
+2023-10-31 13:24:03.600 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:24:03.600 [INF] HeartBeat
+2023-10-31 13:24:03.600 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:24:54.004 [INF] -------------Request-Begin------------
+2023-10-31 13:24:54.004 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {
+  "userId": 4,
+  "productId": 1,
+  "name": "elma",
+  "description": "kırmızı elma",
+  "price": 10,
+  "pictureUrl": "elma.com",
+  "productType": "meyve",
+  "productBrand": "meyvecioglu",
+  "piece": 2,
+  "status": "Pending"
+}
+2023-10-31 13:24:54.004 [INF] 
+
+2023-10-31 13:24:54.004 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"}}
+2023-10-31 13:24:54.004 [INF] -------------Request-End------------
+2023-10-31 13:25:01.780 [INF] App server is starting.
+2023-10-31 13:25:07.351 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:25:07.353 [INF] HeartBeat
+2023-10-31 13:25:07.354 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:25:11.754 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:25:11.756 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:25:11.756 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:25:11.759 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-31 13:25:15.111 [INF] -------------Request-Begin------------
+2023-10-31 13:25:15.112 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {
+  "userId": 4,
+  "productId": 1,
+  "name": "elma",
+  "description": "kırmızı elma",
+  "price": 10,
+  "pictureUrl": "elma.com",
+  "productType": "meyve",
+  "productBrand": "meyvecioglu",
+  "piece": 2,
+  "status": "Pending"
+}
+2023-10-31 13:25:15.112 [INF] 
+
+2023-10-31 13:25:15.112 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":3,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"}}
+2023-10-31 13:25:15.112 [INF] -------------Request-End------------
+2023-10-31 13:25:39.320 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:25:39.321 [INF] HeartBeat
+2023-10-31 13:25:39.322 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:27:17.922 [INF] App server is starting.
+2023-10-31 13:27:33.675 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:27:33.678 [INF] HeartBeat
+2023-10-31 13:27:33.678 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:27:34.204 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:27:34.206 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:27:34.206 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:27:34.209 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-31 13:27:45.350 [INF] -------------Request-Begin------------
+2023-10-31 13:27:45.351 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {
+  "userId": 4,
+  "productId": 1,
+  "name": "elma",
+  "description": "kırmızı elma",
+  "price": 10,
+  "pictureUrl": "elma.com",
+  "productType": "meyve",
+  "productBrand": "meyvecioglu",
+  "piece": 2,
+  "status": "Pending"
+}
+2023-10-31 13:27:45.351 [INF] 
+
+2023-10-31 13:27:45.351 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"}}
+2023-10-31 13:27:45.351 [INF] -------------Request-End------------
+2023-10-31 13:35:17.444 [INF] App server is starting.
+2023-10-31 13:35:24.751 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:35:24.753 [INF] HeartBeat
+2023-10-31 13:35:24.753 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:35:25.288 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:35:25.290 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:35:25.290 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:35:25.294 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-31 13:35:25.761 [INF] -------------Request-Begin------------
+2023-10-31 13:35:25.761 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "userId": 4,
+  "productId": 1,
+  "name": "Siyah Polo Yaka Tişört",
+  "description": "Klasik bir spor tarzı!",
+  "price": 29.99,
+  "pictureUrl": "https://www.ornek.com/polo_yaka_tisort_resmi.jpg",
+  "productType": "Unisex Giyim",
+  "productBrand": "Sporlu Moda",
+  "piece": 6,
+  "status": "Pending"
+}
+2023-10-31 13:35:25.761 [INF] 
+
+2023-10-31 13:35:25.762 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":29.99,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productTypeId":0,"productBrand":"Sporlu Moda","productBrandId":0,"piece":6}}
+2023-10-31 13:35:25.762 [INF] -------------Request-End------------
+2023-10-31 13:39:11.698 [INF] App server is starting.
+2023-10-31 13:39:18.704 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:39:18.706 [INF] HeartBeat
+2023-10-31 13:39:18.707 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:39:18.821 [INF] -------------Request-Begin------------
+2023-10-31 13:39:18.822 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {
+  "userId": 4,
+  "productId": 1,
+  "name": "Siyah Polo Yaka Tişört",
+  "description": "Klasik bir spor tarzı!",
+  "price": 29.99,
+  "pictureUrl": "https://www.ornek.com/polo_yaka_tisort_resmi.jpg",
+  "productType": "Unisex Giyim",
+  "productBrand": "Sporlu Moda",
+  "piece": 6,
+  "status": "Pending"
+}
+2023-10-31 13:39:18.822 [INF] 
+
+2023-10-31 13:39:18.822 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-fea033bb0da6ae3a8f84a0b404e7d8c2-a0016ac7b134d796-00","errors":{"request":["The request field is required."],"$.price":["The JSON value could not be converted to System.Int32. Path: $.price | LineNumber: 5 | BytePositionInLine: 16."]}
+2023-10-31 13:39:18.822 [INF] -------------Request-End------------
+2023-10-31 13:39:34.128 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:39:34.128 [INF] HeartBeat
+2023-10-31 13:39:34.128 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:39:34.564 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:39:34.566 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:39:34.566 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 13:39:34.569 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-31 13:39:35.070 [INF] -------------Request-Begin------------
+2023-10-31 13:39:35.070 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {
+  "userId": 4,
+  "productId": 1,
+  "name": "Siyah Polo Yaka Tişört",
+  "description": "Klasik bir spor tarzı!",
+  "price": 29,
+  "pictureUrl": "https://www.ornek.com/polo_yaka_tisort_resmi.jpg",
+  "productType": "Unisex Giyim",
+  "productBrand": "Sporlu Moda",
+  "piece": 6,
+  "status": "Pending"
+}
+2023-10-31 13:39:35.070 [INF] 
+
+2023-10-31 13:39:35.070 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Not Enought Product!","response":null}
+2023-10-31 13:39:35.070 [INF] -------------Request-End------------
+2023-10-31 13:39:46.127 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:39:46.127 [INF] HeartBeat
+2023-10-31 13:39:46.127 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:39:46.168 [INF] -------------Request-Begin------------
+2023-10-31 13:39:46.169 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {
+  "userId": 4,
+  "productId": 1,
+  "name": "Siyah Polo Yaka Tişört",
+  "description": "Klasik bir spor tarzı!",
+  "price": 29,
+  "pictureUrl": "https://www.ornek.com/polo_yaka_tisort_resmi.jpg",
+  "productType": "Unisex Giyim",
+  "productBrand": "Sporlu Moda",
+  "piece": 5,
+  "status": "Pending"
+}
+2023-10-31 13:39:46.169 [INF] 
+
+2023-10-31 13:39:46.169 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Not Enought Product!","response":null}
+2023-10-31 13:39:46.169 [INF] -------------Request-End------------
+2023-10-31 13:39:59.521 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:39:59.521 [INF] HeartBeat
+2023-10-31 13:39:59.521 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:39:59.680 [INF] -------------Request-Begin------------
+2023-10-31 13:39:59.680 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {
+  "userId": 4,
+  "productId": 1,
+  "name": "Siyah Polo Yaka Tişört",
+  "description": "Klasik bir spor tarzı!",
+  "price": 29,
+  "pictureUrl": "https://www.ornek.com/polo_yaka_tisort_resmi.jpg",
+  "productType": "Unisex Giyim",
+  "productBrand": "Sporlu Moda",
+  "piece": 4,
+  "status": "Pending"
+}
+2023-10-31 13:39:59.680 [INF] 
+
+2023-10-31 13:39:59.680 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":5,"userId":4,"productId":1,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":29,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productBrand":"Sporlu Moda","piece":4,"status":"Pending"}}
+2023-10-31 13:39:59.680 [INF] -------------Request-End------------
+2023-10-31 13:44:09.308 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:44:09.308 [INF] HeartBeat
+2023-10-31 13:44:09.308 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:44:09.315 [INF] -------------Request-Begin------------
+2023-10-31 13:44:09.315 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: 
+2023-10-31 13:44:09.315 [INF] 
+
+2023-10-31 13:44:09.315 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 13:44:09.315 [INF] -------------Request-End------------
+2023-10-31 13:44:44.365 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:44:44.365 [INF] HeartBeat
+2023-10-31 13:44:44.365 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:44:44.481 [INF] -------------Request-Begin------------
+2023-10-31 13:44:44.481 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "ayşe@gmail.com",
+  "password": "hello"
+}
+2023-10-31 13:44:44.481 [INF] 
+
+2023-10-31 13:44:44.481 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-31T13:49:44.4760115+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjQiLCJSb2xlIjoidXNlciIsIkVtYWlsIjoiYXnFn2VAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoidXNlciIsIkZ1bGxOYW1lIjoiYXnFn2UgZHVybXVzIiwiZXhwIjoxNjk4NzQ5Mzg0LCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.2Ob8MWmCZMNKOS1Ork7Rdmw39wREEKLNhzMfJFKWrsI","email":"ayşe@gmail.com"}}
+2023-10-31 13:44:44.481 [INF] -------------Request-End------------
+2023-10-31 13:44:59.348 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 13:44:59.348 [INF] HeartBeat
+2023-10-31 13:44:59.348 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 13:44:59.451 [INF] -------------Request-Begin------------
+2023-10-31 13:44:59.451 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString:  
+Request Body: 
+2023-10-31 13:44:59.451 [INF] 
+
+2023-10-31 13:44:59.451 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"},{"id":5,"userId":4,"productId":1,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":29,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productBrand":"Sporlu Moda","piece":4,"status":"Pending"}]}
+2023-10-31 13:44:59.451 [INF] -------------Request-End------------
+2023-10-31 14:01:46.107 [INF] App server is starting.
+2023-10-31 14:02:07.412 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 14:02:07.413 [INF] HeartBeat
+2023-10-31 14:02:07.414 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 14:02:07.941 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 14:02:07.942 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 14:02:07.943 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 14:02:07.946 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-31 14:02:08.537 [INF] -------------Request-Begin------------
+2023-10-31 14:02:08.537 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "ayşe@gmail.com",
+  "password": "hello"
+}
+2023-10-31 14:02:08.537 [INF] 
+
+2023-10-31 14:02:08.537 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-31T14:07:08.5227715+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjQiLCJSb2xlIjoidXNlciIsIkVtYWlsIjoiYXnFn2VAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoidXNlciIsIkZ1bGxOYW1lIjoiYXnFn2UgZHVybXVzIiwiZXhwIjoxNjk4NzUwNDI4LCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.8fqICJlqYZtJhOH60-66va4rrm5viBUGqywUzaQROyE","email":"ayşe@gmail.com"}}
+2023-10-31 14:02:08.537 [INF] -------------Request-End------------
+2023-10-31 14:02:24.989 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 14:02:24.990 [INF] HeartBeat
+2023-10-31 14:02:24.990 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 14:02:25.174 [INF] -------------Request-Begin------------
+2023-10-31 14:02:25.174 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=1 
+Request Body: 
+2023-10-31 14:02:25.174 [INF] 
+
+2023-10-31 14:02:25.174 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"},{"id":5,"userId":4,"productId":1,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":29,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productBrand":"Sporlu Moda","piece":4,"status":"Pending"}]}
+2023-10-31 14:02:25.174 [INF] -------------Request-End------------
+2023-10-31 14:03:02.710 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 14:03:02.710 [INF] HeartBeat
+2023-10-31 14:03:02.710 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 14:03:02.769 [INF] -------------Request-Begin------------
+2023-10-31 14:03:02.769 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=1 
+Request Body: 
+2023-10-31 14:03:02.769 [INF] 
+
+2023-10-31 14:03:02.769 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"}]}
+2023-10-31 14:03:02.769 [INF] -------------Request-End------------
+2023-10-31 14:03:05.878 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 14:03:05.878 [INF] HeartBeat
+2023-10-31 14:03:05.878 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 14:03:05.891 [INF] -------------Request-Begin------------
+2023-10-31 14:03:05.891 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=2 
+Request Body: 
+2023-10-31 14:03:05.891 [INF] 
+
+2023-10-31 14:03:05.891 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=2 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"},{"id":5,"userId":4,"productId":1,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":29,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productBrand":"Sporlu Moda","piece":4,"status":"Pending"}]}
+2023-10-31 14:03:05.891 [INF] -------------Request-End------------
+2023-10-31 14:03:25.300 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 14:03:25.300 [INF] HeartBeat
+2023-10-31 14:03:25.300 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 14:03:25.304 [INF] -------------Request-Begin------------
+2023-10-31 14:03:25.305 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=2 
+Request Body: 
+2023-10-31 14:03:25.305 [INF] 
+
+2023-10-31 14:03:25.305 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=2 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"},{"id":5,"userId":4,"productId":1,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":29,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productBrand":"Sporlu Moda","piece":4,"status":"Pending"}]}
+2023-10-31 14:03:25.305 [INF] -------------Request-End------------
+2023-10-31 14:03:26.610 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 14:03:26.610 [INF] HeartBeat
+2023-10-31 14:03:26.610 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 14:03:26.616 [INF] -------------Request-Begin------------
+2023-10-31 14:03:26.616 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=2 
+Request Body: 
+2023-10-31 14:03:26.616 [INF] 
+
+2023-10-31 14:03:26.616 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=2 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"},{"id":5,"userId":4,"productId":1,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":29,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productBrand":"Sporlu Moda","piece":4,"status":"Pending"}]}
+2023-10-31 14:03:26.616 [INF] -------------Request-End------------
+2023-10-31 14:03:30.953 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 14:03:30.953 [INF] HeartBeat
+2023-10-31 14:03:30.953 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 14:03:30.957 [INF] -------------Request-Begin------------
+2023-10-31 14:03:30.957 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=2 
+Request Body: 
+2023-10-31 14:03:30.957 [INF] 
+
+2023-10-31 14:03:30.957 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=2 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"}]}
+2023-10-31 14:03:30.957 [INF] -------------Request-End------------
+2023-10-31 14:03:38.954 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 14:03:38.955 [INF] HeartBeat
+2023-10-31 14:03:38.955 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 14:03:38.959 [INF] -------------Request-Begin------------
+2023-10-31 14:03:38.959 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=2 
+Request Body: 
+2023-10-31 14:03:38.959 [INF] 
+
+2023-10-31 14:03:38.959 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=2 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"}]}
+2023-10-31 14:03:38.959 [INF] -------------Request-End------------
+2023-10-31 14:03:39.520 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 14:03:39.520 [INF] HeartBeat
+2023-10-31 14:03:39.520 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 14:03:39.524 [INF] -------------Request-Begin------------
+2023-10-31 14:03:39.524 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=2 
+Request Body: 
+2023-10-31 14:03:39.524 [INF] 
+
+2023-10-31 14:03:39.524 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=2 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"}]}
+2023-10-31 14:03:39.524 [INF] -------------Request-End------------
+2023-10-31 14:03:41.628 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 14:03:41.628 [INF] HeartBeat
+2023-10-31 14:03:41.628 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 14:03:41.636 [INF] -------------Request-Begin------------
+2023-10-31 14:03:41.636 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=4 
+Request Body: 
+2023-10-31 14:03:41.636 [INF] 
+
+2023-10-31 14:03:41.636 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=4 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"},{"id":5,"userId":4,"productId":1,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":29,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productBrand":"Sporlu Moda","piece":4,"status":"Pending"}]}
+2023-10-31 14:03:41.636 [INF] -------------Request-End------------
+2023-10-31 14:03:45.176 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 14:03:45.176 [INF] HeartBeat
+2023-10-31 14:03:45.176 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 14:03:45.184 [INF] -------------Request-Begin------------
+2023-10-31 14:03:45.184 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=3 
+Request Body: 
+2023-10-31 14:03:45.184 [INF] 
+
+2023-10-31 14:03:45.184 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=3 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"}]}
+2023-10-31 14:03:45.184 [INF] -------------Request-End------------
+2023-10-31 14:03:59.432 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 14:03:59.432 [INF] HeartBeat
+2023-10-31 14:03:59.432 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 14:03:59.436 [INF] -------------Request-Begin------------
+2023-10-31 14:03:59.436 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=3 
+Request Body: 
+2023-10-31 14:03:59.436 [INF] 
+
+2023-10-31 14:03:59.436 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=3 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"},{"id":5,"userId":4,"productId":1,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":29,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productBrand":"Sporlu Moda","piece":4,"status":"Pending"}]}
+2023-10-31 14:03:59.436 [INF] -------------Request-End------------
+2023-10-31 14:04:05.977 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 14:04:05.977 [INF] HeartBeat
+2023-10-31 14:04:05.977 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 14:04:05.981 [INF] -------------Request-Begin------------
+2023-10-31 14:04:05.981 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=2 
+Request Body: 
+2023-10-31 14:04:05.981 [INF] 
+
+2023-10-31 14:04:05.981 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=2 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"},{"id":5,"userId":4,"productId":1,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":29,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productBrand":"Sporlu Moda","piece":4,"status":"Pending"}]}
+2023-10-31 14:04:05.981 [INF] -------------Request-End------------
+2023-10-31 14:04:09.528 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 14:04:09.528 [INF] HeartBeat
+2023-10-31 14:04:09.528 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 14:04:09.532 [INF] -------------Request-Begin------------
+2023-10-31 14:04:09.532 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=1 
+Request Body: 
+2023-10-31 14:04:09.532 [INF] 
+
+2023-10-31 14:04:09.532 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"}]}
+2023-10-31 14:04:09.532 [INF] -------------Request-End------------
+2023-10-31 14:04:48.732 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 14:04:48.732 [INF] HeartBeat
+2023-10-31 14:04:48.732 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 14:04:48.741 [INF] -------------Request-Begin------------
+2023-10-31 14:04:48.741 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=1 
+Request Body: 
+2023-10-31 14:04:48.741 [INF] 
+
+2023-10-31 14:04:48.741 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"}]}
+2023-10-31 14:04:48.741 [INF] -------------Request-End------------
+2023-10-31 14:04:51.003 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 14:04:51.003 [INF] HeartBeat
+2023-10-31 14:04:51.003 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 14:04:51.008 [INF] -------------Request-Begin------------
+2023-10-31 14:04:51.008 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=2 
+Request Body: 
+2023-10-31 14:04:51.008 [INF] 
+
+2023-10-31 14:04:51.008 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=2 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"},{"id":5,"userId":4,"productId":1,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":29,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productBrand":"Sporlu Moda","piece":4,"status":"Pending"}]}
+2023-10-31 14:04:51.008 [INF] -------------Request-End------------
+2023-10-31 14:04:55.165 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 14:04:55.165 [INF] HeartBeat
+2023-10-31 14:04:55.165 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 14:04:55.169 [INF] -------------Request-Begin------------
+2023-10-31 14:04:55.169 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=3 
+Request Body: 
+2023-10-31 14:04:55.169 [INF] 
+
+2023-10-31 14:04:55.169 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=3 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":4,"userId":4,"productId":1,"name":"elma","description":"kırmızı elma","price":10,"pictureUrl":"elma.com","productType":"meyve","productBrand":"meyvecioglu","piece":2,"status":"Pending"},{"id":5,"userId":4,"productId":1,"name":"Siyah Polo Yaka Tişört","description":"Klasik bir spor tarzı!","price":29,"pictureUrl":"https://www.ornek.com/polo_yaka_tisort_resmi.jpg","productType":"Unisex Giyim","productBrand":"Sporlu Moda","piece":4,"status":"Pending"}]}
+2023-10-31 14:04:55.169 [INF] -------------Request-End------------

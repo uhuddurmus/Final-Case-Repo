@@ -87,54 +87,20 @@ public class TokenController : ControllerBase
 
     [HttpGet("GetOrdersByToken")]
     [Authorize(Roles = "admin, user")]
-    public async Task<ApiResponse<List<OrderResponse>>> ByToken()
+
+    //time 0 default all
+    //time 1 günlük
+    //time 2 aylýk
+    //time 3 yýllýk
+    public async Task<ApiResponse<List<OrderResponse>>> ByToken(string time)
     {
         var token = HttpContext.Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last();
-
         // Create a DecodeTokenCommand and send it to Mediator
         var decodeTokenCommand = new DecodeTokenCommand(token);
         var Userid = await mediator.Send(decodeTokenCommand);
-        var operation = new GetOrderByUserIdQuery(Userid.Response);
+        var operation = new GetOrderByUserIdQuery(Userid.Response ,time);
         var result = await mediator.Send(operation);
         return result;
     }
-
-    //[HttpPost("CreateOrder")]
-    ////[Authorize(Roles = "admin")]
-
-    //public async Task<ApiResponse<OrderResponse>> Post([FromBody] OrderRequest request, CancellationToken cancellationToken)
-    //{
-    //    var opp = new GetProductByIdQuery(request.ProductId);
-    //    var ress = await mediator.Send(opp);
-    //    if (ress.Response != null)
-    //    {
-    //        var entity = await dbContext.Set<Product>().FirstOrDefaultAsync(x => x.Id == ress.Response.Id, cancellationToken);
-    //        if (entity != null)
-    //        {
-    //            if (entity.Piece > request.Piece)
-    //            {
-    //                entity.Piece = entity.Piece - request.Piece;
-    //                var operation = new CreateOrderCommand(request);
-    //                var result = await mediator.Send(operation);
-    //                await dbContext.SaveChangesAsync();
-
-    //                return result;
-
-    //            }
-    //            else
-    //            {
-    //                return new ApiResponse<OrderResponse>("Not enought product");
-    //            }
-    //        }
-    //        else
-    //        {
-    //            return new ApiResponse<OrderResponse>("No such an product");
-    //        }
-    //    }
-    //    else
-    //    {
-    //        return new ApiResponse<OrderResponse>("No such an product");
-    //    }
-    //}
 
 }

@@ -53,11 +53,27 @@ public class OrderQueryHandler :
 
     public async Task<ApiResponse<List<OrderResponse>>> Handle(GetOrderByUserIdQuery request, CancellationToken cancellationToken)
     {
-        List<Order> list = await dbContext.Set<Order>()
+        IQueryable<Order> query = dbContext.Set<Order>()
             .Include(x => x.User)
-            .Where(x => x.UserId == request.UserId)
-            .ToListAsync(cancellationToken);
+            .Where(x => x.UserId == request.UserId);
 
+        if (request.time == "1")
+        {
+            // Günlük zaman aralığına göre filtrele
+            query = query.Where(x => x.InsertDate.Date == DateTime.Today && x.InsertDate.Year == DateTime.Now.Year && x.InsertDate.Month == DateTime.Now.Month);
+        }
+        else if (request.time == "2")
+        {
+            // Aylık zaman aralığına göre filtrele
+            query = query.Where(x => x.InsertDate.Month == DateTime.Now.Month && x.InsertDate.Year == DateTime.Now.Year);
+        }
+        else if (request.time == "3")
+        {
+            // Yıllık zaman aralığına göre filtrele
+            query = query.Where(x => x.InsertDate.Year == DateTime.Now.Year);
+        }
+
+        List<Order> list = await query.ToListAsync(cancellationToken);
         var mapped = mapper.Map<List<OrderResponse>>(list);
         return new ApiResponse<List<OrderResponse>>(mapped);
     }

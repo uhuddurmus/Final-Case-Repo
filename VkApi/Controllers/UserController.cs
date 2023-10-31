@@ -39,7 +39,6 @@ public class UsersController : ControllerBase
     }
 
     [HttpPost]
-    [Authorize(Roles = "admin")]
     public async Task<ApiResponse<UserResponse>> Post([FromBody] UserRequest request)
     {
         var operation = new CreateUserCommand(request);

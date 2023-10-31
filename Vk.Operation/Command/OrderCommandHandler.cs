@@ -28,12 +28,31 @@ public class OrderCommandHandler :
     public async Task<ApiResponse<OrderResponse>> Handle(CreateOrderCommand request, CancellationToken cancellationToken)
     {
         Order mapped = mapper.Map<Order>(request.Model);
+        mapped.InsertDate = DateTime.Now;
 
-        var entity = await dbContext.Set<Order>().AddAsync(mapped, cancellationToken);
-        await dbContext.SaveChangesAsync(cancellationToken);
+        var product = await dbContext.Set<Product>().FirstOrDefaultAsync(x => x.Id == request.Model.ProductId, cancellationToken);
 
-        var response = mapper.Map<OrderResponse>(entity.Entity);
-        return new ApiResponse<OrderResponse>(response);
+        if (product != null)
+        {
+            if (product.Piece >= mapped.Piece)
+            {
+                product.Piece = product.Piece - mapped.Piece;
+
+                var entity = await dbContext.Set<Order>().AddAsync(mapped, cancellationToken);
+                await dbContext.SaveChangesAsync(cancellationToken);
+
+                var response = mapper.Map<OrderResponse>(entity.Entity);
+                return new ApiResponse<OrderResponse>(response);
+            }
+            else
+            {
+                return new ApiResponse<OrderResponse>("Not Enought Product!");
+            }
+        }
+        else
+        {
+            return new ApiResponse<OrderResponse>("Product not found!");
+        }
     }
 
     public async Task<ApiResponse> Handle(UpdateOrderCommand request, CancellationToken cancellationToken)

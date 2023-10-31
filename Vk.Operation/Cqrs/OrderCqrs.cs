@@ -9,4 +9,4 @@ public record UpdateOrderCommand(string Status, int Id) : IRequest<ApiResponse>;
 public record DeleteOrderCommand(int Id) : IRequest<ApiResponse>;
 public record GetAllOrderQuery() : IRequest<ApiResponse<List<OrderResponse>>>;
 public record GetOrderByIdQuery(int Id) : IRequest<ApiResponse<OrderResponse>>;
-public record GetOrderByUserIdQuery(int UserId) : IRequest<ApiResponse<List<OrderResponse>>>;
+public record GetOrderByUserIdQuery(int UserId,string time) : IRequest<ApiResponse<List<OrderResponse>>>;
