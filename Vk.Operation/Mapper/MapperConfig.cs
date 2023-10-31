@@ -20,5 +20,8 @@ public class MapperConfig : Profile
         CreateMap<OrderRequest, Order>();
         CreateMap<Order, OrderResponse>();
 
+        CreateMap<MessageRequest, Message>();
+        CreateMap<Message, MessageResponse>();
+
     }
 }

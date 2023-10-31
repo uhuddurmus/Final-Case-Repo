@@ -6135,3 +6135,322 @@ Response Body: {"negotiateVersion":1,"connectionId":"qkJwyC2J8-wspJJ6isPMLA","co
 2023-10-31 17:55:48.479 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
 2023-10-31 17:55:48.479 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
 2023-10-31 17:55:48.483 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-31 18:06:09.628 [INF] -------------Request-Begin------------
+2023-10-31 18:06:09.628 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub 
+QueryString: ?id=Xb1flAyhrYI0BU5ojl4O9A 
+Request Body: 
+2023-10-31 18:06:09.628 [INF] 
+
+2023-10-31 18:06:09.628 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub 
+QueryString: ?id=Xb1flAyhrYI0BU5ojl4O9A 
+StatusCode: 101 
+Response Body: 
+2023-10-31 18:06:09.628 [INF] -------------Request-End------------
+2023-10-31 18:06:09.690 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:06:09.690 [INF] HeartBeat
+2023-10-31 18:06:09.690 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:06:09.691 [INF] -------------Request-Begin------------
+2023-10-31 18:06:09.691 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+Request Body: 
+2023-10-31 18:06:09.691 [INF] 
+
+2023-10-31 18:06:09.691 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+StatusCode: 200 
+Response Body: {"negotiateVersion":1,"connectionId":"nmMyD0BXBcsIvRNKkL57hg","connectionToken":"J2Be3TBJ_H8F95g82RvUYg","availableTransports":[{"transport":"WebSockets","transferFormats":["Text","Binary"]},{"transport":"ServerSentEvents","transferFormats":["Text"]},{"transport":"LongPolling","transferFormats":["Text","Binary"]}]}
+2023-10-31 18:06:09.691 [INF] -------------Request-End------------
+2023-10-31 18:06:09.697 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:06:09.697 [INF] HeartBeat
+2023-10-31 18:06:09.697 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:06:09.992 [INF] -------------Request-Begin------------
+2023-10-31 18:06:09.992 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub 
+QueryString: ?id=UKBHsQ-ugzfgQKfLIIbjSw 
+Request Body: 
+2023-10-31 18:06:09.992 [INF] 
+
+2023-10-31 18:06:09.992 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub 
+QueryString: ?id=UKBHsQ-ugzfgQKfLIIbjSw 
+StatusCode: 101 
+Response Body: 
+2023-10-31 18:06:09.992 [INF] -------------Request-End------------
+2023-10-31 18:06:10.057 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:06:10.058 [INF] HeartBeat
+2023-10-31 18:06:10.058 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:06:10.058 [INF] -------------Request-Begin------------
+2023-10-31 18:06:10.058 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+Request Body: 
+2023-10-31 18:06:10.058 [INF] 
+
+2023-10-31 18:06:10.058 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+StatusCode: 200 
+Response Body: {"negotiateVersion":1,"connectionId":"yf2nb-P1Hlj2vTB3iQW76Q","connectionToken":"RWy1BCrOkTrmRgT_bLqvuA","availableTransports":[{"transport":"WebSockets","transferFormats":["Text","Binary"]},{"transport":"ServerSentEvents","transferFormats":["Text"]},{"transport":"LongPolling","transferFormats":["Text","Binary"]}]}
+2023-10-31 18:06:10.058 [INF] -------------Request-End------------
+2023-10-31 18:06:10.065 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:06:10.065 [INF] HeartBeat
+2023-10-31 18:06:10.065 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:06:10.681 [INF] -------------Request-Begin------------
+2023-10-31 18:06:10.682 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub 
+QueryString: ?id=zKsjfhZLZN_mIBEzTZP1NQ 
+Request Body: 
+2023-10-31 18:06:10.682 [INF] 
+
+2023-10-31 18:06:10.683 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub 
+QueryString: ?id=zKsjfhZLZN_mIBEzTZP1NQ 
+StatusCode: 101 
+Response Body: 
+2023-10-31 18:06:10.683 [INF] -------------Request-End------------
+2023-10-31 18:06:10.748 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:06:10.748 [INF] HeartBeat
+2023-10-31 18:06:10.748 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:06:10.749 [INF] -------------Request-Begin------------
+2023-10-31 18:06:10.749 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+Request Body: 
+2023-10-31 18:06:10.749 [INF] 
+
+2023-10-31 18:06:10.749 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+StatusCode: 200 
+Response Body: {"negotiateVersion":1,"connectionId":"wQn7TMBxQHiR_TRJGsZYAA","connectionToken":"2juosyZDuS91pNUSm3Oa7w","availableTransports":[{"transport":"WebSockets","transferFormats":["Text","Binary"]},{"transport":"ServerSentEvents","transferFormats":["Text"]},{"transport":"LongPolling","transferFormats":["Text","Binary"]}]}
+2023-10-31 18:06:10.749 [INF] -------------Request-End------------
+2023-10-31 18:06:10.754 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:06:10.754 [INF] HeartBeat
+2023-10-31 18:06:10.754 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:12:39.136 [INF] App server is starting.
+2023-10-31 18:12:43.180 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:12:43.182 [INF] HeartBeat
+2023-10-31 18:12:43.183 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:12:43.253 [INF] -------------Request-Begin------------
+2023-10-31 18:12:43.253 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+Request Body: 
+2023-10-31 18:12:43.253 [INF] 
+
+2023-10-31 18:12:43.253 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+StatusCode: 200 
+Response Body: {"negotiateVersion":1,"connectionId":"wah86XKA8lGHsQ55bLwtGQ","connectionToken":"5M8BHYv506ycnzicuHqlmA","availableTransports":[{"transport":"WebSockets","transferFormats":["Text","Binary"]},{"transport":"ServerSentEvents","transferFormats":["Text"]},{"transport":"LongPolling","transferFormats":["Text","Binary"]}]}
+2023-10-31 18:12:43.254 [INF] -------------Request-End------------
+2023-10-31 18:12:43.260 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:12:43.260 [INF] HeartBeat
+2023-10-31 18:12:43.260 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:12:43.710 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:12:43.710 [INF] HeartBeat
+2023-10-31 18:12:43.710 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:12:43.713 [INF] -------------Request-Begin------------
+2023-10-31 18:12:43.713 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+Request Body: 
+2023-10-31 18:12:43.713 [INF] 
+
+2023-10-31 18:12:43.713 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+StatusCode: 200 
+Response Body: {"negotiateVersion":1,"connectionId":"XuePomFTb0dsxGfde0DlMQ","connectionToken":"T3fOPYmHw-QFCHvDzGyNPQ","availableTransports":[{"transport":"WebSockets","transferFormats":["Text","Binary"]},{"transport":"ServerSentEvents","transferFormats":["Text"]},{"transport":"LongPolling","transferFormats":["Text","Binary"]}]}
+2023-10-31 18:12:43.713 [INF] -------------Request-End------------
+2023-10-31 18:12:43.723 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:12:43.723 [INF] HeartBeat
+2023-10-31 18:12:43.723 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:12:44.114 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:12:44.114 [INF] HeartBeat
+2023-10-31 18:12:44.114 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:12:44.115 [INF] -------------Request-Begin------------
+2023-10-31 18:12:44.115 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+Request Body: 
+2023-10-31 18:12:44.115 [INF] 
+
+2023-10-31 18:12:44.115 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+StatusCode: 200 
+Response Body: {"negotiateVersion":1,"connectionId":"izFGgR0v8y9A8dk5J16vHw","connectionToken":"soraXWE4zXbF8SrpdVBFiw","availableTransports":[{"transport":"WebSockets","transferFormats":["Text","Binary"]},{"transport":"ServerSentEvents","transferFormats":["Text"]},{"transport":"LongPolling","transferFormats":["Text","Binary"]}]}
+2023-10-31 18:12:44.115 [INF] -------------Request-End------------
+2023-10-31 18:12:44.124 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:12:44.124 [INF] HeartBeat
+2023-10-31 18:12:44.124 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:12:45.963 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 18:12:45.964 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 18:12:45.964 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 18:12:45.968 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-31 18:13:16.008 [INF] App server is starting.
+2023-10-31 18:13:19.591 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:13:19.593 [INF] HeartBeat
+2023-10-31 18:13:19.593 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:13:19.660 [INF] -------------Request-Begin------------
+2023-10-31 18:13:19.660 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+Request Body: 
+2023-10-31 18:13:19.660 [INF] 
+
+2023-10-31 18:13:19.660 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+StatusCode: 200 
+Response Body: {"negotiateVersion":1,"connectionId":"SOCqS1fLqgBceoB8qHSqTA","connectionToken":"h6EBS3DzeKpqH1L5awwy9w","availableTransports":[{"transport":"WebSockets","transferFormats":["Text","Binary"]},{"transport":"ServerSentEvents","transferFormats":["Text"]},{"transport":"LongPolling","transferFormats":["Text","Binary"]}]}
+2023-10-31 18:13:19.660 [INF] -------------Request-End------------
+2023-10-31 18:13:19.665 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:13:19.665 [INF] HeartBeat
+2023-10-31 18:13:19.666 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:13:20.092 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:13:20.093 [INF] HeartBeat
+2023-10-31 18:13:20.093 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:13:20.095 [INF] -------------Request-Begin------------
+2023-10-31 18:13:20.095 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+Request Body: 
+2023-10-31 18:13:20.095 [INF] 
+
+2023-10-31 18:13:20.095 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+StatusCode: 200 
+Response Body: {"negotiateVersion":1,"connectionId":"ASvevNdvlZ86hh6paSkICQ","connectionToken":"jqG2Bxuv0G38BF-ailtIgg","availableTransports":[{"transport":"WebSockets","transferFormats":["Text","Binary"]},{"transport":"ServerSentEvents","transferFormats":["Text"]},{"transport":"LongPolling","transferFormats":["Text","Binary"]}]}
+2023-10-31 18:13:20.095 [INF] -------------Request-End------------
+2023-10-31 18:13:20.102 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:13:20.102 [INF] HeartBeat
+2023-10-31 18:13:20.102 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:13:20.459 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:13:20.460 [INF] HeartBeat
+2023-10-31 18:13:20.460 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:13:20.460 [INF] -------------Request-Begin------------
+2023-10-31 18:13:20.460 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+Request Body: 
+2023-10-31 18:13:20.460 [INF] 
+
+2023-10-31 18:13:20.460 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+StatusCode: 200 
+Response Body: {"negotiateVersion":1,"connectionId":"D1tj-jlM8OQ7BY64AkNzhQ","connectionToken":"zP6MBihUQLgBwbVP8Qf92w","availableTransports":[{"transport":"WebSockets","transferFormats":["Text","Binary"]},{"transport":"ServerSentEvents","transferFormats":["Text"]},{"transport":"LongPolling","transferFormats":["Text","Binary"]}]}
+2023-10-31 18:13:20.460 [INF] -------------Request-End------------
+2023-10-31 18:13:20.467 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:13:20.467 [INF] HeartBeat
+2023-10-31 18:13:20.467 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:13:22.278 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 18:13:22.280 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 18:13:22.280 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 18:13:22.283 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-31 18:13:33.721 [INF] -------------Request-Begin------------
+2023-10-31 18:13:33.721 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub 
+QueryString: ?id=jqG2Bxuv0G38BF-ailtIgg 
+Request Body: 
+2023-10-31 18:13:33.721 [INF] 
+
+2023-10-31 18:13:33.721 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub 
+QueryString: ?id=jqG2Bxuv0G38BF-ailtIgg 
+StatusCode: 101 
+Response Body: 
+2023-10-31 18:13:33.721 [INF] -------------Request-End------------
+2023-10-31 18:13:34.903 [INF] -------------Request-Begin------------
+2023-10-31 18:13:34.904 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub 
+QueryString: ?id=zP6MBihUQLgBwbVP8Qf92w 
+Request Body: 
+2023-10-31 18:13:34.904 [INF] 
+
+2023-10-31 18:13:34.904 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub 
+QueryString: ?id=zP6MBihUQLgBwbVP8Qf92w 
+StatusCode: 101 
+Response Body: 
+2023-10-31 18:13:34.904 [INF] -------------Request-End------------
+2023-10-31 18:13:35.519 [INF] -------------Request-Begin------------
+2023-10-31 18:13:35.519 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub 
+QueryString: ?id=h6EBS3DzeKpqH1L5awwy9w 
+Request Body: 
+2023-10-31 18:13:35.519 [INF] 
+
+2023-10-31 18:13:35.520 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /chatHub 
+QueryString: ?id=h6EBS3DzeKpqH1L5awwy9w 
+StatusCode: 101 
+Response Body: 
+2023-10-31 18:13:35.520 [INF] -------------Request-End------------

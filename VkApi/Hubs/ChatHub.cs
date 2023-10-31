@@ -14,10 +14,20 @@ public class ChatHub : Hub
     //adminlerin herkese atması için admin user id 1
     public async Task SendMessage(Message message)
     {
-        _dbContext.Messages.Add(message);
-        await _dbContext.SaveChangesAsync();
-        // Mesajı tüm kullanıcılara gönderin
-        await Clients.All.SendAsync("ReceiveMessage", message);
+        if(message.UserId == 1)
+        {
+            message.InsertDate = DateTime.Now;
+            _dbContext.Messages.Add(message);
+            await _dbContext.SaveChangesAsync();
+            // Mesajı tüm kullanıcılara gönderin
+            await Clients.All.SendAsync("ReceiveMessage", message);
+        }
+        else
+        {
+            await Clients.All.SendAsync("ReceiveMessage", "Not an admin");
+
+        }
+
 
     }
 
@@ -30,6 +40,7 @@ public class ChatHub : Hub
         try
         {
             // Mesajı veritabanına kaydedin
+            message.InsertDate = DateTime.Now;
             _dbContext.Messages.Add(message);
             await _dbContext.SaveChangesAsync();
 
