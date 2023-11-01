@@ -76,6 +76,7 @@ namespace Vk.Data.Migrations
                     Role = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
                     LastActivityDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     PasswordRetryCount = table.Column<int>(type: "int", nullable: false, defaultValue: 0),
+                    Credit = table.Column<int>(type: "int", nullable: false),
                     InsertUserId = table.Column<int>(type: "int", nullable: false),
                     InsertDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdateUserId = table.Column<int>(type: "int", nullable: false, defaultValue: 0),

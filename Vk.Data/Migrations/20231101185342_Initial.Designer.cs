@@ -12,7 +12,7 @@ using Vk.Data.Context;
 namespace Vk.Data.Migrations
 {
     [DbContext(typeof(VkDbContext))]
-    [Migration("20231031143135_Initial")]
+    [Migration("20231101185342_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -274,6 +274,9 @@ namespace Vk.Data.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Credit")
+                        .HasColumnType("int");
 
                     b.Property<string>("Email")
                         .IsRequired()

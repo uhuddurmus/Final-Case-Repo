@@ -72,7 +72,7 @@ public class Startup
 
         services.AddSwaggerGen(c =>
         {
-            c.SwaggerDoc("v1", new OpenApiInfo { Title = "VkApi Api Management", Version = "v1.0" });
+            c.SwaggerDoc("v1", new OpenApiInfo { Title = "VkApi", Version = "v1.0" });
 
             var securityScheme = new OpenApiSecurityScheme
             {
@@ -98,7 +98,7 @@ public class Startup
         {
             options.AddPolicy("CorsPolicy",
                 builder => builder
-                    .WithOrigins("http://localhost:8080")  // Allow requests from this origin
+                    .WithOrigins("http://localhost:4200")  // Allow requests from this origin
                     .AllowAnyMethod()                       // Allow all HTTP methods
                     .AllowAnyHeader()                       // Allow all HTTP headers
                     .AllowCredentials()                     // Allow credentials (cookies, etc.)
@@ -121,7 +121,7 @@ public class Startup
                 ValidAudience = JwtConfig.Audience,
                 ValidateAudience = false,
                 ValidateLifetime = true,
-                ClockSkew = TimeSpan.FromMinutes(2)
+                ClockSkew = TimeSpan.FromMinutes(60)
             };
         });
     }

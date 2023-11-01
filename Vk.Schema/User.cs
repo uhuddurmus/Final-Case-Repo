@@ -7,6 +7,7 @@ public class UserRequest
     public string FullName { get; set; }
     public int Profit { get; set; }
     public string Role { get; set; }
+    public int Credit { get; set; }
 }
 
 public class UserResponse
@@ -17,6 +18,7 @@ public class UserResponse
     public string FullName { get; set; }
     public int Profit { get; set; }
     public string Role { get; set; }
+    public int Credit { get; set; }
 
     public virtual List<AddressResponse> Addresses { get; set; }
     public virtual List<OrderResponse> Orders { get; set; }

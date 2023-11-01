@@ -16,6 +16,7 @@ public class User : BaseModel
     public DateTime LastActivityDate { get; set; }
     public int PasswordRetryCount { get; set; }
 
+    public int Credit { get; set; }
 
     public virtual List<Address> Addresses { get; set; }
     public virtual List<Order> Orders { get; set; }

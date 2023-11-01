@@ -12,7 +12,9 @@ namespace VkApi.Controllers;
 public class OrderesController : ControllerBase
 {
     private IMediator mediator;
-
+    //pending yeni olusturmus siparis
+    //active ödenmis siparis
+    //done tamamlanmıs siparis 
     public OrderesController(IMediator mediator)
     {
         this.mediator = mediator;
@@ -52,17 +54,6 @@ public class OrderesController : ControllerBase
         return result;
     }
 
-    //önyüzde yalancı bi ödemeden sonra statü güncellemek için
-
-    [HttpPost("updateStatus")]
-    [Authorize(Roles = "admin,user")]
-
-    public async Task<ApiResponse> UpdateStatus(int id, string status)
-    {
-        var operation = new UpdateOrderCommand(status, id);
-        var result = await mediator.Send(operation);
-        return result;
-    }
 
     [HttpDelete("{id}")]
     [Authorize(Roles = "admin")]

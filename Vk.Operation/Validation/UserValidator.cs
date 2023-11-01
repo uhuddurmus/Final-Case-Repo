@@ -14,5 +14,10 @@ public class CreateUserValidator : AbstractValidator<UserRequest>
         RuleFor(x => x.Email).NotEmpty().WithMessage("Email is required.");
         RuleFor(x => x.Email).MinimumLength(10).WithMessage("Email length min value is 20.");
 
+        RuleFor(x => x.Credit).NotEmpty().WithMessage("Credit is required.");
+        RuleFor(x => x.Credit).GreaterThanOrEqualTo(0).WithMessage("Credit must be greater than or equal to 0.");
+
+
+
     }
 }

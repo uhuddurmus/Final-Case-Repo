@@ -63,7 +63,9 @@ public class OrderCommandHandler :
             return new ApiResponse("Record not found!");
         }
         entity.Status = request.Status;
-
+        //pending yeni olusturmus siparis
+        //active ödenmis siparis
+        //done tamamlanmıs siparis 
         await dbContext.SaveChangesAsync(cancellationToken);
         return new ApiResponse("Success");
     }

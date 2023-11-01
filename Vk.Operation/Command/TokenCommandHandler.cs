@@ -59,7 +59,7 @@ public class TokenCommandHandler :
         TokenResponse tokenResponse = new()
         {
             Token = token,
-            ExpireDate = DateTime.Now.AddMinutes(jwtConfig.AccessTokenExpiration),
+            ExpireDate = DateTime.Now.AddHours(jwtConfig.AccessTokenExpiration),
             Email = entity.Email
         };
 
@@ -75,7 +75,7 @@ public class TokenCommandHandler :
             jwtConfig.Issuer,
             jwtConfig.Audience,
             claims,
-            expires: DateTime.Now.AddMinutes(jwtConfig.AccessTokenExpiration),
+            expires: DateTime.Now.AddHours(jwtConfig.AccessTokenExpiration),
             signingCredentials: new SigningCredentials(new SymmetricSecurityKey(secret), SecurityAlgorithms.HmacSha256Signature)
         );
 

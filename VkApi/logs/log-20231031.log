@@ -6454,3 +6454,859 @@ QueryString: ?id=h6EBS3DzeKpqH1L5awwy9w
 StatusCode: 101 
 Response Body: 
 2023-10-31 18:13:35.520 [INF] -------------Request-End------------
+2023-10-31 18:40:15.888 [INF] App server is starting.
+2023-10-31 18:40:44.043 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:40:44.045 [INF] HeartBeat
+2023-10-31 18:40:44.046 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:40:44.574 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 18:40:44.575 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 18:40:44.576 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-10-31 18:40:44.579 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-31 18:40:45.030 [INF] -------------Request-Begin------------
+2023-10-31 18:40:45.030 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello",
+  "fullName": "mustafa uhud durmus",
+  "profit": 0,
+  "role": "admin"
+}
+2023-10-31 18:40:45.030 [INF] 
+
+2023-10-31 18:40:45.030 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"email":"uhud@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"mustafa uhud durmus","profit":0,"role":"admin","addresses":[],"orders":[]}}
+2023-10-31 18:40:45.030 [INF] -------------Request-End------------
+2023-10-31 18:41:03.938 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:41:03.938 [INF] HeartBeat
+2023-10-31 18:41:03.938 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:41:03.995 [INF] -------------Request-Begin------------
+2023-10-31 18:41:03.995 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "ali@gmail.com",
+  "password": "hello",
+  "fullName": "ali durmus",
+  "profit": 10,
+  "role": "user"
+}
+2023-10-31 18:41:03.995 [INF] 
+
+2023-10-31 18:41:03.995 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ali@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"ali durmus","profit":10,"role":"user","addresses":[],"orders":[]}}
+2023-10-31 18:41:03.995 [INF] -------------Request-End------------
+2023-10-31 18:41:10.031 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:41:10.031 [INF] HeartBeat
+2023-10-31 18:41:10.031 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:41:10.051 [INF] -------------Request-Begin------------
+2023-10-31 18:41:10.051 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "ayşe@gmail.com",
+  "password": "hello",
+  "fullName": "ayşe durmus",
+  "profit": 10,
+  "role": "user"
+}
+2023-10-31 18:41:10.051 [INF] 
+
+2023-10-31 18:41:10.051 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":3,"email":"ayşe@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"ayşe durmus","profit":10,"role":"user","addresses":[],"orders":[]}}
+2023-10-31 18:41:10.051 [INF] -------------Request-End------------
+2023-10-31 18:41:17.264 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:41:17.264 [INF] HeartBeat
+2023-10-31 18:41:17.264 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:41:17.270 [INF] -------------Request-Begin------------
+2023-10-31 18:41:17.270 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {
+  "email": "fatma@gmail.com",
+  "password": "hello",
+  "fullName": "fatma durmus",
+  "profit": 10,
+  "role": "user"
+}
+2023-10-31 18:41:17.270 [INF] 
+
+2023-10-31 18:41:17.270 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":4,"email":"fatma@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"fatma durmus","profit":10,"role":"user","addresses":[],"orders":[]}}
+2023-10-31 18:41:17.270 [INF] -------------Request-End------------
+2023-10-31 18:41:21.317 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:41:21.317 [INF] HeartBeat
+2023-10-31 18:41:21.317 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:41:21.323 [INF] -------------Request-Begin------------
+2023-10-31 18:41:21.323 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: 
+2023-10-31 18:41:21.323 [INF] 
+
+2023-10-31 18:41:21.323 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-10-31 18:41:21.323 [INF] -------------Request-End------------
+2023-10-31 18:41:36.687 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:41:36.687 [INF] HeartBeat
+2023-10-31 18:41:36.687 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:41:36.942 [INF] -------------Request-Begin------------
+2023-10-31 18:41:36.943 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-31 18:41:36.943 [INF] 
+
+2023-10-31 18:41:36.943 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-31T18:46:36.9376771+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6InVodWRAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6Im11c3RhZmEgdWh1ZCBkdXJtdXMiLCJleHAiOjE2OTg3NjcxOTYsImlzcyI6IlZrQXBpIiwiYXVkIjoiVmtBcGkifQ.LXInXiMHMFIN5-u4of1CrJ9MCWdCSHQjnR7YrUE6Gwg","email":"uhud@gmail.com"}}
+2023-10-31 18:41:36.943 [INF] -------------Request-End------------
+2023-10-31 18:42:50.253 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:42:50.253 [INF] HeartBeat
+2023-10-31 18:42:50.253 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:42:50.296 [INF] -------------Request-Begin------------
+2023-10-31 18:42:50.297 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Elma",
+  "description": "Kırmızı Elma",
+  "price": 10,
+  "pictureUrl": "https://egitimgrafik.com/wp-content/uploads/2019/04/elma-1024x1024.png",
+  "productType": "Meyve",
+  "productTypeId": 1,
+  "productBrand": "Meyveciler",
+  "productBrandId": 0,
+  "piece": 0
+}
+2023-10-31 18:42:50.297 [INF] 
+
+2023-10-31 18:42:50.297 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-0e17612d0285f4b6636770e9729cd927-7e2ba5c86848a30c-00","errors":{"Name":["Name length min value is 20."]}}
+2023-10-31 18:42:50.297 [INF] -------------Request-End------------
+2023-10-31 18:43:29.197 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:43:29.197 [INF] HeartBeat
+2023-10-31 18:43:29.197 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:43:29.249 [INF] -------------Request-Begin------------
+2023-10-31 18:43:29.249 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Elmaa",
+  "description": "Kırmızı Elma",
+  "price": 10,
+  "pictureUrl": "https://egitimgrafik.com/wp-content/uploads/2019/04/elma-1024x1024.png",
+  "productType": "Meyve",
+  "productTypeId": 1,
+  "productBrand": "Meyveciler",
+  "productBrandId": 0,
+  "piece": 0
+}
+2023-10-31 18:43:29.249 [INF] 
+
+2023-10-31 18:43:29.249 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"name":"Elmaa","description":"Kırmızı Elma","price":10,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/04/elma-1024x1024.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":0}}
+2023-10-31 18:43:29.249 [INF] -------------Request-End------------
+2023-10-31 18:44:29.647 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:44:29.647 [INF] HeartBeat
+2023-10-31 18:44:29.647 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:44:29.666 [INF] -------------Request-Begin------------
+2023-10-31 18:44:29.666 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Armut",
+  "description": "Kırmızı Armut",
+  "price": 10,
+  "pictureUrl": "https://egitimgrafik.com/wp-content/uploads/2021/02/armut.png",
+  "productType": "Meyve",
+  "productTypeId": 1,
+  "productBrand": "Meyveciler",
+  "productBrandId": 0,
+  "piece": 5
+}
+2023-10-31 18:44:29.666 [INF] 
+
+2023-10-31 18:44:29.666 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"Armut","description":"Kırmızı Armut","price":10,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2021/02/armut.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":5}}
+2023-10-31 18:44:29.666 [INF] -------------Request-End------------
+2023-10-31 18:44:57.911 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:44:57.911 [INF] HeartBeat
+2023-10-31 18:44:57.911 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:44:57.918 [INF] -------------Request-Begin------------
+2023-10-31 18:44:57.918 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Limon",
+  "description": "Taze Limon ",
+  "price": 10,
+  "pictureUrl": "https://egitimgrafik.com/wp-content/uploads/2021/02/limon.png",
+  "productType": "Meyve",
+  "productTypeId": 1,
+  "productBrand": "Meyveciler",
+  "productBrandId": 0,
+  "piece": 6
+}
+2023-10-31 18:44:57.918 [INF] 
+
+2023-10-31 18:44:57.918 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":3,"name":"Limon","description":"Taze Limon ","price":10,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2021/02/limon.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":6}}
+2023-10-31 18:44:57.918 [INF] -------------Request-End------------
+2023-10-31 18:45:28.944 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:45:28.944 [INF] HeartBeat
+2023-10-31 18:45:28.944 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:45:28.951 [INF] -------------Request-Begin------------
+2023-10-31 18:45:28.951 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "Çilek",
+  "description": "Taze Çilek",
+  "price": 20,
+  "pictureUrl": "https://egitimgrafik.com/wp-content/uploads/2021/02/cilek.png",
+  "productType": "Meyve",
+  "productTypeId": 1,
+  "productBrand": "Meyveciler",
+  "productBrandId": 0,
+  "piece": 6
+}
+2023-10-31 18:45:28.951 [INF] 
+
+2023-10-31 18:45:28.951 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":4,"name":"Çilek","description":"Taze Çilek","price":20,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2021/02/cilek.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":6}}
+2023-10-31 18:45:28.951 [INF] -------------Request-End------------
+2023-10-31 18:45:48.676 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:45:48.676 [INF] HeartBeat
+2023-10-31 18:45:48.676 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:45:48.690 [INF] -------------Request-Begin------------
+2023-10-31 18:45:48.690 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "karpuzdilim",
+  "description": "Taze karpuzdilim",
+  "price": 20,
+  "pictureUrl": "https://egitimgrafik.com/wp-content/uploads/2021/02/karpuzdilim.png",
+  "productType": "Meyve",
+  "productTypeId": 1,
+  "productBrand": "Meyveciler",
+  "productBrandId": 0,
+  "piece": 6
+}
+2023-10-31 18:45:48.690 [INF] 
+
+2023-10-31 18:45:48.690 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":5,"name":"karpuzdilim","description":"Taze karpuzdilim","price":20,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2021/02/karpuzdilim.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":6}}
+2023-10-31 18:45:48.690 [INF] -------------Request-End------------
+2023-10-31 18:46:43.192 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:46:43.192 [INF] HeartBeat
+2023-10-31 18:46:43.192 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:46:43.219 [INF] -------------Request-Begin------------
+2023-10-31 18:46:43.219 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "sebze çorbası",
+  "description": "Taze sebze çorbası",
+  "price": 100,
+  "pictureUrl": "https://egitimgrafik.com/wp-content/uploads/2019/06/corba.png",
+  "productType": "Pişmiş",
+  "productTypeId": 1,
+  "productBrand": "Yemekçi",
+  "productBrandId": 0,
+  "piece": 6
+}
+2023-10-31 18:46:43.219 [INF] 
+
+2023-10-31 18:46:43.219 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":6,"name":"sebze çorbası","description":"Taze sebze çorbası","price":100,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/06/corba.png","productType":"Pişmiş","productTypeId":1,"productBrand":"Yemekçi","productBrandId":0,"piece":6}}
+2023-10-31 18:46:43.219 [INF] -------------Request-End------------
+2023-10-31 18:47:19.720 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:47:19.720 [INF] HeartBeat
+2023-10-31 18:47:19.720 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:47:19.734 [INF] -------------Request-Begin------------
+2023-10-31 18:47:19.734 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "salata tabağı",
+  "description": "salata tabağı",
+  "price": 80,
+  "pictureUrl": "https://egitimgrafik.com/wp-content/uploads/2019/06/sebze.png",
+  "productType": "Pişmiş",
+  "productTypeId": 1,
+  "productBrand": "Yemekçi",
+  "productBrandId": 0,
+  "piece": 6
+}
+2023-10-31 18:47:19.734 [INF] 
+
+2023-10-31 18:47:19.734 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":7,"name":"salata tabağı","description":"salata tabağı","price":80,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/06/sebze.png","productType":"Pişmiş","productTypeId":1,"productBrand":"Yemekçi","productBrandId":0,"piece":6}}
+2023-10-31 18:47:19.734 [INF] -------------Request-End------------
+2023-10-31 18:47:47.565 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:47:47.565 [INF] HeartBeat
+2023-10-31 18:47:47.565 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:47:47.582 [INF] -------------Request-Begin------------
+2023-10-31 18:47:47.582 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: {
+  "name": "kızarmış tavuk ",
+  "description": "kızarmış tavuk ",
+  "price": 280,
+  "pictureUrl": "https://egitimgrafik.com/wp-content/uploads/2019/06/tavukyemegi-1024x1024.png",
+  "productType": "Pişmiş",
+  "productTypeId": 1,
+  "productBrand": "Yemekçi",
+  "productBrandId": 0,
+  "piece": 6
+}
+2023-10-31 18:47:47.582 [INF] 
+
+2023-10-31 18:47:47.582 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":8,"name":"kızarmış tavuk ","description":"kızarmış tavuk ","price":280,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/06/tavukyemegi-1024x1024.png","productType":"Pişmiş","productTypeId":1,"productBrand":"Yemekçi","productBrandId":0,"piece":6}}
+2023-10-31 18:47:47.582 [INF] -------------Request-End------------
+2023-10-31 18:47:52.455 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:47:52.455 [INF] HeartBeat
+2023-10-31 18:47:52.455 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:47:52.479 [INF] -------------Request-Begin------------
+2023-10-31 18:47:52.479 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: 
+2023-10-31 18:47:52.479 [INF] 
+
+2023-10-31 18:47:52.479 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"Elmaa","description":"Kırmızı Elma","price":10.00,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/04/elma-1024x1024.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":0},{"id":2,"name":"Armut","description":"Kırmızı Armut","price":10.00,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2021/02/armut.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":5},{"id":3,"name":"Limon","description":"Taze Limon ","price":10.00,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2021/02/limon.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":6},{"id":4,"name":"Çilek","description":"Taze Çilek","price":20.00,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2021/02/cilek.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":6},{"id":5,"name":"karpuzdilim","description":"Taze karpuzdilim","price":20.00,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2021/02/karpuzdilim.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":6},{"id":6,"name":"sebze çorbası","description":"Taze sebze çorbası","price":100.00,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/06/corba.png","productType":"Pişmiş","productTypeId":1,"productBrand":"Yemekçi","productBrandId":0,"piece":6},{"id":7,"name":"salata tabağı","description":"salata tabağı","price":80.00,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/06/sebze.png","productType":"Pişmiş","productTypeId":1,"productBrand":"Yemekçi","productBrandId":0,"piece":6},{"id":8,"name":"kızarmış tavuk ","description":"kızarmış tavuk ","price":280.00,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/06/tavukyemegi-1024x1024.png","productType":"Pişmiş","productTypeId":1,"productBrand":"Yemekçi","productBrandId":0,"piece":6}]}
+2023-10-31 18:47:52.479 [INF] -------------Request-End------------
+2023-10-31 18:48:12.343 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:48:12.344 [INF] HeartBeat
+2023-10-31 18:48:12.344 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:48:12.410 [INF] -------------Request-Begin------------
+2023-10-31 18:48:12.410 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?Gain=10&Tax=10 
+Request Body: 
+2023-10-31 18:48:12.410 [INF] 
+
+2023-10-31 18:48:12.410 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?Gain=10&Tax=10 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"Elmaa","description":"Kırmızı Elma","price":12.10,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/04/elma-1024x1024.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":0},{"id":2,"name":"Armut","description":"Kırmızı Armut","price":12.10,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2021/02/armut.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":5},{"id":3,"name":"Limon","description":"Taze Limon ","price":12.10,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2021/02/limon.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":6},{"id":4,"name":"Çilek","description":"Taze Çilek","price":24.20,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2021/02/cilek.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":6},{"id":5,"name":"karpuzdilim","description":"Taze karpuzdilim","price":24.20,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2021/02/karpuzdilim.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":6},{"id":6,"name":"sebze çorbası","description":"Taze sebze çorbası","price":121.00,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/06/corba.png","productType":"Pişmiş","productTypeId":1,"productBrand":"Yemekçi","productBrandId":0,"piece":6},{"id":7,"name":"salata tabağı","description":"salata tabağı","price":96.80,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/06/sebze.png","productType":"Pişmiş","productTypeId":1,"productBrand":"Yemekçi","productBrandId":0,"piece":6},{"id":8,"name":"kızarmış tavuk ","description":"kızarmış tavuk ","price":338.80,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/06/tavukyemegi-1024x1024.png","productType":"Pişmiş","productTypeId":1,"productBrand":"Yemekçi","productBrandId":0,"piece":6}]}
+2023-10-31 18:48:12.410 [INF] -------------Request-End------------
+2023-10-31 18:48:36.295 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:48:36.295 [INF] HeartBeat
+2023-10-31 18:48:36.295 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:48:36.303 [INF] -------------Request-Begin------------
+2023-10-31 18:48:36.303 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductType=Pi%C5%9Fmi%C5%9F&Gain=10&Tax=10 
+Request Body: 
+2023-10-31 18:48:36.303 [INF] 
+
+2023-10-31 18:48:36.303 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductType=Pi%C5%9Fmi%C5%9F&Gain=10&Tax=10 
+StatusCode: 401 
+Response Body: 
+2023-10-31 18:48:36.303 [INF] -------------Request-End------------
+2023-10-31 18:48:43.938 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:48:43.938 [INF] HeartBeat
+2023-10-31 18:48:43.938 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:48:43.939 [INF] -------------Request-Begin------------
+2023-10-31 18:48:43.939 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductType=Pi%C5%9Fmi%C5%9F&Gain=10&Tax=10 
+Request Body: 
+2023-10-31 18:48:43.939 [INF] 
+
+2023-10-31 18:48:43.939 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductType=Pi%C5%9Fmi%C5%9F&Gain=10&Tax=10 
+StatusCode: 401 
+Response Body: 
+2023-10-31 18:48:43.939 [INF] -------------Request-End------------
+2023-10-31 18:48:46.455 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:48:46.455 [INF] HeartBeat
+2023-10-31 18:48:46.455 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:48:46.456 [INF] -------------Request-Begin------------
+2023-10-31 18:48:46.456 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?Gain=10&Tax=10 
+Request Body: 
+2023-10-31 18:48:46.456 [INF] 
+
+2023-10-31 18:48:46.456 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?Gain=10&Tax=10 
+StatusCode: 401 
+Response Body: 
+2023-10-31 18:48:46.456 [INF] -------------Request-End------------
+2023-10-31 18:48:47.663 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:48:47.664 [INF] HeartBeat
+2023-10-31 18:48:47.664 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:48:47.664 [INF] -------------Request-Begin------------
+2023-10-31 18:48:47.664 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?Gain=10&Tax=10 
+Request Body: 
+2023-10-31 18:48:47.664 [INF] 
+
+2023-10-31 18:48:47.664 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?Gain=10&Tax=10 
+StatusCode: 401 
+Response Body: 
+2023-10-31 18:48:47.664 [INF] -------------Request-End------------
+2023-10-31 18:48:59.263 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:48:59.263 [INF] HeartBeat
+2023-10-31 18:48:59.263 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:48:59.330 [INF] -------------Request-Begin------------
+2023-10-31 18:48:59.330 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-31 18:48:59.330 [INF] 
+
+2023-10-31 18:48:59.330 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-31T18:53:59.3072102+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6InVodWRAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6Im11c3RhZmEgdWh1ZCBkdXJtdXMiLCJleHAiOjE2OTg3Njc2MzksImlzcyI6IlZrQXBpIiwiYXVkIjoiVmtBcGkifQ.eWbTyupIdseteQH0iKjpSQVJB5mRiSnY_g5MjlQLkN8","email":"uhud@gmail.com"}}
+2023-10-31 18:48:59.330 [INF] -------------Request-End------------
+2023-10-31 18:49:12.108 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:49:12.108 [INF] HeartBeat
+2023-10-31 18:49:12.108 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:49:12.113 [INF] -------------Request-Begin------------
+2023-10-31 18:49:12.113 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?Gain=10&Tax=10 
+Request Body: 
+2023-10-31 18:49:12.113 [INF] 
+
+2023-10-31 18:49:12.113 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?Gain=10&Tax=10 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"Elmaa","description":"Kırmızı Elma","price":12.10,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/04/elma-1024x1024.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":0},{"id":2,"name":"Armut","description":"Kırmızı Armut","price":12.10,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2021/02/armut.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":5},{"id":3,"name":"Limon","description":"Taze Limon ","price":12.10,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2021/02/limon.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":6},{"id":4,"name":"Çilek","description":"Taze Çilek","price":24.20,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2021/02/cilek.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":6},{"id":5,"name":"karpuzdilim","description":"Taze karpuzdilim","price":24.20,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2021/02/karpuzdilim.png","productType":"Meyve","productTypeId":1,"productBrand":"Meyveciler","productBrandId":0,"piece":6},{"id":6,"name":"sebze çorbası","description":"Taze sebze çorbası","price":121.00,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/06/corba.png","productType":"Pişmiş","productTypeId":1,"productBrand":"Yemekçi","productBrandId":0,"piece":6},{"id":7,"name":"salata tabağı","description":"salata tabağı","price":96.80,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/06/sebze.png","productType":"Pişmiş","productTypeId":1,"productBrand":"Yemekçi","productBrandId":0,"piece":6},{"id":8,"name":"kızarmış tavuk ","description":"kızarmış tavuk ","price":338.80,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/06/tavukyemegi-1024x1024.png","productType":"Pişmiş","productTypeId":1,"productBrand":"Yemekçi","productBrandId":0,"piece":6}]}
+2023-10-31 18:49:12.113 [INF] -------------Request-End------------
+2023-10-31 18:49:25.251 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:49:25.251 [INF] HeartBeat
+2023-10-31 18:49:25.251 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:49:25.281 [INF] -------------Request-Begin------------
+2023-10-31 18:49:25.281 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductType=Pi%C5%9Fmi%C5%9F&Gain=10&Tax=10 
+Request Body: 
+2023-10-31 18:49:25.281 [INF] 
+
+2023-10-31 18:49:25.281 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductType=Pi%C5%9Fmi%C5%9F&Gain=10&Tax=10 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":6,"name":"sebze çorbası","description":"Taze sebze çorbası","price":121.00,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/06/corba.png","productType":"Pişmiş","productTypeId":1,"productBrand":"Yemekçi","productBrandId":0,"piece":6},{"id":7,"name":"salata tabağı","description":"salata tabağı","price":96.80,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/06/sebze.png","productType":"Pişmiş","productTypeId":1,"productBrand":"Yemekçi","productBrandId":0,"piece":6},{"id":8,"name":"kızarmış tavuk ","description":"kızarmış tavuk ","price":338.80,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/06/tavukyemegi-1024x1024.png","productType":"Pişmiş","productTypeId":1,"productBrand":"Yemekçi","productBrandId":0,"piece":6}]}
+2023-10-31 18:49:25.281 [INF] -------------Request-End------------
+2023-10-31 18:51:07.027 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:51:07.027 [INF] HeartBeat
+2023-10-31 18:51:07.027 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:51:07.034 [INF] -------------Request-Begin------------
+2023-10-31 18:51:07.034 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "uhud@gmail.com",
+  "password": "hello"
+}
+2023-10-31 18:51:07.034 [INF] 
+
+2023-10-31 18:51:07.034 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-10-31T18:56:07.0337081+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6InVodWRAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6Im11c3RhZmEgdWh1ZCBkdXJtdXMiLCJleHAiOjE2OTg3Njc3NjcsImlzcyI6IlZrQXBpIiwiYXVkIjoiVmtBcGkifQ.VvT0oCIsTThQSBjN2L-O_YbYOzJIF78YplGqLGQg-eU","email":"uhud@gmail.com"}}
+2023-10-31 18:51:07.034 [INF] -------------Request-End------------
+2023-10-31 18:51:27.437 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:51:27.437 [INF] HeartBeat
+2023-10-31 18:51:27.437 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:51:27.484 [INF] -------------Request-Begin------------
+2023-10-31 18:51:27.484 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=1 
+Request Body: 
+2023-10-31 18:51:27.484 [INF] 
+
+2023-10-31 18:51:27.484 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-10-31 18:51:27.484 [INF] -------------Request-End------------
+2023-10-31 18:51:34.476 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:51:34.476 [INF] HeartBeat
+2023-10-31 18:51:34.476 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:51:34.493 [INF] -------------Request-Begin------------
+2023-10-31 18:51:34.493 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/getAdressInfo 
+QueryString:  
+Request Body: 
+2023-10-31 18:51:34.493 [INF] 
+
+2023-10-31 18:51:34.493 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/getAdressInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-10-31 18:51:34.493 [INF] -------------Request-End------------
+2023-10-31 18:51:36.425 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:51:36.425 [INF] HeartBeat
+2023-10-31 18:51:36.426 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:51:36.462 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2023-10-31 18:51:36.472 [INF] -------------Request-Begin------------
+2023-10-31 18:51:36.472 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-10-31 18:51:36.472 [INF] 
+
+2023-10-31 18:51:36.472 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"email":"uhud@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"mustafa uhud durmus","profit":0,"role":"admin","addresses":[],"orders":[]}}
+2023-10-31 18:51:36.472 [INF] -------------Request-End------------
+2023-10-31 18:52:01.936 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:52:01.936 [INF] HeartBeat
+2023-10-31 18:52:01.936 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:52:01.986 [INF] -------------Request-Begin------------
+2023-10-31 18:52:01.986 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Addreses 
+QueryString:  
+Request Body: {
+  "userId": 1,
+  "addressLine1": "asdas dasdasd",
+  "addressLine2": "strasdasdasding",
+  "city": "adsasdas",
+  "county": "dasdasdasdasd",
+  "postalCode": "340000"
+}
+2023-10-31 18:52:01.986 [INF] 
+
+2023-10-31 18:52:01.986 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Addreses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"userId":1,"addressLine1":"asdas dasdasd","addressLine2":"strasdasdasding","city":"adsasdas","county":"dasdasdasdasd","postalCode":"340000"}}
+2023-10-31 18:52:01.986 [INF] -------------Request-End------------
+2023-10-31 18:52:10.893 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:52:10.893 [INF] HeartBeat
+2023-10-31 18:52:10.893 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:52:10.900 [INF] -------------Request-Begin------------
+2023-10-31 18:52:10.900 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Addreses 
+QueryString:  
+Request Body: {
+  "userId": 1,
+  "addressLine1": "asdaaaaaaaaaaaaaaaaaaaas dasdasd",
+  "addressLine2": "strasdasdaaaaaaaaaaaaaaaaaaaaaasding",
+  "city": "adsasaaaaaaaaaaadas",
+  "county": "dasdasdaaaaaaaaaaaaaaaaaasdasd",
+  "postalCode": "340000"
+}
+2023-10-31 18:52:10.901 [INF] 
+
+2023-10-31 18:52:10.901 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Addreses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"userId":1,"addressLine1":"asdaaaaaaaaaaaaaaaaaaaas dasdasd","addressLine2":"strasdasdaaaaaaaaaaaaaaaaaaaaaasding","city":"adsasaaaaaaaaaaadas","county":"dasdasdaaaaaaaaaaaaaaaaaasdasd","postalCode":"340000"}}
+2023-10-31 18:52:10.901 [INF] -------------Request-End------------
+2023-10-31 18:52:57.028 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:52:57.028 [INF] HeartBeat
+2023-10-31 18:52:57.028 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:52:57.061 [INF] -------------Request-Begin------------
+2023-10-31 18:52:57.061 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {
+  "userId": 1,
+  "productId": 1,
+  "name": "Elmaa",
+  "description": "Kırmızı Elma",
+  "price": 11,
+  "pictureUrl": "https://egitimgrafik.com/wp-content/uploads/2019/04/elma-1024x1024.png",
+  "productType": "string",
+  "productBrand": "Meyve",
+  "piece": 2,
+  "status": "Pending"
+}
+2023-10-31 18:52:57.062 [INF] 
+
+2023-10-31 18:52:57.062 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Not Enought Product!","response":null}
+2023-10-31 18:52:57.062 [INF] -------------Request-End------------
+2023-10-31 18:53:01.604 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:53:01.604 [INF] HeartBeat
+2023-10-31 18:53:01.604 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:53:01.639 [INF] -------------Request-Begin------------
+2023-10-31 18:53:01.639 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {
+  "userId": 1,
+  "productId": 1,
+  "name": "Elmaa",
+  "description": "Kırmızı Elma",
+  "price": 11,
+  "pictureUrl": "https://egitimgrafik.com/wp-content/uploads/2019/04/elma-1024x1024.png",
+  "productType": "string",
+  "productBrand": "Meyve",
+  "piece": 1,
+  "status": "Pending"
+}
+2023-10-31 18:53:01.639 [INF] 
+
+2023-10-31 18:53:01.639 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Not Enought Product!","response":null}
+2023-10-31 18:53:01.639 [INF] -------------Request-End------------
+2023-10-31 18:53:15.478 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:53:15.478 [INF] HeartBeat
+2023-10-31 18:53:15.478 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:53:15.528 [INF] -------------Request-Begin------------
+2023-10-31 18:53:15.528 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {
+  "userId": 1,
+  "productId": 1,
+  "name": "Elmaa",
+  "description": "Kırmızı Elma",
+  "price": 11,
+  "pictureUrl": "https://egitimgrafik.com/wp-content/uploads/2019/04/elma-1024x1024.png",
+  "productType": "string",
+  "productBrand": "Meyve",
+  "piece": 2,
+  "status": "Pending"
+}
+2023-10-31 18:53:15.528 [INF] 
+
+2023-10-31 18:53:15.528 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"userId":1,"productId":1,"name":"Elmaa","description":"Kırmızı Elma","price":11,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/04/elma-1024x1024.png","productType":"string","productBrand":"Meyve","piece":2,"status":"Pending"}}
+2023-10-31 18:53:15.528 [INF] -------------Request-End------------
+2023-10-31 18:53:25.879 [INF] LogErrorHandlerMiddleware.Invoke
+2023-10-31 18:53:25.879 [INF] HeartBeat
+2023-10-31 18:53:25.879 [INF] LogRequestLoggingMiddleware.Invoke
+2023-10-31 18:53:25.903 [INF] -------------Request-Begin------------
+2023-10-31 18:53:25.903 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=1 
+Request Body: 
+2023-10-31 18:53:25.903 [INF] 
+
+2023-10-31 18:53:25.903 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44346 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"userId":1,"productId":1,"name":"Elmaa","description":"Kırmızı Elma","price":11,"pictureUrl":"https://egitimgrafik.com/wp-content/uploads/2019/04/elma-1024x1024.png","productType":"string","productBrand":"Meyve","piece":2,"status":"Pending"}]}
+2023-10-31 18:53:25.903 [INF] -------------Request-End------------

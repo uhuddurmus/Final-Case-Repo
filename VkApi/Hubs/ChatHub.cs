@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.SignalR;
-using System.ServiceModel.Channels;
 using Vk.Data.Context;
-using Vk.Data.Domain;
 
 public class ChatHub : Hub
 {
@@ -25,12 +23,8 @@ public class ChatHub : Hub
         else
         {
             await Clients.All.SendAsync("ReceiveMessage", "Not an admin");
-
         }
-
-
     }
-
     public async Task JoinRoom(string roomName)
     {
         await Groups.AddToGroupAsync(Context.ConnectionId, roomName);

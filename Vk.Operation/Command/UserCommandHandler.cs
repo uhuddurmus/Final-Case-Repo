@@ -12,8 +12,8 @@ namespace Vk.Operation.Command;
 public class UserCommandHandler :
     IRequestHandler<CreateUserCommand, ApiResponse<UserResponse>>,
     IRequestHandler<UpdateUserCommand, ApiResponse>,
-    IRequestHandler<DeleteUserCommand, ApiResponse>
-
+    IRequestHandler<DeleteUserCommand, ApiResponse>,
+    IRequestHandler<UpdateUserCredit, ApiResponse>
 {
     private readonly VkDbContext dbContext;
     private readonly IMapper mapper;
@@ -61,5 +61,34 @@ public class UserCommandHandler :
         entity.IsActive = false;
         await dbContext.SaveChangesAsync(cancellationToken);
         return new ApiResponse();
+    }
+
+    public async Task<ApiResponse> Handle(UpdateUserCredit request, CancellationToken cancellationToken)
+    {
+        var entity = await dbContext.Set<User>().FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
+        if (entity == null)
+        {
+            return new ApiResponse("Record not found!");
+        }
+
+        if(request.isPayment==false)
+        {
+            entity.Credit = entity.Credit + request.amount;
+            return new ApiResponse("Success!");
+
+        }
+        else
+        {
+            if(entity.Credit >= request.amount) {
+                entity.Credit = entity.Credit - request.amount;
+                return new ApiResponse("Success!");
+
+            }
+            else
+            {
+                return new ApiResponse("Not enought credit!");
+            }
+        }
+
     }
 }
