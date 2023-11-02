@@ -1,0 +1,48 @@
+<c-card class="mb-4">
+    <c-card-header ngPreserveWhitespaces>
+        <strong>Card Edit</strong>
+      </c-card-header>
+      <c-card-body> 
+        <form [formGroup]="cardForm" cForm>
+            <div class="mb-3">
+              <label cLabel for="exampleFormControlInput1">Card Holder</label>
+              <input cFormControl
+                     id="exampleFormControlInput1"
+                     placeholder="Berkay Oflaz"
+                     type="text"
+                     formControlName="cardHolder"
+              />
+            </div>
+            <div class="mb-3">
+              <label cLabel for="exampleFormControlTextarea1">Card Number</label>
+              <input cFormControl
+                     id="exampleFormControlTextarea1"
+                     placeholder="xxxx-xxx-xxxx-xxxx"
+                     type="number"
+                     formControlName="cardNumber"
+              />
+            </div>
+            <div class="mb-3">
+                <label cLabel for="exampleFormControlTextarea2">cvv</label>
+                <input cFormControl
+                       id="exampleFormControlTextarea2"
+                       placeholder=""
+                       type="text"
+                       formControlName="cvv"
+                />
+            </div>
+            <div class="mb-3">
+                <label cLabel for="exampleFormControlTextarea3">Expense Limit</label>
+                <input cFormControl
+                       id="exampleFormControlTextarea3"
+                       placeholder=""
+                       type="number"
+                       formControlName="expenseLimit"
+                />
+            </div>
+            <button cButton (click)="onSubmit()" class="mt-3" color="primary">
+                Save
+            </button>
+        </form>
+      </c-card-body>
+    </c-card>
