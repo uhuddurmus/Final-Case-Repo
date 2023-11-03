@@ -4,6 +4,7 @@ import { AuthService } from '../../../services/auth.service';
 import { Router } from '@angular/router';
 import { StorageService } from 'src/app/services/storage.service';
 import { ToastrService } from 'ngx-toastr';
+import { UserServiceService } from '../../../services/user-service.service';
 
 @Component({
   selector: 'app-login',
@@ -19,7 +20,8 @@ export class LoginComponent {
     private authService: AuthService,
     private router: Router,
     private storage: StorageService,
-    private toastr: ToastrService
+    private toastr: ToastrService,
+    private UserService: UserServiceService
   ) {}
   onSubmit() {
     const { email, password } = this.loginForm.value;
@@ -33,7 +35,9 @@ export class LoginComponent {
         console.log('Error', err.error.message);
         this.toastr.error(err.error.message, 'Error');
       },
-    });
-    //this.authService.login();
+    })
+
+
+     //this.authService.login();
   }
 }

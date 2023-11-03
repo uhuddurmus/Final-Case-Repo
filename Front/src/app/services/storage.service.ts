@@ -15,6 +15,17 @@ export class StorageService {
     window.sessionStorage.removeItem('auth')
     window.sessionStorage.setItem('auth',JSON.stringify(user))
   }
+
+  public saveUserInfo(user:any):void {
+    window.sessionStorage.removeItem('userInfo')
+    window.sessionStorage.setItem('userInfo',JSON.stringify(user))
+  }
+  public getUserInfo():any {
+    const userData = window.sessionStorage.getItem('userInfo')
+    if(userData){
+      return JSON.parse(userData);
+    }
+  }
   
   public getUser():any {
     const user = window.sessionStorage.getItem('auth')
