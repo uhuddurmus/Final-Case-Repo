@@ -27,12 +27,10 @@ export class LoginComponent {
     const { email, password } = this.loginForm.value;
     this.authService.login(email, password).subscribe({
       next: (data) => {
-        console.log(data);
         this.storage.saveUser(data.response);
         this.router.navigate(['/dashboard']);
       },
       error: (err) => {
-        console.log('Error', err.error.message);
         this.toastr.error(err.error.message, 'Error');
       },
     })

@@ -72,14 +72,17 @@ public class OrderCommandHandler :
 
     public async Task<ApiResponse> Handle(DeleteOrderCommand request, CancellationToken cancellationToken)
     {
-        var entity = await dbContext.Set<Order>().FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
+        var entity = await dbContext.Set<Order>().FirstOrDefaultAsync(x => x.Id == request.Id && x.Status == "pending", cancellationToken);
+
         if (entity == null)
         {
-            return new ApiResponse("Record not found!");
+            return new ApiResponse("Record not found or status is not pending!");
         }
 
-        entity.IsActive = false;
+        dbContext.Set<Order>().Remove(entity); // Entiteyi veritabanından kaldır
         await dbContext.SaveChangesAsync(cancellationToken);
+
         return new ApiResponse();
     }
+
 }

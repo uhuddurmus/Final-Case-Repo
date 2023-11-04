@@ -15,11 +15,8 @@ import { DocsComponentsModule } from '@docs-components/docs-components.module';
     GridModule,
     IconModule,
     CommonModule,
-    DocsComponentsModule
+    DocsComponentsModule,
   ],
-  declarations: [
-    CoreUIIconsComponent
-  ]
+  declarations: [CoreUIIconsComponent],
 })
-export class IconsModule {
-}
+export class IconsModule {}

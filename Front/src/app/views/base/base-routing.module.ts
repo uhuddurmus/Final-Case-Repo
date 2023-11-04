@@ -51,6 +51,13 @@ const routes: Routes = [
         },
       },
       {
+        path: 'order',
+        component: CardsComponent,
+        data: {
+          title: 'Orders',
+        },
+      },
+      {
         path: 'carousel',
         component: CarouselsComponent,
         data: {
@@ -143,4 +150,3 @@ const routes: Routes = [
   exports: [RouterModule],
 })
 export class BaseRoutingModule {}
-

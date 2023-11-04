@@ -17,6 +17,7 @@ export class DefaultHeaderComponent implements OnInit {
   user: any;
   userData: any;
   token: any;
+  userpp: any;
 
   constructor(
     private storage: StorageService,
@@ -32,8 +33,10 @@ export class DefaultHeaderComponent implements OnInit {
     this.userService.getUserDataInfo(this.token).subscribe({
       next: (data) => {
         this.userData = data.response;
-        this.storage.saveUserInfo(data.response)
-        console.log(data)
+        this.storage.saveUserInfo(data.response);
+        this.userpp = data?.response?.fullName?.split(' ')
+        .map((word: any) => word.charAt(0))
+        .join('');
       },
       error: (err) => {
         this.toastr.error(err.error.message, 'Error');

@@ -56,7 +56,7 @@ public class OrderesController : ControllerBase
 
 
     [HttpDelete("{id}")]
-    [Authorize(Roles = "admin")]
+    [Authorize(Roles = "admin,user")]
 
     public async Task<ApiResponse> Delete(int id)
     {

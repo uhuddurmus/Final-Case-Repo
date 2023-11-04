@@ -14,7 +14,7 @@ import {
   SharedModule,
   ToastModule,
   TooltipModule,
-  UtilitiesModule
+  UtilitiesModule,
 } from '@coreui/angular';
 
 import { IconModule } from '@coreui/icons-angular';
@@ -57,8 +57,7 @@ import { AppToastComponent } from './toasters/toast-simple/toast.component';
     TooltipModule,
     PopoverModule,
     ProgressModule,
-    IconModule
+    IconModule,
   ],
 })
-export class NotificationsModule {
-}
+export class NotificationsModule {}

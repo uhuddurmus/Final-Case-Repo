@@ -10,7 +10,7 @@ import {
   FormModule,
   GridModule,
   ListGroupModule,
-  SharedModule
+  SharedModule,
 } from '@coreui/angular';
 
 import { DocsComponentsModule } from '@docs-components/docs-components.module';
@@ -25,7 +25,6 @@ import { InputGroupsComponent } from './input-groups/input-groups.component';
 import { LayoutComponent } from './layout/layout.component';
 import { ValidationComponent } from './validation/validation.component';
 
-
 @NgModule({
   declarations: [
     RangesComponent,
@@ -35,7 +34,7 @@ import { ValidationComponent } from './validation/validation.component';
     ChecksRadiosComponent,
     InputGroupsComponent,
     LayoutComponent,
-    ValidationComponent
+    ValidationComponent,
   ],
   imports: [
     CommonModule,
@@ -52,8 +51,7 @@ import { ValidationComponent } from './validation/validation.component';
     ButtonGroupModule,
     DropdownModule,
     SharedModule,
-    ListGroupModule
-  ]
+    ListGroupModule,
+  ],
 })
-export class CoreUIFormsModule {
-}
+export class CoreUIFormsModule {}

@@ -14,7 +14,6 @@ export class AuthService {
   constructor(private http: HttpClient, private storage: StorageService) {}
 
   register() {
-    console.log('register');
   }
 
   login(email: any, password: any): Observable<any> {
