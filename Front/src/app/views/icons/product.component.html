@@ -1,7 +1,63 @@
 <c-card class="mb-4">
-  <c-card-header></c-card-header>
+  <c-card-header class="d-flex justify-content-center">
+    <h1>{{ product.name }}</h1>
+  </c-card-header>
   <c-card-body>
-    {{ product.name }}
+    <div class="row">
+      <div class="col-md-8 text-center">
+        <br />
+        <img src="{{ product.pictureUrl }}" alt="" />
+        <br />
+        <br />
+        <h2 style="font-weight: bold">{{ product.price }}$</h2>
+      </div>
+      <div class="col-md-4">
+        <div class="row">
+          <div
+            class="row card bg-secondary bg-opacity-50 border-0 p-5 me-5 mt-3"
+          >
+            <p>{{ product.description }}</p>
+            <br />
+            <br />
+
+            <p class="" style="font-weight: bold">{{ product.productBrand }}</p>
+            <br />
+            <br />
+
+            <p style="font-weight: bold">{{ product.productType }}</p>
+          </div>
+          <div class="row d-flex justify-content-around">
+            <div style="width: 150px" class="card bg-info mt-5 border-0">
+              <div class="d-flex justify-content-around m-2">
+                <div
+                  style="width: 50px; cursor: pointer; user-select: none"
+                  class="text-center bg-danger rounded rounded-circle"
+                  (click)="down()"
+                >
+                  -
+                </div>
+                <div style="width: 50px; user-select: none" class="text-center">
+                  {{ count }}
+                </div>
+                <div
+                  style="width: 50px; cursor: pointer; user-select: none"
+                  class="text-center bg-success rounded rounded-circle"
+                  (click)="up()"
+                >
+                  +
+                </div>
+              </div>
+            </div>
+            <button
+              class="btn btn-success mt-5"
+              style="width: 150px; height: 36px"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </c-card-body>
   <c-card-footer class="bg-transparent"> </c-card-footer>
 </c-card>

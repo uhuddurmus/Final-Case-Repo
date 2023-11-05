@@ -34,9 +34,10 @@ export class DefaultHeaderComponent implements OnInit {
       next: (data) => {
         this.userData = data.response;
         this.storage.saveUserInfo(data.response);
-        this.userpp = data?.response?.fullName?.split(' ')
-        .map((word: any) => word.charAt(0))
-        .join('');
+        this.userpp = data?.response?.fullName
+          ?.split(' ')
+          .map((word: any) => word.charAt(0))
+          .join('');
       },
       error: (err) => {
         this.toastr.error(err.error.message, 'Error');
