@@ -5,7 +5,7 @@
   <c-card-body>
     <div class="col-md-6 d-flex">
       <div class="col-3 p-2">ProductType :</div>
-      <div class="col-md-9">
+      <div class="col-md-6">
         <input
           class="form-control"
           type="text"
@@ -14,11 +14,11 @@
         />
       </div>
     </div>
-    <div class="col-md-6 d-flex">
+    <div class="col-md-6 d-flex mt-1">
       <div class="col-3 p-2">
         <div class="my-auto">ProductBrand :</div>
       </div>
-      <div class="col-md-9">
+      <div class="col-md-6">
         <input
           class="form-control"
           type="text"
@@ -42,7 +42,12 @@
         <c-card-footer class="bg-transparent">
           <div class="d-flex justify-content-around">
             <div class="my-auto">Storage : {{ d.piece }}</div>
-            <button class="btn btn-success text-light">Buy</button>
+            <button
+              (click)="navigateToProductPage(d.id)"
+              class="btn btn-success text-light"
+            >
+              Buy
+            </button>
           </div>
         </c-card-footer>
       </c-card>

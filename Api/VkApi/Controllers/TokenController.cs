@@ -1,4 +1,5 @@
 using AutoMapper;
+using Azure.Core;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -82,6 +83,20 @@ public class TokenController : ControllerBase
     {
         var operation = new GetProductByParametersQuery(ProductType, ProductBrand, Gain,Tax);
         var result = await mediator.Send(operation);
+        return result;
+    }
+
+    [HttpGet("GetProduct")]
+    [Authorize(Roles = "admin , user")]
+    public async Task<ApiResponse<ProductResponse>> Get(int id,int gain,int tax)
+    {
+        var operation = new GetProductByIdQuery(id);
+        
+        var result = await mediator.Send(operation);
+
+        result.Response.Price += (result.Response.Price * gain / 100);
+        result.Response.Price += (result.Response.Price * tax / 100);
+
         return result;
     }
 

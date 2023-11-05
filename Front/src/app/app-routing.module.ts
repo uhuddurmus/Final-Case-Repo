@@ -61,9 +61,9 @@ const routes: Routes = [
           import('./views/charts/charts.module').then((m) => m.ChartsModule),
       },
       {
-        path: 'icons',
+        path: 'product/:id',
         loadChildren: () =>
-          import('./views/icons/icons.module').then((m) => m.IconsModule),
+          import('./views/icons/product.module').then((m) => m.ProductModule),
       },
       {
         path: 'notifications',

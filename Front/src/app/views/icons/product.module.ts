@@ -2,21 +2,19 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { CardModule, GridModule } from '@coreui/angular';
-import { IconModule } from '@coreui/icons-angular';
 
-import { CoreUIIconsComponent } from './coreui-icons.component';
-import { IconsRoutingModule } from './icons-routing.module';
+import { ProductComponent } from './product.component';
+import { ProductRoutingModule } from './product-routing.module';
 import { DocsComponentsModule } from '@docs-components/docs-components.module';
 
 @NgModule({
   imports: [
-    IconsRoutingModule,
+    ProductRoutingModule,
     CardModule,
     GridModule,
-    IconModule,
     CommonModule,
     DocsComponentsModule,
   ],
-  declarations: [CoreUIIconsComponent],
+  declarations: [ProductComponent],
 })
-export class IconsModule {}
+export class ProductModule {}

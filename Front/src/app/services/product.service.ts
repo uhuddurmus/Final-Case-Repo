@@ -31,4 +31,11 @@ export class ProductService {
 
     return this.http.post(url, productData, { headers });
   }
+  getProductById(id: number, gain: number, tax: number): Observable<any> {
+    const url = `${this.baseUrl}Token/GetProduct?id=${id}&gain=${gain}&tax=${tax}`;
+
+    // Eğer kullanıcı kimliği gerekiyorsa, Authorization başlığını ekleyin.
+    const headers = new HttpHeaders().set('accept', 'text/plain');
+    return this.http.get(url, { headers });
+  }
 }
