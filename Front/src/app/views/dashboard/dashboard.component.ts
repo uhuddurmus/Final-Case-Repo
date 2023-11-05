@@ -1,10 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { StorageService } from 'src/app/services/storage.service';
 import { ProductService } from 'src/app/services/product.service';
 
 @Component({
-  templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.scss'],
+  templateUrl: 'dashboard.component.html',
+  styleUrls: ['dashboard.component.scss'],
 })
 export class DashboardComponent implements OnInit {
   products: any[] = [];
@@ -23,6 +23,14 @@ export class DashboardComponent implements OnInit {
     this.updateProducts();
   }
 
+  updateProductBrand(brand: any) {
+    this.productBrand = brand;
+    this.updateProducts();
+  }
+  updateProductType(type: any) {
+    this.productType = type;
+    this.updateProducts();
+  }
   updateProducts() {
     this.productService
       .getProductsByParameter(
