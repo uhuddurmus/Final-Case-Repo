@@ -31,7 +31,7 @@ export class ProductService {
 
     return this.http.post(url, productData, { headers });
   }
-  getProductById(id: number, gain: number, tax: number): Observable<any> {
+  getProductById(id: any, gain: any, tax: any): Observable<any> {
     const url = `${this.baseUrl}Token/GetProduct?id=${id}&gain=${gain}&tax=${tax}`;
 
     // Eğer kullanıcı kimliği gerekiyorsa, Authorization başlığını ekleyin.

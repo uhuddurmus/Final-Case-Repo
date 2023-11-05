@@ -17,7 +17,7 @@ export class DashboardComponent implements OnInit {
   constructor(
     private storage: StorageService,
     private productService: ProductService,
-    private router: Router // Inject the Router service
+    private router: Router
   ) {}
 
   ngOnInit(): void {

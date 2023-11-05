@@ -2018,3 +2018,723 @@ QueryString:
 StatusCode: 200 
 Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
 2023-11-05 15:18:10.070 [INF] -------------Request-End------------
+2023-11-05 16:36:12.931 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 16:36:12.932 [INF] HeartBeat
+2023-11-05 16:36:12.933 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 16:36:12.941 [INF] -------------Request-Begin------------
+2023-11-05 16:36:12.942 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 16:36:12.943 [INF] 
+
+2023-11-05 16:36:12.944 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 16:36:12.946 [INF] -------------Request-End------------
+2023-11-05 16:36:31.537 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 16:36:31.538 [INF] HeartBeat
+2023-11-05 16:36:31.539 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 16:36:31.542 [INF] -------------Request-Begin------------
+2023-11-05 16:36:31.543 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 16:36:31.545 [INF] 
+
+2023-11-05 16:36:31.546 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 16:36:31.548 [INF] -------------Request-End------------
+2023-11-05 16:37:55.797 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 16:37:55.798 [INF] HeartBeat
+2023-11-05 16:37:55.798 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 16:37:55.802 [INF] -------------Request-Begin------------
+2023-11-05 16:37:55.802 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 16:37:55.803 [INF] 
+
+2023-11-05 16:37:55.804 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 16:37:55.806 [INF] -------------Request-End------------
+2023-11-05 16:38:24.079 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 16:38:24.079 [INF] HeartBeat
+2023-11-05 16:38:24.080 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 16:38:24.083 [INF] -------------Request-Begin------------
+2023-11-05 16:38:24.083 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 16:38:24.084 [INF] 
+
+2023-11-05 16:38:24.085 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 16:38:24.087 [INF] -------------Request-End------------
+2023-11-05 16:38:47.151 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 16:38:47.152 [INF] HeartBeat
+2023-11-05 16:38:47.153 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 16:38:47.156 [INF] -------------Request-Begin------------
+2023-11-05 16:38:47.156 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 16:38:47.157 [INF] 
+
+2023-11-05 16:38:47.158 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 16:38:47.160 [INF] -------------Request-End------------
+2023-11-05 16:41:09.982 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 16:41:09.983 [INF] HeartBeat
+2023-11-05 16:41:09.984 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 16:41:09.987 [INF] -------------Request-Begin------------
+2023-11-05 16:41:09.988 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 16:41:09.989 [INF] 
+
+2023-11-05 16:41:09.990 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 16:41:09.992 [INF] -------------Request-End------------
+2023-11-05 16:44:42.786 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 16:44:42.787 [INF] HeartBeat
+2023-11-05 16:44:42.788 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 16:44:42.815 [INF] -------------Request-Begin------------
+2023-11-05 16:44:42.816 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+Request Body: 
+2023-11-05 16:44:42.817 [INF] 
+
+2023-11-05 16:44:42.818 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 16:44:42.820 [INF] -------------Request-End------------
+2023-11-05 16:44:45.679 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 16:44:45.680 [INF] HeartBeat
+2023-11-05 16:44:45.681 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 16:44:45.684 [INF] -------------Request-Begin------------
+2023-11-05 16:44:45.684 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-05 16:44:45.685 [INF] 
+
+2023-11-05 16:44:45.686 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-05 16:44:45.689 [INF] -------------Request-End------------
+2023-11-05 16:45:18.234 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 16:45:18.234 [INF] HeartBeat
+2023-11-05 16:45:18.235 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 16:45:18.239 [INF] -------------Request-Begin------------
+2023-11-05 16:45:18.240 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+Request Body: 
+2023-11-05 16:45:18.241 [INF] 
+
+2023-11-05 16:45:18.241 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 16:45:18.243 [INF] -------------Request-End------------
+2023-11-05 16:45:19.641 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 16:45:19.642 [INF] HeartBeat
+2023-11-05 16:45:19.643 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 16:45:19.645 [INF] -------------Request-Begin------------
+2023-11-05 16:45:19.646 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-05 16:45:19.648 [INF] 
+
+2023-11-05 16:45:19.648 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-05 16:45:19.651 [INF] -------------Request-End------------
+2023-11-05 17:35:02.629 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:35:02.630 [INF] HeartBeat
+2023-11-05 17:35:02.631 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:35:02.650 [INF] -------------Request-Begin------------
+2023-11-05 17:35:02.651 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 17:35:02.653 [INF] 
+
+2023-11-05 17:35:02.654 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 17:35:02.656 [INF] -------------Request-End------------
+2023-11-05 17:35:27.011 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:35:27.012 [INF] HeartBeat
+2023-11-05 17:35:27.012 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:35:27.013 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:35:27.014 [INF] HeartBeat
+2023-11-05 17:35:27.016 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:35:27.019 [INF] -------------Request-Begin------------
+2023-11-05 17:35:27.020 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 17:35:27.022 [INF] 
+
+2023-11-05 17:35:27.024 [INF] -------------Request-Begin------------
+2023-11-05 17:35:27.025 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 17:35:27.026 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-05 17:35:27.029 [INF] -------------Request-End------------
+2023-11-05 17:35:27.030 [INF] 
+
+2023-11-05 17:35:27.032 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5}}
+2023-11-05 17:35:27.033 [INF] -------------Request-End------------
+2023-11-05 17:53:36.051 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:53:36.052 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:53:36.053 [INF] HeartBeat
+2023-11-05 17:53:36.053 [INF] HeartBeat
+2023-11-05 17:53:36.054 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:53:36.055 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:53:36.062 [INF] -------------Request-Begin------------
+2023-11-05 17:53:36.063 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 17:53:36.065 [INF] -------------Request-Begin------------
+2023-11-05 17:53:36.065 [INF] 
+
+2023-11-05 17:53:36.066 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-05 17:53:36.067 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 17:53:36.069 [INF] 
+
+2023-11-05 17:53:36.071 [INF] -------------Request-End------------
+2023-11-05 17:53:36.072 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5}}
+2023-11-05 17:53:36.074 [INF] -------------Request-End------------
+2023-11-05 17:56:26.253 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:56:26.254 [INF] HeartBeat
+2023-11-05 17:56:26.255 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:56:26.256 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:56:26.257 [INF] HeartBeat
+2023-11-05 17:56:26.258 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:56:26.260 [INF] -------------Request-Begin------------
+2023-11-05 17:56:26.262 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 17:56:26.265 [INF] -------------Request-Begin------------
+2023-11-05 17:56:26.265 [INF] 
+
+2023-11-05 17:56:26.266 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-05 17:56:26.267 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 17:56:26.268 [INF] 
+
+2023-11-05 17:56:26.270 [INF] -------------Request-End------------
+2023-11-05 17:56:26.271 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5}}
+2023-11-05 17:56:26.273 [INF] -------------Request-End------------
+2023-11-05 17:56:42.671 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:56:42.672 [INF] HeartBeat
+2023-11-05 17:56:42.673 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:56:42.673 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:56:42.675 [INF] HeartBeat
+2023-11-05 17:56:42.676 [INF] -------------Request-Begin------------
+2023-11-05 17:56:42.676 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:56:42.677 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 17:56:42.679 [INF] 
+
+2023-11-05 17:56:42.680 [INF] -------------Request-Begin------------
+2023-11-05 17:56:42.681 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 17:56:42.682 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-05 17:56:42.684 [INF] -------------Request-End------------
+2023-11-05 17:56:42.685 [INF] 
+
+2023-11-05 17:56:42.687 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5}}
+2023-11-05 17:56:42.688 [INF] -------------Request-End------------
+2023-11-05 17:56:50.890 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:56:50.891 [INF] HeartBeat
+2023-11-05 17:56:50.892 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:56:50.892 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:56:50.893 [INF] HeartBeat
+2023-11-05 17:56:50.895 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:56:50.897 [INF] -------------Request-Begin------------
+2023-11-05 17:56:50.898 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 17:56:50.899 [INF] -------------Request-Begin------------
+2023-11-05 17:56:50.899 [INF] 
+
+2023-11-05 17:56:50.900 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-05 17:56:50.902 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 17:56:50.903 [INF] 
+
+2023-11-05 17:56:50.904 [INF] -------------Request-End------------
+2023-11-05 17:56:50.905 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5}}
+2023-11-05 17:56:50.907 [INF] -------------Request-End------------
+2023-11-05 17:57:37.532 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:57:37.535 [INF] HeartBeat
+2023-11-05 17:57:37.536 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:57:37.536 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:57:37.537 [INF] HeartBeat
+2023-11-05 17:57:37.538 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:57:37.540 [INF] -------------Request-Begin------------
+2023-11-05 17:57:37.541 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 17:57:37.542 [INF] -------------Request-Begin------------
+2023-11-05 17:57:37.543 [INF] 
+
+2023-11-05 17:57:37.545 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-05 17:57:37.546 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 17:57:37.547 [INF] 
+
+2023-11-05 17:57:37.549 [INF] -------------Request-End------------
+2023-11-05 17:57:37.550 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5}}
+2023-11-05 17:57:37.552 [INF] -------------Request-End------------
+2023-11-05 17:58:23.145 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:58:23.146 [INF] HeartBeat
+2023-11-05 17:58:23.147 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:58:23.149 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:58:23.150 [INF] HeartBeat
+2023-11-05 17:58:23.152 [INF] -------------Request-Begin------------
+2023-11-05 17:58:23.153 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:58:23.154 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 17:58:23.156 [INF] 
+
+2023-11-05 17:58:23.157 [INF] -------------Request-Begin------------
+2023-11-05 17:58:23.157 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 17:58:23.158 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-05 17:58:23.160 [INF] -------------Request-End------------
+2023-11-05 17:58:23.161 [INF] 
+
+2023-11-05 17:58:23.162 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5}}
+2023-11-05 17:58:23.163 [INF] -------------Request-End------------
+2023-11-05 17:59:29.449 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:59:29.452 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:59:29.452 [INF] HeartBeat
+2023-11-05 17:59:29.453 [INF] HeartBeat
+2023-11-05 17:59:29.454 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:59:29.454 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:59:29.458 [INF] -------------Request-Begin------------
+2023-11-05 17:59:29.459 [INF] -------------Request-Begin------------
+2023-11-05 17:59:29.459 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 17:59:29.460 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-05 17:59:29.461 [INF] 
+
+2023-11-05 17:59:29.462 [INF] 
+
+2023-11-05 17:59:29.462 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 17:59:29.463 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5}}
+2023-11-05 17:59:29.465 [INF] -------------Request-End------------
+2023-11-05 17:59:29.466 [INF] -------------Request-End------------
+2023-11-05 17:59:42.205 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:59:42.206 [INF] HeartBeat
+2023-11-05 17:59:42.207 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:59:42.207 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 17:59:42.209 [INF] HeartBeat
+2023-11-05 17:59:42.210 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 17:59:42.210 [INF] -------------Request-Begin------------
+2023-11-05 17:59:42.212 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 17:59:42.214 [INF] -------------Request-Begin------------
+2023-11-05 17:59:42.214 [INF] 
+
+2023-11-05 17:59:42.215 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-05 17:59:42.216 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 17:59:42.217 [INF] 
+
+2023-11-05 17:59:42.219 [INF] -------------Request-End------------
+2023-11-05 17:59:42.220 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5}}
+2023-11-05 17:59:42.222 [INF] -------------Request-End------------
+2023-11-05 18:02:22.954 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 18:02:22.955 [INF] HeartBeat
+2023-11-05 18:02:22.956 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 18:02:22.959 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 18:02:22.990 [INF] HeartBeat
+2023-11-05 18:02:22.990 [INF] -------------Request-Begin------------
+2023-11-05 18:02:22.991 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 18:02:22.992 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 18:02:22.994 [INF] 
+
+2023-11-05 18:02:22.995 [INF] -------------Request-Begin------------
+2023-11-05 18:02:22.995 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 18:02:22.996 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-05 18:02:22.999 [INF] -------------Request-End------------
+2023-11-05 18:02:23.000 [INF] 
+
+2023-11-05 18:02:23.002 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5}}
+2023-11-05 18:02:23.003 [INF] -------------Request-End------------
+2023-11-05 18:03:35.152 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 18:03:35.153 [INF] HeartBeat
+2023-11-05 18:03:35.154 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 18:03:35.155 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 18:03:35.156 [INF] HeartBeat
+2023-11-05 18:03:35.158 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 18:03:35.161 [INF] -------------Request-Begin------------
+2023-11-05 18:03:35.162 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 18:03:35.163 [INF] 
+
+2023-11-05 18:03:35.164 [INF] -------------Request-Begin------------
+2023-11-05 18:03:35.168 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 18:03:35.169 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-05 18:03:35.171 [INF] -------------Request-End------------
+2023-11-05 18:03:35.172 [INF] 
+
+2023-11-05 18:03:35.174 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5}}
+2023-11-05 18:03:35.175 [INF] -------------Request-End------------
+2023-11-05 18:03:44.874 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 18:03:44.875 [INF] HeartBeat
+2023-11-05 18:03:44.876 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 18:03:44.876 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 18:03:44.877 [INF] HeartBeat
+2023-11-05 18:03:44.879 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 18:03:44.879 [INF] -------------Request-Begin------------
+2023-11-05 18:03:44.881 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-05 18:03:44.882 [INF] -------------Request-Begin------------
+2023-11-05 18:03:44.882 [INF] 
+
+2023-11-05 18:03:44.883 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-05 18:03:44.884 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"userId":2,"addressLine1":"1745 T Street Southeast","addressLine2":"1745 T Street Southeast","city":"Washington","county":"USA","postalCode":"20020"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-05 18:03:44.886 [INF] 
+
+2023-11-05 18:03:44.889 [INF] -------------Request-End------------
+2023-11-05 18:03:44.890 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5}}
+2023-11-05 18:03:44.892 [INF] -------------Request-End------------
+2023-11-05 18:03:48.353 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-05 18:03:48.353 [INF] HeartBeat
+2023-11-05 18:03:48.354 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-05 18:03:48.357 [INF] -------------Request-Begin------------
+2023-11-05 18:03:48.358 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-05 18:03:48.359 [INF] 
+
+2023-11-05 18:03:48.360 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-05 18:03:48.362 [INF] -------------Request-End------------
