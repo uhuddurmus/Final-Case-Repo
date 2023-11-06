@@ -20,12 +20,20 @@ export class CartService {
   constructor() {}
 
   addToCart(item: CartItem) {
+    // Session Storage'den mevcut sepeti al
+    const cartFromStorage = window.sessionStorage.getItem('cart');
+    if (cartFromStorage) {
+      this.cart = JSON.parse(cartFromStorage);
+    }
+
     // Sepette aynı ürün varsa miktarını artır
-    const existingItem = this.cart.find(
-      (cartItem) => cartItem.productId === item.productId
+    const existingItemIndex = this.cart.findIndex(
+      (cartItem) => cartItem.name === item.name
     );
-    if (existingItem) {
-      existingItem.piece += item.piece;
+    console.log(existingItemIndex);
+
+    if (existingItemIndex !== -1) {
+      this.cart[existingItemIndex].piece += item.piece;
     } else {
       this.cart.push(item);
     }
@@ -35,6 +43,13 @@ export class CartService {
   }
 
   removeFromCart(item: CartItem) {
+    // Session Storage'den mevcut sepeti al
+    const cartFromStorage = window.sessionStorage.getItem('cart');
+    if (cartFromStorage) {
+      this.cart = JSON.parse(cartFromStorage);
+    }
+
+    // Ürünü sepetten kaldır
     const index = this.cart.findIndex(
       (cartItem) => cartItem.productId === item.productId
     );

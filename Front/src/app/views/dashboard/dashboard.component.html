@@ -23,27 +23,29 @@
           class="form-control"
           type="text"
           #productBrand
-          (keyup.enter)="updateProductBrand(productBrand.value)"
+          (keyup.enter)="updateProductBrand(productBrand?.value)"
         />
       </div>
     </div>
 
     <div class="row d-flex justify-content-around">
       <c-card class="col-3 m-5 d-flex" *ngFor="let d of products">
-        <img cCardImg="top" src="{{ d.pictureUrl }}" height="300" />
+        <img cCardImg="top" src="{{ d?.pictureUrl }}" height="300" />
         <c-card-body>
-          <h4 class="strong" cCardTitle>{{ d.productBrand }} : {{ d.name }}</h4>
+          <h4 class="strong" cCardTitle>
+            {{ d?.productBrand }} : {{ d?.name }}
+          </h4>
           <p cCardText>
-            {{ d.description }}
+            {{ d?.description }}
           </p>
-          <p>Type : {{ d.productType }}</p>
-          <p>Price : {{ d.price }} $</p>
+          <p>Type : {{ d?.productType }}</p>
+          <p>Price : {{ d?.price }} $</p>
         </c-card-body>
         <c-card-footer class="bg-transparent">
           <div class="d-flex justify-content-around">
-            <div class="my-auto">Storage : {{ d.piece }}</div>
+            <div class="my-auto">Storage : {{ d?.piece }}</div>
             <button
-              (click)="navigateToProductPage(d.id)"
+              (click)="navigateToProductPage(d?.id)"
               class="btn btn-success text-light"
             >
               Buy
@@ -67,15 +69,15 @@
       <tbody>
         <tr *ngFor="let d of products">
           <th scope="row">
-            <img src="{{ d.pictureUrl }}" width="100" />
+            <img src="{{ d?.pictureUrl }}" width="100" />
           </th>
 
-          <th scope="row">{{ d.name }}</th>
-          <td>{{ d.description }}</td>
-          <td>{{ d.price }}</td>
-          <td>{{ d.piece }}</td>
-          <td>{{ d.productBrand }}</td>
-          <td>{{ d.productType }}</td>
+          <th scope="row">{{ d?.name }}</th>
+          <td>{{ d?.description }}</td>
+          <td>{{ d?.price }}</td>
+          <td>{{ d?.piece }}</td>
+          <td>{{ d?.productBrand }}</td>
+          <td>{{ d?.productType }}</td>
         </tr>
       </tbody>
     </table> -->

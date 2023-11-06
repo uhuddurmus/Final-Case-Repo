@@ -5,18 +5,18 @@ import { ChartjsModule } from '@coreui/angular-chartjs';
 import { IconSetService } from '@coreui/icons-angular';
 import { iconSubset } from '../../icons/icon-subset';
 import { DocsComponentsModule } from '../../../components';
-import { ChartsComponent } from './charts.component';
+import { CartComponent } from './cart.component';
 
-describe('ChartsComponent', () => {
-  let component: ChartsComponent;
-  let fixture: ComponentFixture<ChartsComponent>;
+describe('CartComponent', () => {
+  let component: CartComponent;
+  let fixture: ComponentFixture<CartComponent>;
   let iconSetService: IconSetService;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ChartsComponent],
+      declarations: [CartComponent],
       imports: [GridModule, CardModule, DocsComponentsModule, ChartjsModule],
-      providers: [IconSetService]
+      providers: [IconSetService],
     }).compileComponents();
   }));
 
@@ -24,7 +24,7 @@ describe('ChartsComponent', () => {
     iconSetService = TestBed.inject(IconSetService);
     iconSetService.icons = { ...iconSubset };
 
-    fixture = TestBed.createComponent(ChartsComponent);
+    fixture = TestBed.createComponent(CartComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

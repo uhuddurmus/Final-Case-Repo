@@ -56,14 +56,14 @@ const routes: Routes = [
           import('./views/forms/forms.module').then((m) => m.CoreUIFormsModule),
       },
       {
-        path: 'charts',
+        path: 'cart',
         loadChildren: () =>
-          import('./views/charts/charts.module').then((m) => m.ChartsModule),
+          import('./views/cart/cart.module').then((m) => m.CartModule),
       },
       {
         path: 'product/:id',
         loadChildren: () =>
-          import('./views/icons/product.module').then((m) => m.ProductModule),
+          import('./views/product/product.module').then((m) => m.ProductModule),
       },
       {
         path: 'notifications',

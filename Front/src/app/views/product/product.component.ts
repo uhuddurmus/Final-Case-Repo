@@ -2,10 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ProductService } from 'src/app/services/product.service';
 import { StorageService } from 'src/app/services/storage.service';
-import { CartService } from 'src/app/services/cart.service';
+import { CartItem, CartService } from 'src/app/services/cart.service';
+import { ToastrService } from 'ngx-toastr';
 @Component({
   templateUrl: 'product.component.html',
-  providers: [],
+  providers: [CartService],
 })
 export class ProductComponent implements OnInit {
   id: string = '';
@@ -13,11 +14,23 @@ export class ProductComponent implements OnInit {
   tax: any = 18;
   count: number = 1;
   product: any = undefined;
+  cart: CartItem = {
+    productId: '',
+    name: '',
+    description: '',
+    price: '',
+    pictureUrl: '',
+    productType: '',
+    productBrand: '',
+    piece: '',
+    status: '',
+  };
   constructor(
     private router: Router,
     private CartService: CartService,
     private storage: StorageService,
-    private productService: ProductService
+    private productService: ProductService,
+    private toastr: ToastrService
   ) {}
   up() {
     if (this.count <= this.product.piece - 1) {
@@ -44,5 +57,19 @@ export class ProductComponent implements OnInit {
       }
     );
   }
-  addTocard() {}
+
+  addTocart() {
+    this.cart.productId = this.product.productId;
+    this.cart.name = this.product.name;
+    this.cart.description = this.product.description;
+    this.cart.price = this.product.price;
+    this.cart.pictureUrl = this.product.pictureUrl;
+    this.cart.productType = this.product.productType;
+    this.cart.productBrand = this.product.productBrand;
+    this.cart.piece = this.count;
+    this.cart.status = 'pending';
+    this.CartService.addToCart(this.cart);
+    this.toastr.info('Added to Cart');
+    this.router.navigate(['/cart']);
+  }
 }
