@@ -18,6 +18,11 @@ export class PaymentComponent implements OnInit {
   debt: number = 0;
   cartItems: any; // Sepet öğelerini saklayacak bir dizi
   eftaMounth: any;
+  cardHolder: any;
+  cardNumber: any;
+  exDate: any;
+  cvv: any;
+  isButtonActive: boolean = false;
   constructor(
     private storage: StorageService,
     private PaymentService: PaymentService,
@@ -27,6 +32,23 @@ export class PaymentComponent implements OnInit {
     private OrderService: OrderService,
     private router: Router
   ) {}
+
+  updatecardHolder(str: any) {
+    this.cardHolder = str;
+    this.checkButtonState();
+  }
+  updatecordNumber(str: any) {
+    this.cardNumber = str;
+    this.checkButtonState();
+  }
+  updateexDate(str: any) {
+    this.exDate = str;
+    this.checkButtonState();
+  }
+  updatecvv(str: any) {
+    this.cvv = str;
+    this.checkButtonState();
+  }
 
   ngOnInit(): void {
     this.getAllCartItems();
@@ -40,6 +62,20 @@ export class PaymentComponent implements OnInit {
     this.cartItems = this.cartService.getAllCart();
     this.wallet = this.storage.getUserInfo().credit;
     this.debt = this.calculateTotal();
+  }
+  checkButtonState() {
+    const isCardHolderValid = this.cardHolder.length >= 4;
+    const isCardNumberValid =
+      !isNaN(parseFloat(this.cardNumber)) && this.cardNumber.length === 16;
+    const isExDateValid =
+      !isNaN(parseFloat(this.exDate)) && this.exDate.length === 4;
+    const isCvvValid = !isNaN(parseFloat(this.cvv)) && this.cvv.length === 3;
+
+    // Check all conditions to determine the button state
+    console.log();
+    this.isButtonActive =
+      isCardHolderValid && isCardNumberValid && isExDateValid && isCvvValid;
+    return this.isButtonActive;
   }
   startEft() {
     this.PaymentService.makePayment(this.eftaMounth, false).subscribe(
@@ -84,6 +120,34 @@ export class PaymentComponent implements OnInit {
         this.toastr.error('Payment error');
       }
     );
+    const orderObservables = this.cartItems.map((element: any) => {
+      return this.OrderService.postOrder(element);
+    });
+
+    forkJoin(orderObservables).subscribe(
+      (responses: any) => {
+        console.log('All orders created:', responses);
+        this.cartService.removeAllFromCart();
+        this.toastr.success('Payment Success');
+        this.userService.getUserDataInfo().subscribe({
+          next: (data) => {
+            this.storage.saveUserInfo(data.response);
+            this.getAllCartItems();
+          },
+          error: (err) => {},
+        });
+        this.navigateToHome();
+        // Tüm siparişler tamamlandıktan sonra bu kısımda yapmak istediğiniz işlemi ekleyebilirsiniz.
+      },
+      (error: any) => {
+        console.error('Order creation error:', error);
+        this.toastr.error('Payment error');
+
+        // Sipariş oluşturma sırasında bir hata oluşursa bu kısmı işleyebilirsiniz.
+      }
+    );
+  }
+  buyWithCard() {
     const orderObservables = this.cartItems.map((element: any) => {
       return this.OrderService.postOrder(element);
     });

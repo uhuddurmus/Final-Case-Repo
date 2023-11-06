@@ -66,7 +66,67 @@
       <div class="col-md-6">
         <div class="card">
           <div class="card-header">Pay Witch Card</div>
-          <div class="card-body"></div>
+          <div class="card-body">
+            <div>
+              <p style="font-weight: bold">Card info:</p>
+              <br />
+              <div class="form-group">
+                <label for="cardHolderName">Card Holder Name:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  #cardHolderName
+                  (keyup)="updatecardHolder(cardHolderName.value)"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="cardNumber">Card Number:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  #cardNumber
+                  maxlength="16"
+                  (keyup)="updatecordNumber(cardNumber.value)"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="number">Card Expiration Date:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  maxlength="4"
+                  #expirationDate
+                  (keyup)="updateexDate(expirationDate.value)"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="cardCvv">Card CVV:</label>
+                <input
+                  type="text"
+                  maxlength="3"
+                  class="form-control"
+                  #cardCvv
+                  (keyup)="updatecvv(cardCvv.value)"
+                  required
+                />
+              </div>
+            </div>
+            <div class="mt-2 text-center">
+              <button
+                (click)="buyWithCard()"
+                *ngIf="isButtonActive == true"
+                class="btn btn-success"
+              >
+                Buy With Card
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
