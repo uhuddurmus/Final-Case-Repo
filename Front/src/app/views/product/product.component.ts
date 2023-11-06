@@ -10,11 +10,13 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class ProductComponent implements OnInit {
   id: string = '';
+  userId: any;
   gain: any = 0;
   tax: any = 18;
   count: number = 1;
   product: any = undefined;
   cart: CartItem = {
+    userId: '',
     productId: '',
     name: '',
     description: '',
@@ -45,6 +47,7 @@ export class ProductComponent implements OnInit {
   ngOnInit() {
     this.id = this.router.url.slice(9);
     this.gain = this.storage.getUserInfo().profit;
+    this.userId = this.storage.getUserInfo().id;
     this.productService.getProductById(this.id, this.gain, this.tax).subscribe(
       (response) => {
         // İşlem başarılı olduğunda response işlenebilir.
@@ -59,15 +62,16 @@ export class ProductComponent implements OnInit {
   }
 
   addTocart() {
+    this.cart.userId = this.userId;
     this.cart.productId = this.product.id;
     this.cart.name = this.product.name;
     this.cart.description = this.product.description;
-    this.cart.price = this.product.price;
+    this.cart.price = Math.floor(this.product.price);
     this.cart.pictureUrl = this.product.pictureUrl;
     this.cart.productType = this.product.productType;
     this.cart.productBrand = this.product.productBrand;
     this.cart.piece = this.count;
-    this.cart.status = 'pending';
+    this.cart.status = 'active';
     this.CartService.addToCart(this.cart);
     this.toastr.info('Added to Cart');
     this.router.navigate(['/cart']);

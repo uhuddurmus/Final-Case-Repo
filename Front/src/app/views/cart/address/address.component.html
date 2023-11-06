@@ -8,9 +8,14 @@
       <p><strong>City:</strong> {{ address[0].city }}</p>
       <p><strong>County:</strong> {{ address[0].county }}</p>
       <p><strong>Postal Code:</strong> {{ address[0].postalCode }}</p>
-      <button (click)="goPayment()" class="btn btn-primary float-end">
-        Go Payment
-      </button>
+      <div class="d-flex justify-content-between">
+        <button (click)="goOrder()" class="btn btn-danger float-end">
+          Go Orders
+        </button>
+        <button (click)="goPayment()" class="btn btn-success float-end">
+          Go Payment
+        </button>
+      </div>
     </div>
   </div>
 

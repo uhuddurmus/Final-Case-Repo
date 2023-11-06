@@ -9588,3 +9588,1840 @@ QueryString:
 StatusCode: 200 
 Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":5000,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
 2023-11-06 21:26:23.704 [INF] -------------Request-End------------
+2023-11-06 21:28:23.455 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:28:23.457 [INF] HeartBeat
+2023-11-06 21:28:23.458 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:28:23.459 [INF] -------------Request-Begin------------
+2023-11-06 21:28:23.460 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {
+  "userId": 0,
+  "productId": 0,
+  "name": "string",
+  "description": "string",
+  "price": 0,
+  "pictureUrl": "string",
+  "productType": "string",
+  "productBrand": "string",
+  "piece": 0,
+  "status": "string"
+}
+2023-11-06 21:28:23.461 [INF] 
+
+2023-11-06 21:28:23.462 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-06 21:28:23.463 [INF] -------------Request-End------------
+2023-11-06 21:29:28.865 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:29:28.866 [INF] HeartBeat
+2023-11-06 21:29:28.867 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:29:28.870 [INF] -------------Request-Begin------------
+2023-11-06 21:29:28.871 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:29:28.872 [INF] 
+
+2023-11-06 21:29:28.873 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":5000,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:29:28.875 [INF] -------------Request-End------------
+2023-11-06 21:30:21.186 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:30:21.187 [INF] HeartBeat
+2023-11-06 21:30:21.188 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:30:21.191 [INF] -------------Request-Begin------------
+2023-11-06 21:30:21.192 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:30:21.193 [INF] 
+
+2023-11-06 21:30:21.194 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":5000,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:30:21.195 [INF] -------------Request-End------------
+2023-11-06 21:31:20.532 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:31:20.533 [INF] HeartBeat
+2023-11-06 21:31:20.533 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:31:20.536 [INF] -------------Request-Begin------------
+2023-11-06 21:31:20.537 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:31:20.538 [INF] 
+
+2023-11-06 21:31:20.539 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":5000,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:31:20.541 [INF] -------------Request-End------------
+2023-11-06 21:32:20.630 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:32:20.631 [INF] HeartBeat
+2023-11-06 21:32:20.632 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:32:20.635 [INF] -------------Request-Begin------------
+2023-11-06 21:32:20.636 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:32:20.637 [INF] 
+
+2023-11-06 21:32:20.638 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":5000,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:32:20.640 [INF] -------------Request-End------------
+2023-11-06 21:34:07.699 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:34:07.700 [INF] HeartBeat
+2023-11-06 21:34:07.701 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:34:07.704 [INF] -------------Request-Begin------------
+2023-11-06 21:34:07.705 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:34:07.706 [INF] 
+
+2023-11-06 21:34:07.707 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":5000,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:34:07.709 [INF] -------------Request-End------------
+2023-11-06 21:37:22.096 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:37:22.097 [INF] HeartBeat
+2023-11-06 21:37:22.099 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:37:22.102 [INF] -------------Request-Begin------------
+2023-11-06 21:37:22.103 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:37:22.104 [INF] 
+
+2023-11-06 21:37:22.104 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":5000,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:37:22.106 [INF] -------------Request-End------------
+2023-11-06 21:37:28.380 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:37:28.381 [INF] HeartBeat
+2023-11-06 21:37:28.381 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:37:28.385 [INF] -------------Request-Begin------------
+2023-11-06 21:37:28.385 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 21:37:28.386 [INF] 
+
+2023-11-06 21:37:28.387 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 21:37:28.390 [INF] -------------Request-End------------
+2023-11-06 21:37:29.122 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:37:29.123 [INF] HeartBeat
+2023-11-06 21:37:29.124 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:37:29.128 [INF] -------------Request-Begin------------
+2023-11-06 21:37:29.129 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 21:37:29.130 [INF] 
+
+2023-11-06 21:37:29.131 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 21:37:29.135 [INF] -------------Request-End------------
+2023-11-06 21:37:31.417 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:37:31.417 [INF] HeartBeat
+2023-11-06 21:37:31.418 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:37:31.421 [INF] -------------Request-Begin------------
+2023-11-06 21:37:31.422 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=5&gain=10&tax=18 
+Request Body: 
+2023-11-06 21:37:31.423 [INF] 
+
+2023-11-06 21:37:31.424 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=5&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65}}
+2023-11-06 21:37:31.426 [INF] -------------Request-End------------
+2023-11-06 21:37:35.963 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:37:35.964 [INF] HeartBeat
+2023-11-06 21:37:35.964 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:37:35.968 [INF] -------------Request-Begin------------
+2023-11-06 21:37:35.968 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 21:37:35.969 [INF] 
+
+2023-11-06 21:37:35.970 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 21:37:35.973 [INF] -------------Request-End------------
+2023-11-06 21:37:36.495 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:37:36.496 [INF] HeartBeat
+2023-11-06 21:37:36.497 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:37:36.500 [INF] -------------Request-Begin------------
+2023-11-06 21:37:36.501 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 21:37:36.502 [INF] 
+
+2023-11-06 21:37:36.503 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 21:37:36.506 [INF] -------------Request-End------------
+2023-11-06 21:37:37.362 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:37:37.364 [INF] HeartBeat
+2023-11-06 21:37:37.364 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:37:37.367 [INF] -------------Request-Begin------------
+2023-11-06 21:37:37.368 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=1&gain=10&tax=18 
+Request Body: 
+2023-11-06 21:37:37.369 [INF] 
+
+2023-11-06 21:37:37.370 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=1&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3}}
+2023-11-06 21:37:37.371 [INF] -------------Request-End------------
+2023-11-06 21:38:34.076 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:38:34.077 [INF] HeartBeat
+2023-11-06 21:38:34.078 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:38:34.081 [INF] -------------Request-Begin------------
+2023-11-06 21:38:34.081 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:38:34.082 [INF] 
+
+2023-11-06 21:38:34.083 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":5000,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:38:34.085 [INF] -------------Request-End------------
+2023-11-06 21:38:54.511 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:38:54.512 [INF] HeartBeat
+2023-11-06 21:38:54.512 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:38:54.515 [INF] -------------Request-Begin------------
+2023-11-06 21:38:54.516 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 21:38:54.517 [INF] 
+
+2023-11-06 21:38:54.518 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 21:38:54.520 [INF] -------------Request-End------------
+2023-11-06 21:38:54.915 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:38:54.916 [INF] HeartBeat
+2023-11-06 21:38:54.917 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:38:54.920 [INF] -------------Request-Begin------------
+2023-11-06 21:38:54.921 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 21:38:54.922 [INF] 
+
+2023-11-06 21:38:54.923 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 21:38:54.926 [INF] -------------Request-End------------
+2023-11-06 21:38:56.192 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:38:56.193 [INF] HeartBeat
+2023-11-06 21:38:56.194 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:38:56.197 [INF] -------------Request-Begin------------
+2023-11-06 21:38:56.198 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-06 21:38:56.199 [INF] 
+
+2023-11-06 21:38:56.200 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5}}
+2023-11-06 21:38:56.201 [INF] -------------Request-End------------
+2023-11-06 21:43:35.811 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:43:35.812 [INF] HeartBeat
+2023-11-06 21:43:35.813 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:43:35.817 [INF] -------------Request-Begin------------
+2023-11-06 21:43:35.818 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:43:35.819 [INF] 
+
+2023-11-06 21:43:35.820 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":5000,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:43:35.822 [INF] -------------Request-End------------
+2023-11-06 21:44:10.847 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:44:10.848 [INF] HeartBeat
+2023-11-06 21:44:10.849 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:44:10.852 [INF] -------------Request-Begin------------
+2023-11-06 21:44:10.853 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:44:10.854 [INF] 
+
+2023-11-06 21:44:10.854 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":5000,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:44:10.856 [INF] -------------Request-End------------
+2023-11-06 21:44:58.898 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:44:58.899 [INF] HeartBeat
+2023-11-06 21:44:58.900 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:44:58.903 [INF] -------------Request-Begin------------
+2023-11-06 21:44:58.904 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:44:58.905 [INF] 
+
+2023-11-06 21:44:58.907 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":5000,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:44:58.909 [INF] -------------Request-End------------
+2023-11-06 21:48:26.926 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:48:26.927 [INF] HeartBeat
+2023-11-06 21:48:26.928 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:48:26.931 [INF] -------------Request-Begin------------
+2023-11-06 21:48:26.932 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:48:26.933 [INF] 
+
+2023-11-06 21:48:26.934 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":5000,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:48:26.936 [INF] -------------Request-End------------
+2023-11-06 21:48:35.264 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:48:35.264 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:48:35.266 [INF] HeartBeat
+2023-11-06 21:48:35.268 [INF] HeartBeat
+2023-11-06 21:48:35.269 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:48:35.270 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:48:35.273 [INF] -------------Request-Begin------------
+2023-11-06 21:48:35.273 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"active"}
+2023-11-06 21:48:35.275 [INF] 
+
+2023-11-06 21:48:35.275 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-06 21:48:35.276 [INF] -------------Request-Begin------------
+2023-11-06 21:48:35.277 [INF] -------------Request-End------------
+2023-11-06 21:48:35.278 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=2333.804&isPayment=true 
+Request Body: {"headers":{"normalizedNames":{},"lazyUpdate":null}
+2023-11-06 21:48:35.280 [INF] 
+
+2023-11-06 21:48:35.281 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=2333.804&isPayment=true 
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-ad78acd7bc1a5b131459d07aa9b049ef-390d8fa4e6ff1b5c-00","errors":{"credit":["The value '2333.804' is not valid."]}}
+2023-11-06 21:48:35.282 [INF] -------------Request-End------------
+2023-11-06 21:50:06.136 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:50:06.137 [INF] HeartBeat
+2023-11-06 21:50:06.138 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:50:06.142 [INF] -------------Request-Begin------------
+2023-11-06 21:50:06.142 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:50:06.143 [INF] 
+
+2023-11-06 21:50:06.144 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":5000,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:50:06.146 [INF] -------------Request-End------------
+2023-11-06 21:52:12.106 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:52:12.107 [INF] HeartBeat
+2023-11-06 21:52:12.108 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:52:12.111 [INF] -------------Request-Begin------------
+2023-11-06 21:52:12.112 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:52:12.113 [INF] 
+
+2023-11-06 21:52:12.115 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":5000,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:52:12.117 [INF] -------------Request-End------------
+2023-11-06 21:52:13.821 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:52:13.821 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:52:13.822 [INF] HeartBeat
+2023-11-06 21:52:13.823 [INF] HeartBeat
+2023-11-06 21:52:13.823 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:52:13.824 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:52:13.826 [INF] -------------Request-Begin------------
+2023-11-06 21:52:13.827 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"active"}
+2023-11-06 21:52:13.828 [INF] -------------Request-Begin------------
+2023-11-06 21:52:13.828 [INF] 
+
+2023-11-06 21:52:13.829 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=2333&isPayment=true 
+Request Body: {"headers":{"normalizedNames":{},"lazyUpdate":null}
+2023-11-06 21:52:13.830 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-06 21:52:13.832 [INF] 
+
+2023-11-06 21:52:13.832 [INF] -------------Request-End------------
+2023-11-06 21:52:13.833 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=2333&isPayment=true 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Success!"}
+2023-11-06 21:52:13.835 [INF] -------------Request-End------------
+2023-11-06 21:52:43.310 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:52:43.310 [INF] HeartBeat
+2023-11-06 21:52:43.311 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:52:43.335 [INF] -------------Request-Begin------------
+2023-11-06 21:52:43.337 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+Request Body: 
+2023-11-06 21:52:43.338 [INF] 
+
+2023-11-06 21:52:43.339 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:52:43.340 [INF] -------------Request-End------------
+2023-11-06 21:52:45.722 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:52:45.722 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:52:45.725 [INF] HeartBeat
+2023-11-06 21:52:45.726 [INF] HeartBeat
+2023-11-06 21:52:45.727 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:52:45.728 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:52:45.730 [INF] -------------Request-Begin------------
+2023-11-06 21:52:45.734 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:52:45.735 [INF] 
+
+2023-11-06 21:52:45.737 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2667,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:52:45.737 [INF] -------------Request-Begin------------
+2023-11-06 21:52:45.739 [INF] -------------Request-End------------
+2023-11-06 21:52:45.739 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+Request Body: 
+2023-11-06 21:52:45.741 [INF] 
+
+2023-11-06 21:52:45.742 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:52:45.743 [INF] -------------Request-End------------
+2023-11-06 21:52:46.634 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:52:46.635 [INF] HeartBeat
+2023-11-06 21:52:46.636 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:52:46.637 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:52:46.638 [INF] HeartBeat
+2023-11-06 21:52:46.639 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:52:46.640 [INF] -------------Request-Begin------------
+2023-11-06 21:52:46.642 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:52:46.643 [INF] 
+
+2023-11-06 21:52:46.644 [INF] -------------Request-Begin------------
+2023-11-06 21:52:46.645 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2667,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:52:46.645 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+Request Body: 
+2023-11-06 21:52:46.647 [INF] -------------Request-End------------
+2023-11-06 21:52:46.648 [INF] 
+
+2023-11-06 21:52:46.650 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:52:46.652 [INF] -------------Request-End------------
+2023-11-06 21:52:55.279 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:52:55.279 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:52:55.280 [INF] HeartBeat
+2023-11-06 21:52:55.281 [INF] HeartBeat
+2023-11-06 21:52:55.282 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:52:55.282 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:52:55.284 [INF] -------------Request-Begin------------
+2023-11-06 21:52:55.285 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"active"}
+2023-11-06 21:52:55.286 [INF] -------------Request-Begin------------
+2023-11-06 21:52:55.286 [INF] 
+
+2023-11-06 21:52:55.287 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=2333&isPayment=true 
+Request Body: {"headers":{"normalizedNames":{},"lazyUpdate":null}
+2023-11-06 21:52:55.288 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2023-11-06 21:52:55.289 [INF] 
+
+2023-11-06 21:52:55.290 [INF] -------------Request-End------------
+2023-11-06 21:52:55.291 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=2333&isPayment=true 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Success!"}
+2023-11-06 21:52:55.293 [INF] -------------Request-End------------
+2023-11-06 21:53:51.929 [INF] App server is starting.
+2023-11-06 21:54:27.532 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:54:27.535 [INF] HeartBeat
+2023-11-06 21:54:27.536 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:54:28.017 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:54:28.019 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:54:28.020 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-06 21:54:28.024 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-06 21:54:28.569 [INF] -------------Request-Begin------------
+2023-11-06 21:54:28.570 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {"email":"ahmet@gmail.com","password":"hello"}
+2023-11-06 21:54:28.571 [INF] 
+
+2023-11-06 21:54:28.572 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-07T02:54:28.5562895+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjIiLCJSb2xlIjoidXNlciIsIkVtYWlsIjoiYWhtZXRAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoidXNlciIsIkZ1bGxOYW1lIjoiQWhtZXQgWcSxbG1heiIsImV4cCI6MTY5OTMxNDg2OCwiaXNzIjoiVmtBcGkiLCJhdWQiOiJWa0FwaSJ9.72sNu6hvR9RNv20GKrAOG_FXAllINYN2duaSTGjDD-M","email":"ahmet@gmail.com"}}
+2023-11-06 21:54:28.573 [INF] -------------Request-End------------
+2023-11-06 21:54:28.595 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:54:28.596 [INF] HeartBeat
+2023-11-06 21:54:28.597 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:54:28.726 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2023-11-06 21:54:28.793 [INF] -------------Request-Begin------------
+2023-11-06 21:54:28.794 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:54:28.795 [INF] 
+
+2023-11-06 21:54:28.796 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2000,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:54:28.798 [INF] -------------Request-End------------
+2023-11-06 21:54:29.399 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:54:29.399 [INF] HeartBeat
+2023-11-06 21:54:29.400 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:54:29.458 [INF] -------------Request-Begin------------
+2023-11-06 21:54:29.459 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 21:54:29.461 [INF] 
+
+2023-11-06 21:54:29.461 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 21:54:29.473 [INF] -------------Request-End------------
+2023-11-06 21:54:32.348 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:54:32.349 [INF] HeartBeat
+2023-11-06 21:54:32.350 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:54:32.364 [INF] -------------Request-Begin------------
+2023-11-06 21:54:32.365 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-06 21:54:32.366 [INF] 
+
+2023-11-06 21:54:32.367 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5}}
+2023-11-06 21:54:32.368 [INF] -------------Request-End------------
+2023-11-06 21:54:36.765 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:54:36.766 [INF] HeartBeat
+2023-11-06 21:54:36.766 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:54:36.772 [INF] -------------Request-Begin------------
+2023-11-06 21:54:36.773 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 21:54:36.774 [INF] 
+
+2023-11-06 21:54:36.775 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 21:54:36.778 [INF] -------------Request-End------------
+2023-11-06 21:54:37.233 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:54:37.233 [INF] HeartBeat
+2023-11-06 21:54:37.234 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:54:37.240 [INF] -------------Request-Begin------------
+2023-11-06 21:54:37.241 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 21:54:37.242 [INF] 
+
+2023-11-06 21:54:37.243 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 21:54:37.245 [INF] -------------Request-End------------
+2023-11-06 21:54:39.919 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:54:39.919 [INF] HeartBeat
+2023-11-06 21:54:39.920 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:54:39.925 [INF] -------------Request-Begin------------
+2023-11-06 21:54:39.925 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=1&gain=10&tax=18 
+Request Body: 
+2023-11-06 21:54:39.927 [INF] 
+
+2023-11-06 21:54:39.927 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=1&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3}}
+2023-11-06 21:54:39.929 [INF] -------------Request-End------------
+2023-11-06 21:54:54.001 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:54:54.002 [INF] HeartBeat
+2023-11-06 21:54:54.002 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:54:54.002 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:54:54.003 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:54:54.006 [INF] HeartBeat
+2023-11-06 21:54:54.006 [INF] HeartBeat
+2023-11-06 21:54:54.007 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:54:54.008 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:54:54.023 [INF] -------------Request-Begin------------
+2023-11-06 21:54:54.023 [INF] -------------Request-Begin------------
+2023-11-06 21:54:54.024 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}
+2023-11-06 21:54:54.025 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}
+2023-11-06 21:54:54.026 [INF] 
+
+2023-11-06 21:54:54.027 [INF] 
+
+2023-11-06 21:54:54.028 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-2ead2e421594bb54e71800de1ba4d1da-b8fdb054347b6353-00","errors":{"request":["The request field is required."],"$.price":["The JSON value could not be converted to System.Int32. Path: $.price | LineNumber: 0 | BytePositionInLine: 119."]}
+2023-11-06 21:54:54.029 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 400 
+Response Body: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-b4fa908d9312ad19e3a6b1416117a634-7918f23f131bdf8f-00","errors":{"request":["The request field is required."],"$.price":["The JSON value could not be converted to System.Int32. Path: $.price | LineNumber: 0 | BytePositionInLine: 178."]}
+2023-11-06 21:54:54.030 [INF] -------------Request-End------------
+2023-11-06 21:54:54.032 [INF] -------------Request-End------------
+2023-11-06 21:54:54.102 [INF] -------------Request-Begin------------
+2023-11-06 21:54:54.103 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=1879&isPayment=true 
+Request Body: {"headers":{"normalizedNames":{},"lazyUpdate":null}
+2023-11-06 21:54:54.104 [INF] 
+
+2023-11-06 21:54:54.105 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=1879&isPayment=true 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Success!"}
+2023-11-06 21:54:54.106 [INF] -------------Request-End------------
+2023-11-06 21:57:17.476 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:57:17.477 [INF] HeartBeat
+2023-11-06 21:57:17.478 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:57:17.484 [INF] -------------Request-Begin------------
+2023-11-06 21:57:17.484 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:57:17.486 [INF] 
+
+2023-11-06 21:57:17.486 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":121,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:57:17.488 [INF] -------------Request-End------------
+2023-11-06 21:57:19.374 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:57:19.375 [INF] HeartBeat
+2023-11-06 21:57:19.376 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:57:19.379 [INF] -------------Request-Begin------------
+2023-11-06 21:57:19.380 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 21:57:19.381 [INF] 
+
+2023-11-06 21:57:19.382 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 21:57:19.385 [INF] -------------Request-End------------
+2023-11-06 21:57:20.054 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:57:20.055 [INF] HeartBeat
+2023-11-06 21:57:20.056 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:57:20.060 [INF] -------------Request-Begin------------
+2023-11-06 21:57:20.061 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 21:57:20.062 [INF] 
+
+2023-11-06 21:57:20.063 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 21:57:20.066 [INF] -------------Request-End------------
+2023-11-06 21:57:29.002 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:57:29.004 [INF] HeartBeat
+2023-11-06 21:57:29.004 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:57:29.010 [INF] -------------Request-Begin------------
+2023-11-06 21:57:29.010 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=1&gain=10&tax=18 
+Request Body: 
+2023-11-06 21:57:29.011 [INF] 
+
+2023-11-06 21:57:29.012 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=1&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3}}
+2023-11-06 21:57:29.013 [INF] -------------Request-End------------
+2023-11-06 21:57:40.085 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:57:40.086 [INF] HeartBeat
+2023-11-06 21:57:40.087 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:57:40.091 [INF] -------------Request-Begin------------
+2023-11-06 21:57:40.092 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 21:57:40.093 [INF] 
+
+2023-11-06 21:57:40.094 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 21:57:40.097 [INF] -------------Request-End------------
+2023-11-06 21:57:41.047 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:57:41.048 [INF] HeartBeat
+2023-11-06 21:57:41.049 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:57:41.053 [INF] -------------Request-Begin------------
+2023-11-06 21:57:41.054 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 21:57:41.055 [INF] 
+
+2023-11-06 21:57:41.056 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 21:57:41.059 [INF] -------------Request-End------------
+2023-11-06 21:57:43.709 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:57:43.710 [INF] HeartBeat
+2023-11-06 21:57:43.711 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:57:43.714 [INF] -------------Request-Begin------------
+2023-11-06 21:57:43.715 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-06 21:57:43.717 [INF] 
+
+2023-11-06 21:57:43.717 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":5}}
+2023-11-06 21:57:43.718 [INF] -------------Request-End------------
+2023-11-06 21:58:01.076 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:58:01.077 [INF] HeartBeat
+2023-11-06 21:58:01.078 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:58:01.084 [INF] -------------Request-Begin------------
+2023-11-06 21:58:01.085 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=2000&isPayment=false 
+Request Body: {"headers":{"normalizedNames":{},"lazyUpdate":null}
+2023-11-06 21:58:01.086 [INF] 
+
+2023-11-06 21:58:01.087 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=2000&isPayment=false 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Success!"}
+2023-11-06 21:58:01.088 [INF] -------------Request-End------------
+2023-11-06 21:58:01.095 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:58:01.096 [INF] HeartBeat
+2023-11-06 21:58:01.096 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:58:01.101 [INF] -------------Request-Begin------------
+2023-11-06 21:58:01.102 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:58:01.103 [INF] 
+
+2023-11-06 21:58:01.104 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2121,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:58:01.106 [INF] -------------Request-End------------
+2023-11-06 21:58:06.883 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:58:06.884 [INF] HeartBeat
+2023-11-06 21:58:06.885 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:58:06.885 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:58:06.884 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:58:06.888 [INF] HeartBeat
+2023-11-06 21:58:06.889 [INF] HeartBeat
+2023-11-06 21:58:06.890 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:58:06.891 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:58:06.930 [INF] -------------Request-Begin------------
+2023-11-06 21:58:06.931 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=1878&isPayment=true 
+Request Body: {"headers":{"normalizedNames":{},"lazyUpdate":null}
+2023-11-06 21:58:06.935 [INF] 
+
+2023-11-06 21:58:06.938 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=1878&isPayment=true 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Success!"}
+2023-11-06 21:58:06.940 [INF] -------------Request-End------------
+2023-11-06 21:58:07.023 [INF] -------------Request-Begin------------
+2023-11-06 21:58:07.023 [INF] -------------Request-Begin------------
+2023-11-06 21:58:07.024 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}
+2023-11-06 21:58:07.025 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}
+2023-11-06 21:58:07.027 [INF] 
+
+2023-11-06 21:58:07.029 [INF] 
+
+2023-11-06 21:58:07.030 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}}
+2023-11-06 21:58:07.031 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}}
+2023-11-06 21:58:07.032 [INF] -------------Request-End------------
+2023-11-06 21:58:07.033 [INF] -------------Request-End------------
+2023-11-06 21:58:07.046 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:58:07.047 [INF] HeartBeat
+2023-11-06 21:58:07.048 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:58:07.053 [INF] -------------Request-Begin------------
+2023-11-06 21:58:07.053 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 21:58:07.055 [INF] 
+
+2023-11-06 21:58:07.056 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":243,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:58:07.058 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:58:07.060 [INF] -------------Request-End------------
+2023-11-06 21:58:07.060 [INF] HeartBeat
+2023-11-06 21:58:07.062 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:58:07.066 [INF] -------------Request-Begin------------
+2023-11-06 21:58:07.067 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 21:58:07.068 [INF] 
+
+2023-11-06 21:58:07.069 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":4},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 21:58:07.072 [INF] -------------Request-End------------
+2023-11-06 21:58:16.723 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 21:58:16.724 [INF] HeartBeat
+2023-11-06 21:58:16.725 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 21:58:16.749 [INF] -------------Request-Begin------------
+2023-11-06 21:58:16.750 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+Request Body: 
+2023-11-06 21:58:16.751 [INF] 
+
+2023-11-06 21:58:16.752 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 21:58:16.754 [INF] -------------Request-End------------
+2023-11-06 22:00:29.248 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:00:29.249 [INF] HeartBeat
+2023-11-06 22:00:29.250 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:00:29.267 [INF] -------------Request-Begin------------
+2023-11-06 22:00:29.268 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:00:29.270 [INF] 
+
+2023-11-06 22:00:29.271 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":243,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:00:29.275 [INF] -------------Request-End------------
+2023-11-06 22:00:32.632 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:00:32.633 [INF] HeartBeat
+2023-11-06 22:00:32.634 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:00:32.638 [INF] -------------Request-Begin------------
+2023-11-06 22:00:32.639 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:00:32.641 [INF] 
+
+2023-11-06 22:00:32.641 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":243,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:00:32.643 [INF] -------------Request-End------------
+2023-11-06 22:00:36.056 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:00:36.057 [INF] HeartBeat
+2023-11-06 22:00:36.058 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:00:36.061 [INF] -------------Request-Begin------------
+2023-11-06 22:00:36.061 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 22:00:36.062 [INF] 
+
+2023-11-06 22:00:36.063 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":4},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 22:00:36.066 [INF] -------------Request-End------------
+2023-11-06 22:00:37.109 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:00:37.110 [INF] HeartBeat
+2023-11-06 22:00:37.110 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:00:37.114 [INF] -------------Request-Begin------------
+2023-11-06 22:00:37.115 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 22:00:37.116 [INF] 
+
+2023-11-06 22:00:37.117 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":4},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 22:00:37.120 [INF] -------------Request-End------------
+2023-11-06 22:00:45.897 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:00:45.898 [INF] HeartBeat
+2023-11-06 22:00:45.899 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:00:45.901 [INF] -------------Request-Begin------------
+2023-11-06 22:00:45.902 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 22:00:45.903 [INF] 
+
+2023-11-06 22:00:45.904 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":4},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 22:00:45.907 [INF] -------------Request-End------------
+2023-11-06 22:00:46.490 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:00:46.490 [INF] HeartBeat
+2023-11-06 22:00:46.492 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:00:46.495 [INF] -------------Request-Begin------------
+2023-11-06 22:00:46.496 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 22:00:46.497 [INF] 
+
+2023-11-06 22:00:46.498 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":4},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 22:00:46.501 [INF] -------------Request-End------------
+2023-11-06 22:00:47.618 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:00:47.619 [INF] HeartBeat
+2023-11-06 22:00:47.620 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:00:47.623 [INF] -------------Request-Begin------------
+2023-11-06 22:00:47.624 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-06 22:00:47.625 [INF] 
+
+2023-11-06 22:00:47.626 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":4}}
+2023-11-06 22:00:47.627 [INF] -------------Request-End------------
+2023-11-06 22:00:54.648 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:00:54.649 [INF] HeartBeat
+2023-11-06 22:00:54.650 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:00:54.654 [INF] -------------Request-Begin------------
+2023-11-06 22:00:54.655 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:00:54.656 [INF] 
+
+2023-11-06 22:00:54.657 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":243,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:00:54.660 [INF] -------------Request-End------------
+2023-11-06 22:01:16.356 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:01:16.357 [INF] HeartBeat
+2023-11-06 22:01:16.358 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:01:16.361 [INF] -------------Request-Begin------------
+2023-11-06 22:01:16.362 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:01:16.363 [INF] 
+
+2023-11-06 22:01:16.364 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":243,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:01:16.366 [INF] -------------Request-End------------
+2023-11-06 22:01:19.756 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:01:19.757 [INF] HeartBeat
+2023-11-06 22:01:19.758 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:01:19.762 [INF] -------------Request-Begin------------
+2023-11-06 22:01:19.762 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:01:19.763 [INF] 
+
+2023-11-06 22:01:19.764 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":243,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:01:19.767 [INF] -------------Request-End------------
+2023-11-06 22:01:21.484 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:01:21.485 [INF] HeartBeat
+2023-11-06 22:01:21.486 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:01:21.489 [INF] -------------Request-Begin------------
+2023-11-06 22:01:21.490 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:01:21.491 [INF] 
+
+2023-11-06 22:01:21.491 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":243,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:01:21.494 [INF] -------------Request-End------------
+2023-11-06 22:01:23.469 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:01:23.470 [INF] HeartBeat
+2023-11-06 22:01:23.470 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:01:23.473 [INF] -------------Request-Begin------------
+2023-11-06 22:01:23.474 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 22:01:23.475 [INF] 
+
+2023-11-06 22:01:23.476 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":4},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 22:01:23.478 [INF] -------------Request-End------------
+2023-11-06 22:01:25.305 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:01:25.305 [INF] HeartBeat
+2023-11-06 22:01:25.306 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:01:25.309 [INF] -------------Request-Begin------------
+2023-11-06 22:01:25.310 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 22:01:25.311 [INF] 
+
+2023-11-06 22:01:25.311 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":4},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 22:01:25.314 [INF] -------------Request-End------------
+2023-11-06 22:01:25.677 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:01:25.678 [INF] HeartBeat
+2023-11-06 22:01:25.679 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:01:25.682 [INF] -------------Request-Begin------------
+2023-11-06 22:01:25.683 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 22:01:25.684 [INF] 
+
+2023-11-06 22:01:25.685 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":4},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 22:01:25.687 [INF] -------------Request-End------------
+2023-11-06 22:01:26.587 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:01:26.587 [INF] HeartBeat
+2023-11-06 22:01:26.588 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:01:26.591 [INF] -------------Request-Begin------------
+2023-11-06 22:01:26.592 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-06 22:01:26.593 [INF] 
+
+2023-11-06 22:01:26.604 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":4}}
+2023-11-06 22:01:26.606 [INF] -------------Request-End------------
+2023-11-06 22:01:29.066 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:01:29.067 [INF] HeartBeat
+2023-11-06 22:01:29.067 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:01:29.070 [INF] -------------Request-Begin------------
+2023-11-06 22:01:29.071 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 22:01:29.072 [INF] 
+
+2023-11-06 22:01:29.073 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":4},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 22:01:29.075 [INF] -------------Request-End------------
+2023-11-06 22:01:29.967 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:01:29.968 [INF] HeartBeat
+2023-11-06 22:01:29.969 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:01:29.972 [INF] -------------Request-Begin------------
+2023-11-06 22:01:29.973 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 22:01:29.974 [INF] 
+
+2023-11-06 22:01:29.975 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":4},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 22:01:29.978 [INF] -------------Request-End------------
+2023-11-06 22:01:30.671 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:01:30.671 [INF] HeartBeat
+2023-11-06 22:01:30.672 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:01:30.675 [INF] -------------Request-Begin------------
+2023-11-06 22:01:30.675 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=3&gain=10&tax=18 
+Request Body: 
+2023-11-06 22:01:30.676 [INF] 
+
+2023-11-06 22:01:30.677 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=3&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":5}}
+2023-11-06 22:01:30.678 [INF] -------------Request-End------------
+2023-11-06 22:02:09.135 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:02:09.136 [INF] HeartBeat
+2023-11-06 22:02:09.137 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:02:09.140 [INF] -------------Request-Begin------------
+2023-11-06 22:02:09.141 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:02:09.142 [INF] 
+
+2023-11-06 22:02:09.142 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":243,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:02:09.145 [INF] -------------Request-End------------
+2023-11-06 22:02:15.910 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:02:15.911 [INF] HeartBeat
+2023-11-06 22:02:15.912 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:02:15.915 [INF] -------------Request-Begin------------
+2023-11-06 22:02:15.916 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:02:15.917 [INF] 
+
+2023-11-06 22:02:15.918 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":243,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:02:15.921 [INF] -------------Request-End------------
+2023-11-06 22:02:22.099 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:02:22.100 [INF] HeartBeat
+2023-11-06 22:02:22.101 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:02:22.104 [INF] -------------Request-Begin------------
+2023-11-06 22:02:22.105 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:02:22.106 [INF] 
+
+2023-11-06 22:02:22.107 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":243,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:02:22.109 [INF] -------------Request-End------------
+2023-11-06 22:02:44.460 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:02:44.461 [INF] HeartBeat
+2023-11-06 22:02:44.463 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:02:44.466 [INF] -------------Request-Begin------------
+2023-11-06 22:02:44.467 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:02:44.468 [INF] 
+
+2023-11-06 22:02:44.469 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":243,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:02:44.472 [INF] -------------Request-End------------
+2023-11-06 22:02:55.784 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:02:55.784 [INF] HeartBeat
+2023-11-06 22:02:55.785 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:02:55.788 [INF] -------------Request-Begin------------
+2023-11-06 22:02:55.789 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:02:55.790 [INF] 
+
+2023-11-06 22:02:55.791 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":243,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:02:55.793 [INF] -------------Request-End------------
+2023-11-06 22:03:17.094 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:03:17.095 [INF] HeartBeat
+2023-11-06 22:03:17.096 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:03:17.100 [INF] -------------Request-Begin------------
+2023-11-06 22:03:17.101 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:03:17.102 [INF] 
+
+2023-11-06 22:03:17.103 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":243,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:03:17.105 [INF] -------------Request-End------------
+2023-11-06 22:03:24.047 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:03:24.048 [INF] HeartBeat
+2023-11-06 22:03:24.049 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:03:24.064 [INF] -------------Request-Begin------------
+2023-11-06 22:03:24.065 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=5000&isPayment=false 
+Request Body: {"headers":{"normalizedNames":{},"lazyUpdate":null}
+2023-11-06 22:03:24.066 [INF] 
+
+2023-11-06 22:03:24.067 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=5000&isPayment=false 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Success!"}
+2023-11-06 22:03:24.068 [INF] -------------Request-End------------
+2023-11-06 22:03:24.073 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:03:24.074 [INF] HeartBeat
+2023-11-06 22:03:24.074 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:03:24.077 [INF] -------------Request-Begin------------
+2023-11-06 22:03:24.078 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:03:24.079 [INF] 
+
+2023-11-06 22:03:24.081 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":5243,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:03:24.083 [INF] -------------Request-End------------
+2023-11-06 22:03:30.145 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:03:30.147 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:03:30.148 [INF] HeartBeat
+2023-11-06 22:03:30.150 [INF] HeartBeat
+2023-11-06 22:03:30.150 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:03:30.151 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:03:30.166 [INF] -------------Request-Begin------------
+2023-11-06 22:03:30.167 [INF] -------------Request-Begin------------
+2023-11-06 22:03:30.167 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=1621&isPayment=true 
+Request Body: {"headers":{"normalizedNames":{},"lazyUpdate":null}
+2023-11-06 22:03:30.168 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}
+2023-11-06 22:03:30.169 [INF] 
+
+2023-11-06 22:03:30.170 [INF] 
+
+2023-11-06 22:03:30.171 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=1621&isPayment=true 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Success!"}
+2023-11-06 22:03:30.172 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}}
+2023-11-06 22:03:30.173 [INF] -------------Request-End------------
+2023-11-06 22:03:30.174 [INF] -------------Request-End------------
+2023-11-06 22:03:30.183 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:03:30.184 [INF] HeartBeat
+2023-11-06 22:03:30.186 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:03:30.190 [INF] -------------Request-Begin------------
+2023-11-06 22:03:30.191 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:03:30.192 [INF] 
+
+2023-11-06 22:03:30.193 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":3622,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}]}
+2023-11-06 22:03:30.196 [INF] -------------Request-End------------
+2023-11-06 22:03:30.207 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:03:30.208 [INF] HeartBeat
+2023-11-06 22:03:30.209 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:03:30.212 [INF] -------------Request-Begin------------
+2023-11-06 22:03:30.213 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 22:03:30.214 [INF] 
+
+2023-11-06 22:03:30.215 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":4},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":4},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 22:03:30.217 [INF] -------------Request-End------------
+2023-11-06 22:03:32.487 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:03:32.488 [INF] HeartBeat
+2023-11-06 22:03:32.489 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:03:32.493 [INF] -------------Request-Begin------------
+2023-11-06 22:03:32.494 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 22:03:32.495 [INF] 
+
+2023-11-06 22:03:32.496 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":4},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":4},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 22:03:32.499 [INF] -------------Request-End------------
+2023-11-06 22:03:33.755 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:03:33.755 [INF] HeartBeat
+2023-11-06 22:03:33.756 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:03:33.759 [INF] -------------Request-Begin------------
+2023-11-06 22:03:33.759 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-06 22:03:33.761 [INF] 
+
+2023-11-06 22:03:33.761 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":4}}
+2023-11-06 22:03:33.762 [INF] -------------Request-End------------

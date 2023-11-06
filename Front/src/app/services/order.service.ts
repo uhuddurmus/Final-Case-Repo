@@ -24,4 +24,14 @@ export class OrderService {
     const headers = new HttpHeaders().set('accept', 'text/plain');
     return this.http.delete(url, { headers });
   }
+  postOrder(orderData: any): Observable<any> {
+    const url = `${this.baseUrl}Orderes`;
+
+    const headers = new HttpHeaders({
+      'Content-Type': 'application/json',
+      accept: 'text/plain',
+    });
+
+    return this.http.post(url, orderData, { headers });
+  }
 }

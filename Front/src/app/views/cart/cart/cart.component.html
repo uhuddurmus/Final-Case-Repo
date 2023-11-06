@@ -48,6 +48,7 @@
             class="btn btn-success"
             (click)="navigateToAddress()"
             [disabled]="isBuyButtonDisabled()"
+            *ngIf="cartItems.length <= 1"
           >
             Buy
           </button>

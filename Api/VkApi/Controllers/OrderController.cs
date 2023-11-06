@@ -45,7 +45,7 @@ public class OrderesController : ControllerBase
 
 
     [HttpPost]
-    [Authorize(Roles = "admin")]
+    [Authorize(Roles = "admin , user")]
 
     public async Task<ApiResponse<OrderResponse>> Post([FromBody] OrderRequest request)
     {

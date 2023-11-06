@@ -17,7 +17,7 @@ export class CartComponent implements OnInit {
     this.getAllCartItems();
   }
   isBuyButtonDisabled(): boolean {
-    return this.cartItems.length === 0;
+    return this.cartItems.length <= 0;
   }
   getAllCartItems() {
     this.cartItems = this.cartService.getAllCart();

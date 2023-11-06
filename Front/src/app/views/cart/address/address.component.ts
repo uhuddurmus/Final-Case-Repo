@@ -36,6 +36,9 @@ export class AddressComponent implements OnInit {
   goPayment() {
     this.router.navigate([`/cart/payment`]); // Replace 'product' with the actual route path to your product page
   }
+  goOrder() {
+    this.router.navigate([`/cart/list`]); // Replace 'product' with the actual route path to your product page
+  }
   addNewAddress() {
     var id = this.storage.getUserInfo().id;
     this.addressForm.value.userId = id;

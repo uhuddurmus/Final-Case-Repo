@@ -4,6 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class CartItem {
+  userId: any;
   productId: any;
   name: any;
   description: any;
