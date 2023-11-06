@@ -7,11 +7,11 @@ public class CreateAddressValidator : AbstractValidator<AddressRequest>
 {
     public CreateAddressValidator()
     {
-        RuleFor(x => x.AddressLine1).NotEmpty().MinimumLength(5).MaximumLength(50);
-        RuleFor(x => x.AddressLine2).NotEmpty().MinimumLength(5).MaximumLength(50);
+        RuleFor(x => x.AddressLine1).NotEmpty().MinimumLength(1).MaximumLength(50);
+        RuleFor(x => x.AddressLine2).NotEmpty().MinimumLength(1).MaximumLength(50);
         RuleFor(x => x.UserId).NotEqual(0).NotEmpty();
-        RuleFor(x => x.County).NotEmpty().MinimumLength(3).MaximumLength(50);
-        RuleFor(x => x.City).NotEmpty().MinimumLength(3).MaximumLength(50);
-        RuleFor(x => x.PostalCode).NotEmpty().MinimumLength(4).MaximumLength(10);
+        RuleFor(x => x.County).NotEmpty().MinimumLength(1).MaximumLength(50);
+        RuleFor(x => x.City).NotEmpty().MinimumLength(1).MaximumLength(50);
+        RuleFor(x => x.PostalCode).NotEmpty().MinimumLength(1).MaximumLength(10);
     }
 }

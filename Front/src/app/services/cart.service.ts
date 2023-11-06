@@ -28,7 +28,7 @@ export class CartService {
 
     // Sepette aynı ürün varsa miktarını artır
     const existingItemIndex = this.cart.findIndex(
-      (cartItem) => cartItem.name === item.name
+      (cartItem) => cartItem.productId === item.productId
     );
     console.log(existingItemIndex);
 

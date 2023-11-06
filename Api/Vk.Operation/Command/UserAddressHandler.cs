@@ -60,7 +60,7 @@ public class AddressCommandHandler :
             return new ApiResponse("Record not found!");
         }
 
-        entity.IsActive = false;
+        dbContext.Set<Address>().Remove(entity); // Adresi veritabanýndan kaldýr
         await dbContext.SaveChangesAsync(cancellationToken);
         return new ApiResponse();
     }

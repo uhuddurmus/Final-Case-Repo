@@ -38,7 +38,7 @@ public class AddresesController : ControllerBase
     }
 
     [HttpGet("ByUserId/{Userid}")]
-    [Authorize(Roles = "admin")]
+    [Authorize(Roles = "admin,user")]
     public async Task<ApiResponse<List<AddressResponse>>> GetByUserId(int Userid)
     {
         var operation = new GetAddressByUserIdQuery(Userid);
@@ -48,7 +48,7 @@ public class AddresesController : ControllerBase
 
 
     [HttpPost]
-    [Authorize(Roles = "admin")]
+    [Authorize(Roles = "admin,user")]
     public async Task<ApiResponse<AddressResponse>> Post([FromBody] AddressRequest request)
     {
         var operation = new CreateAddressCommand(request);

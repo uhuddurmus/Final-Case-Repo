@@ -16,6 +16,14 @@
         </a>
       </c-nav-item>
     </c-header-nav>
+    <button class="btn ms-2 me-2" (click)="navigateToVallet()">
+      <img
+        src="https://www.svgrepo.com/show/80543/shopping-cart-outline.svg"
+        width="16px"
+        height="16px"
+        alt=""
+      />
+    </button>
     <div>Wallet : {{ userData?.credit }} $</div>
     <c-header-nav class="ms-3">
       <ng-container *ngTemplateOutlet="userDropdown"></ng-container>

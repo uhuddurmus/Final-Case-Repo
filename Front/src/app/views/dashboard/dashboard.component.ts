@@ -13,7 +13,8 @@ export class DashboardComponent implements OnInit {
   productType: any = ''; // ProductType değişkenini string olarak tanımladık
   gain: any = 0;
   tax: any = 18;
-
+  cad: string = 'd-none';
+  value: string = 'text-center';
   constructor(
     private storage: StorageService,
     private productService: ProductService,
@@ -21,10 +22,13 @@ export class DashboardComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.gain = this.storage.getUserInfo().profit;
     this.updateProducts();
   }
-
+  ref() {
+    this.updateProducts();
+    this.value = 'd-none';
+    this.cad = 'mb-4';
+  }
   updateProductBrand(brand: any) {
     this.productBrand = brand;
     this.updateProducts();
@@ -38,6 +42,8 @@ export class DashboardComponent implements OnInit {
     this.router.navigate([`/product/${id}`]); // Replace 'product' with the actual route path to your product page
   }
   updateProducts() {
+    this.gain = this.storage.getUserInfo().profit;
+
     this.productService
       .getProductsByParameter(
         this.productBrand,
@@ -48,7 +54,6 @@ export class DashboardComponent implements OnInit {
       .subscribe(
         (response) => {
           this.products = response.response;
-          console.log('Ürünler güncellendi', this.products);
         },
         (error) => {
           console.error('Ürün verileri getirilirken hata oluştu:', error);

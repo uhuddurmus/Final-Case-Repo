@@ -98,7 +98,7 @@ public class Startup
         {
             options.AddPolicy("CorsPolicy",
                 builder => builder
-                    .WithOrigins("http://localhost:4200")  // Allow requests from this origin
+                    .WithOrigins("http://localhost:4200", "http://localhost:63324")  // Allow requests from this origin
                     .AllowAnyMethod()                       // Allow all HTTP methods
                     .AllowAnyHeader()                       // Allow all HTTP headers
                     .AllowCredentials()                     // Allow credentials (cookies, etc.)

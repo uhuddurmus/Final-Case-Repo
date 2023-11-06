@@ -3,6 +3,7 @@ import { UserServiceService } from '../../../services/user-service.service';
 import { AuthService } from 'src/app/services/auth.service';
 import { StorageService } from 'src/app/services/storage.service';
 import { ToastrService } from 'ngx-toastr';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-default-header',
@@ -23,14 +24,15 @@ export class DefaultHeaderComponent implements OnInit {
     private storage: StorageService,
     private auth: AuthService,
     private userService: UserServiceService,
-    private toastr: ToastrService
+    private toastr: ToastrService,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
     this.user = this.storage.getUser();
     this.token = this.storage.getToken();
 
-    this.userService.getUserDataInfo(this.token).subscribe({
+    this.userService.getUserDataInfo().subscribe({
       next: (data) => {
         this.userData = data.response;
         this.storage.saveUserInfo(data.response);
@@ -44,7 +46,9 @@ export class DefaultHeaderComponent implements OnInit {
       },
     });
   }
-
+  navigateToVallet() {
+    this.router.navigate([`/cart`]); // Replace 'product' with the actual route path to your product page
+  }
   signOut() {
     this.auth.logOut();
   }

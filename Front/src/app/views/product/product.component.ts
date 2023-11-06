@@ -49,7 +49,7 @@ export class ProductComponent implements OnInit {
       (response) => {
         // İşlem başarılı olduğunda response işlenebilir.
         this.product = response.response;
-        console.log('pro', this.product);
+        console.log('product', this.product);
       },
       (error) => {
         // Hata durumunda error işlenebilir.
@@ -59,7 +59,7 @@ export class ProductComponent implements OnInit {
   }
 
   addTocart() {
-    this.cart.productId = this.product.productId;
+    this.cart.productId = this.product.id;
     this.cart.name = this.product.name;
     this.cart.description = this.product.description;
     this.cart.price = this.product.price;

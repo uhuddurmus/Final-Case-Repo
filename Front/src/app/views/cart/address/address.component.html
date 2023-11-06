@@ -1,0 +1,77 @@
+<div class="container mt-4">
+  <h2>Adres Info</h2>
+  <div *ngIf="address.length < 1" class="mb-3 h3">+ Yeni Adres Ekle</div>
+  <div class="card" *ngIf="address.length > 0">
+    <div class="card-body">
+      <p><strong>Address Line 1:</strong> {{ address[0].addressLine1 }}</p>
+      <p><strong>Address Line 2:</strong> {{ address[0].addressLine2 }}</p>
+      <p><strong>City:</strong> {{ address[0].city }}</p>
+      <p><strong>County:</strong> {{ address[0].county }}</p>
+      <p><strong>Postal Code:</strong> {{ address[0].postalCode }}</p>
+      <button (click)="goPayment()" class="btn btn-primary float-end">
+        Go Payment
+      </button>
+    </div>
+  </div>
+
+  <!-- Yeni adres eklemek için bir form -->
+  <div *ngIf="address.length < 1">
+    <form [formGroup]="addressForm" cForm>
+      <div class="form-group">
+        <label for="addressLine1">Address Line 1</label>
+        <input
+          type="text"
+          class="form-control"
+          formControlName="addressLine1"
+          name="addressLine1"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="addressLine2">Address Line 2</label>
+        <input
+          type="text"
+          class="form-control"
+          formControlName="addressLine2"
+          name="addressLine2"
+        />
+      </div>
+      <div class="form-group">
+        <label for="city">City</label>
+        <input
+          type="text"
+          class="form-control"
+          formControlName="city"
+          name="city"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="county">County</label>
+        <input
+          type="text"
+          class="form-control"
+          formControlName="county"
+          name="county"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="postalCode">Postal Code</label>
+        <input
+          type="text"
+          class="form-control"
+          formControlName="postalCode"
+          name="postalCode"
+        />
+      </div>
+      <button
+        (click)="addNewAddress()"
+        class="btn btn-primary"
+        [disabled]="!addressForm.valid"
+      >
+        Save
+      </button>
+    </form>
+  </div>
+</div>

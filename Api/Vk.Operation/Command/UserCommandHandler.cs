@@ -44,11 +44,24 @@ public class UserCommandHandler :
         {
             return new ApiResponse("Record not found!");
         }
-        entity.FullName = request.Model.FullName;
+        entity.Credit = request.Model.Credit;
 
         await dbContext.SaveChangesAsync(cancellationToken);
         return new ApiResponse();
     }
+
+    //public async Task<ApiResponse> Handle(UpdateUserCreditCommand request, CancellationToken cancellationToken)
+    //{
+    //    var entity = await dbContext.Set<User>().FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
+    //    if (entity == null)
+    //    {
+    //        return new ApiResponse("Record not found!");
+    //    }
+    //    entity.Credit = entity.Credit + request.credit;
+
+    //    await dbContext.SaveChangesAsync(cancellationToken);
+    //    return new ApiResponse();
+    //}
 
     public async Task<ApiResponse> Handle(DeleteUserCommand request, CancellationToken cancellationToken)
     {
@@ -74,6 +87,7 @@ public class UserCommandHandler :
         if(request.isPayment==false)
         {
             entity.Credit = entity.Credit + request.amount;
+            await dbContext.SaveChangesAsync(cancellationToken);
             return new ApiResponse("Success!");
 
         }
@@ -81,6 +95,7 @@ public class UserCommandHandler :
         {
             if(entity.Credit >= request.amount) {
                 entity.Credit = entity.Credit - request.amount;
+                await dbContext.SaveChangesAsync(cancellationToken);
                 return new ApiResponse("Success!");
 
             }

@@ -10,11 +10,10 @@ const API_URL = 'https://localhost:50000/vk/api/v1';
 export class UserServiceService {
   constructor(private http: HttpClient) {}
 
-  getUserDataInfo(token: string): Observable<any> {
+  getUserDataInfo(): Observable<any> {
     const httpOptions = {
       headers: new HttpHeaders({
         accept: 'text/plain',
-        Authorization: `Bearer ${token}`,
       }),
     };
     return this.http.get(API_URL + '/Token/getUserInfo', httpOptions);

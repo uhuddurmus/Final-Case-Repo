@@ -1,0 +1,74 @@
+<div class="card">
+  <div class="card-header">Payment</div>
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">Pay With wallet</div>
+
+          <div class="card-body">
+            Wallet: {{ wallet }}$
+            <br />
+            <br />
+            Total Product Price : {{ debt }}$
+            <br />
+            <br />
+            <div *ngIf="wallet < debt">
+              You don't have enough budget to buy !
+              <br />
+              <br />
+              <br />
+              <br />
+              <div class="card">
+                <div class="card-header">
+                  <p style="font-weight: bolder">Start Eft</p>
+                  Eft info (Iban 000000 )
+                </div>
+                <div class="card-body">
+                  Eft amounth :
+                  <div class="row d-flex">
+                    <input
+                      #eftamounth
+                      (keyup)="updateeft(eftamounth.value)"
+                      class="form-control col-6"
+                      type="number"
+                      min="{{ debt - wallet }}"
+                    />
+                    <div
+                      class="text-danger m-2 text-center"
+                      *ngIf="eftaMounth < debt - wallet"
+                    >
+                      Min {{ debt - wallet }} is required !
+                    </div>
+                    <button
+                      class="btn btn-success mt-2"
+                      *ngIf="eftaMounth > debt - wallet"
+                      (click)="startEft()"
+                    >
+                      Start Eft
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <br />
+            <button
+              (click)="buyItems()"
+              class="btn btn-success"
+              *ngIf="wallet >= debt"
+            >
+              Buy With Wallet
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">Pay Witch Card</div>
+          <div class="card-body"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
