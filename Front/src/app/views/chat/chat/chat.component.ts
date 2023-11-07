@@ -122,7 +122,7 @@ export class ChatComponent implements OnInit {
           UserName: this.UserName, // Kullanıcı adını istediğiniz gibi ayarlayın
           Text: messageText,
           UserId: this.UserId, // Kullanıcının kimliği
-          RoomName: `${this.SelectedUser}`, // Tüm kullanıcılara göndermek için "0" kullanabilirsiniz
+          RoomName: `0`, // Tüm kullanıcılara göndermek için "0" kullanabilirsiniz
         })
         .then((res) => console.log('mesage sended', res))
         .catch((err) => console.error(err.toString()));
