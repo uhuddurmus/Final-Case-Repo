@@ -11425,3 +11425,1143 @@ QueryString: ?id=2&gain=10&tax=18
 StatusCode: 200 
 Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":4}}
 2023-11-06 22:03:33.762 [INF] -------------Request-End------------
+2023-11-06 22:04:49.828 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:04:49.829 [INF] HeartBeat
+2023-11-06 22:04:49.830 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:04:49.833 [INF] -------------Request-Begin------------
+2023-11-06 22:04:49.834 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:04:49.835 [INF] 
+
+2023-11-06 22:04:49.835 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":3622,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}]}
+2023-11-06 22:04:49.838 [INF] -------------Request-End------------
+2023-11-06 22:05:01.457 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:05:01.458 [INF] HeartBeat
+2023-11-06 22:05:01.458 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:05:01.461 [INF] -------------Request-Begin------------
+2023-11-06 22:05:01.462 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:05:01.463 [INF] 
+
+2023-11-06 22:05:01.464 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":3622,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}]}
+2023-11-06 22:05:01.466 [INF] -------------Request-End------------
+2023-11-06 22:06:14.595 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:06:14.596 [INF] HeartBeat
+2023-11-06 22:06:14.597 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:06:14.600 [INF] -------------Request-Begin------------
+2023-11-06 22:06:14.601 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:06:14.602 [INF] 
+
+2023-11-06 22:06:14.603 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":3622,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}]}
+2023-11-06 22:06:14.605 [INF] -------------Request-End------------
+2023-11-06 22:06:22.918 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:06:22.919 [INF] HeartBeat
+2023-11-06 22:06:22.919 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:06:22.922 [INF] -------------Request-Begin------------
+2023-11-06 22:06:22.923 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:06:22.924 [INF] 
+
+2023-11-06 22:06:22.925 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":3622,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}]}
+2023-11-06 22:06:22.928 [INF] -------------Request-End------------
+2023-11-06 22:06:31.750 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:06:31.751 [INF] HeartBeat
+2023-11-06 22:06:31.751 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:06:31.754 [INF] -------------Request-Begin------------
+2023-11-06 22:06:31.755 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:06:31.756 [INF] 
+
+2023-11-06 22:06:31.757 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":3622,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}]}
+2023-11-06 22:06:31.760 [INF] -------------Request-End------------
+2023-11-06 22:06:53.944 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:06:53.945 [INF] HeartBeat
+2023-11-06 22:06:53.946 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:06:53.949 [INF] -------------Request-Begin------------
+2023-11-06 22:06:53.950 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:06:53.951 [INF] 
+
+2023-11-06 22:06:53.952 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":3622,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}]}
+2023-11-06 22:06:53.954 [INF] -------------Request-End------------
+2023-11-06 22:07:21.072 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:07:21.072 [INF] HeartBeat
+2023-11-06 22:07:21.073 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:07:21.077 [INF] -------------Request-Begin------------
+2023-11-06 22:07:21.078 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:07:21.079 [INF] 
+
+2023-11-06 22:07:21.079 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":3622,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}]}
+2023-11-06 22:07:21.082 [INF] -------------Request-End------------
+2023-11-06 22:07:29.539 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:07:29.540 [INF] HeartBeat
+2023-11-06 22:07:29.540 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:07:29.543 [INF] -------------Request-Begin------------
+2023-11-06 22:07:29.544 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:07:29.545 [INF] 
+
+2023-11-06 22:07:29.546 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":3622,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}]}
+2023-11-06 22:07:29.549 [INF] -------------Request-End------------
+2023-11-06 22:07:38.659 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:07:38.660 [INF] HeartBeat
+2023-11-06 22:07:38.661 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:07:38.664 [INF] -------------Request-Begin------------
+2023-11-06 22:07:38.665 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:07:38.666 [INF] 
+
+2023-11-06 22:07:38.667 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":3622,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}]}
+2023-11-06 22:07:38.669 [INF] -------------Request-End------------
+2023-11-06 22:08:23.788 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:08:23.789 [INF] HeartBeat
+2023-11-06 22:08:23.790 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:08:23.794 [INF] -------------Request-Begin------------
+2023-11-06 22:08:23.794 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:08:23.796 [INF] 
+
+2023-11-06 22:08:23.797 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":3622,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}]}
+2023-11-06 22:08:23.801 [INF] -------------Request-End------------
+2023-11-06 22:12:39.438 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:12:39.439 [INF] HeartBeat
+2023-11-06 22:12:39.440 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:12:39.443 [INF] -------------Request-Begin------------
+2023-11-06 22:12:39.444 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:12:39.445 [INF] 
+
+2023-11-06 22:12:39.446 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":3622,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}]}
+2023-11-06 22:12:39.449 [INF] -------------Request-End------------
+2023-11-06 22:12:46.823 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:12:46.824 [INF] HeartBeat
+2023-11-06 22:12:46.825 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:12:46.828 [INF] -------------Request-Begin------------
+2023-11-06 22:12:46.829 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:12:46.830 [INF] 
+
+2023-11-06 22:12:46.832 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":3622,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}]}
+2023-11-06 22:12:46.834 [INF] -------------Request-End------------
+2023-11-06 22:15:24.335 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:15:24.336 [INF] HeartBeat
+2023-11-06 22:15:24.336 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:15:24.340 [INF] -------------Request-Begin------------
+2023-11-06 22:15:24.340 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:15:24.341 [INF] 
+
+2023-11-06 22:15:24.342 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":3622,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}]}
+2023-11-06 22:15:24.345 [INF] -------------Request-End------------
+2023-11-06 22:16:09.701 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:16:09.702 [INF] HeartBeat
+2023-11-06 22:16:09.703 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:16:09.706 [INF] -------------Request-Begin------------
+2023-11-06 22:16:09.707 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:16:09.708 [INF] 
+
+2023-11-06 22:16:09.709 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":3622,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}]}
+2023-11-06 22:16:09.712 [INF] -------------Request-End------------
+2023-11-06 22:16:16.850 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:16:16.851 [INF] HeartBeat
+2023-11-06 22:16:16.852 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:16:16.855 [INF] -------------Request-Begin------------
+2023-11-06 22:16:16.856 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:16:16.857 [INF] 
+
+2023-11-06 22:16:16.857 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":3622,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}]}
+2023-11-06 22:16:16.860 [INF] -------------Request-End------------
+2023-11-06 22:16:23.894 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:16:23.895 [INF] HeartBeat
+2023-11-06 22:16:23.896 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:16:23.899 [INF] -------------Request-Begin------------
+2023-11-06 22:16:23.900 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:16:23.901 [INF] 
+
+2023-11-06 22:16:23.902 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":3622,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"}]}
+2023-11-06 22:16:23.904 [INF] -------------Request-End------------
+2023-11-06 22:16:33.314 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:16:33.314 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:16:33.314 [INF] HeartBeat
+2023-11-06 22:16:33.315 [INF] HeartBeat
+2023-11-06 22:16:33.316 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:16:33.317 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:16:33.368 [INF] -------------Request-Begin------------
+2023-11-06 22:16:33.368 [INF] -------------Request-Begin------------
+2023-11-06 22:16:33.369 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=1166&isPayment=true 
+Request Body: {"headers":{"normalizedNames":{},"lazyUpdate":null}
+2023-11-06 22:16:33.370 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}
+2023-11-06 22:16:33.371 [INF] 
+
+2023-11-06 22:16:33.372 [INF] 
+
+2023-11-06 22:16:33.373 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=1166&isPayment=true 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Success!"}
+2023-11-06 22:16:33.374 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}}
+2023-11-06 22:16:33.375 [INF] -------------Request-End------------
+2023-11-06 22:16:33.377 [INF] -------------Request-End------------
+2023-11-06 22:16:33.393 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:16:33.394 [INF] HeartBeat
+2023-11-06 22:16:33.395 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:16:33.398 [INF] -------------Request-Begin------------
+2023-11-06 22:16:33.399 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:16:33.400 [INF] 
+
+2023-11-06 22:16:33.402 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:16:33.407 [INF] -------------Request-End------------
+2023-11-06 22:16:33.438 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:16:33.439 [INF] HeartBeat
+2023-11-06 22:16:33.440 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:16:33.444 [INF] -------------Request-Begin------------
+2023-11-06 22:16:33.444 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 22:16:33.446 [INF] 
+
+2023-11-06 22:16:33.447 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":4},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 22:16:33.450 [INF] -------------Request-End------------
+2023-11-06 22:16:36.326 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:16:36.327 [INF] HeartBeat
+2023-11-06 22:16:36.328 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:16:36.332 [INF] -------------Request-Begin------------
+2023-11-06 22:16:36.333 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+Request Body: 
+2023-11-06 22:16:36.334 [INF] 
+
+2023-11-06 22:16:36.334 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:16:36.337 [INF] -------------Request-End------------
+2023-11-06 22:16:42.921 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:16:42.922 [INF] HeartBeat
+2023-11-06 22:16:42.923 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:16:42.925 [INF] -------------Request-Begin------------
+2023-11-06 22:16:42.926 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 22:16:42.927 [INF] 
+
+2023-11-06 22:16:42.928 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":4},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 22:16:42.931 [INF] -------------Request-End------------
+2023-11-06 22:16:43.651 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:16:43.652 [INF] HeartBeat
+2023-11-06 22:16:43.653 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:16:43.656 [INF] -------------Request-Begin------------
+2023-11-06 22:16:43.657 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 22:16:43.658 [INF] 
+
+2023-11-06 22:16:43.659 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":4},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 22:16:43.662 [INF] -------------Request-End------------
+2023-11-06 22:16:44.812 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:16:44.813 [INF] HeartBeat
+2023-11-06 22:16:44.814 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:16:44.816 [INF] -------------Request-Begin------------
+2023-11-06 22:16:44.817 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+Request Body: 
+2023-11-06 22:16:44.818 [INF] 
+
+2023-11-06 22:16:44.819 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=2&gain=10&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3}}
+2023-11-06 22:16:44.820 [INF] -------------Request-End------------
+2023-11-06 22:44:51.912 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:44:51.913 [INF] HeartBeat
+2023-11-06 22:44:51.913 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:44:51.922 [INF] -------------Request-Begin------------
+2023-11-06 22:44:51.923 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:44:51.924 [INF] 
+
+2023-11-06 22:44:51.924 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:44:51.928 [INF] -------------Request-End------------
+2023-11-06 22:46:50.150 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:46:50.151 [INF] HeartBeat
+2023-11-06 22:46:50.152 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:46:50.155 [INF] -------------Request-Begin------------
+2023-11-06 22:46:50.156 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:46:50.158 [INF] 
+
+2023-11-06 22:46:50.159 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:46:50.163 [INF] -------------Request-End------------
+2023-11-06 22:47:30.610 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:47:30.610 [INF] HeartBeat
+2023-11-06 22:47:30.611 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:47:30.614 [INF] -------------Request-Begin------------
+2023-11-06 22:47:30.615 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:47:30.616 [INF] 
+
+2023-11-06 22:47:30.617 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:47:30.620 [INF] -------------Request-End------------
+2023-11-06 22:48:12.225 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:48:12.226 [INF] HeartBeat
+2023-11-06 22:48:12.227 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:48:12.230 [INF] -------------Request-Begin------------
+2023-11-06 22:48:12.231 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:48:12.232 [INF] 
+
+2023-11-06 22:48:12.232 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:48:12.236 [INF] -------------Request-End------------
+2023-11-06 22:49:44.832 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:49:44.833 [INF] HeartBeat
+2023-11-06 22:49:44.834 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:49:44.836 [INF] -------------Request-Begin------------
+2023-11-06 22:49:44.837 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:49:44.838 [INF] 
+
+2023-11-06 22:49:44.839 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:49:44.842 [INF] -------------Request-End------------
+2023-11-06 22:50:06.697 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:50:06.698 [INF] HeartBeat
+2023-11-06 22:50:06.699 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:50:06.702 [INF] -------------Request-Begin------------
+2023-11-06 22:50:06.703 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:50:06.704 [INF] 
+
+2023-11-06 22:50:06.705 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:50:06.708 [INF] -------------Request-End------------
+2023-11-06 22:50:58.908 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:50:58.909 [INF] HeartBeat
+2023-11-06 22:50:58.910 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:50:58.913 [INF] -------------Request-Begin------------
+2023-11-06 22:50:58.914 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:50:58.915 [INF] 
+
+2023-11-06 22:50:58.916 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:50:58.919 [INF] -------------Request-End------------
+2023-11-06 22:51:21.611 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:51:21.612 [INF] HeartBeat
+2023-11-06 22:51:21.613 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:51:21.617 [INF] -------------Request-Begin------------
+2023-11-06 22:51:21.617 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:51:21.619 [INF] 
+
+2023-11-06 22:51:21.620 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:51:21.623 [INF] -------------Request-End------------
+2023-11-06 22:51:29.829 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:51:29.830 [INF] HeartBeat
+2023-11-06 22:51:29.831 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:51:29.834 [INF] -------------Request-Begin------------
+2023-11-06 22:51:29.835 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:51:29.836 [INF] 
+
+2023-11-06 22:51:29.837 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:51:29.841 [INF] -------------Request-End------------
+2023-11-06 22:51:48.303 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:51:48.304 [INF] HeartBeat
+2023-11-06 22:51:48.305 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:51:48.308 [INF] -------------Request-Begin------------
+2023-11-06 22:51:48.309 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:51:48.310 [INF] 
+
+2023-11-06 22:51:48.311 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:51:48.315 [INF] -------------Request-End------------
+2023-11-06 22:52:44.291 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:52:44.292 [INF] HeartBeat
+2023-11-06 22:52:44.293 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:52:44.296 [INF] -------------Request-Begin------------
+2023-11-06 22:52:44.297 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:52:44.298 [INF] 
+
+2023-11-06 22:52:44.299 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:52:44.302 [INF] -------------Request-End------------
+2023-11-06 22:53:39.379 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:53:39.380 [INF] HeartBeat
+2023-11-06 22:53:39.381 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:53:39.384 [INF] -------------Request-Begin------------
+2023-11-06 22:53:39.385 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:53:39.386 [INF] 
+
+2023-11-06 22:53:39.387 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:53:39.390 [INF] -------------Request-End------------
+2023-11-06 22:54:36.038 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:54:36.039 [INF] HeartBeat
+2023-11-06 22:54:36.039 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:54:36.042 [INF] -------------Request-Begin------------
+2023-11-06 22:54:36.043 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:54:36.044 [INF] 
+
+2023-11-06 22:54:36.045 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:54:36.048 [INF] -------------Request-End------------
+2023-11-06 22:56:40.406 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:56:40.407 [INF] HeartBeat
+2023-11-06 22:56:40.408 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:56:40.411 [INF] -------------Request-Begin------------
+2023-11-06 22:56:40.412 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:56:40.413 [INF] 
+
+2023-11-06 22:56:40.414 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:56:40.417 [INF] -------------Request-End------------
+2023-11-06 22:57:20.521 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:57:20.522 [INF] HeartBeat
+2023-11-06 22:57:20.523 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:57:20.526 [INF] -------------Request-Begin------------
+2023-11-06 22:57:20.527 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:57:20.528 [INF] 
+
+2023-11-06 22:57:20.529 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:57:20.534 [INF] -------------Request-End------------
+2023-11-06 22:58:15.945 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:58:15.946 [INF] HeartBeat
+2023-11-06 22:58:15.947 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:58:15.950 [INF] -------------Request-Begin------------
+2023-11-06 22:58:15.951 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:58:15.952 [INF] 
+
+2023-11-06 22:58:15.953 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:58:15.956 [INF] -------------Request-End------------
+2023-11-06 22:58:38.103 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:58:38.104 [INF] HeartBeat
+2023-11-06 22:58:38.105 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:58:38.108 [INF] -------------Request-Begin------------
+2023-11-06 22:58:38.109 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:58:38.110 [INF] 
+
+2023-11-06 22:58:38.111 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:58:38.113 [INF] -------------Request-End------------
+2023-11-06 22:59:43.106 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 22:59:43.107 [INF] HeartBeat
+2023-11-06 22:59:43.108 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 22:59:43.116 [INF] -------------Request-Begin------------
+2023-11-06 22:59:43.117 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 22:59:43.118 [INF] 
+
+2023-11-06 22:59:43.119 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 22:59:43.123 [INF] -------------Request-End------------
+2023-11-06 23:00:10.412 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 23:00:10.412 [INF] HeartBeat
+2023-11-06 23:00:10.414 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 23:00:10.428 [INF] -------------Request-Begin------------
+2023-11-06 23:00:10.429 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 23:00:10.431 [INF] 
+
+2023-11-06 23:00:10.432 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 23:00:10.436 [INF] -------------Request-End------------
+2023-11-06 23:00:26.491 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 23:00:26.492 [INF] HeartBeat
+2023-11-06 23:00:26.493 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 23:00:26.497 [INF] -------------Request-Begin------------
+2023-11-06 23:00:26.498 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 23:00:26.499 [INF] 
+
+2023-11-06 23:00:26.500 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 23:00:26.504 [INF] -------------Request-End------------
+2023-11-06 23:01:35.720 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 23:01:35.721 [INF] HeartBeat
+2023-11-06 23:01:35.722 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 23:01:35.726 [INF] -------------Request-Begin------------
+2023-11-06 23:01:35.727 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 23:01:35.728 [INF] 
+
+2023-11-06 23:01:35.729 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 23:01:35.732 [INF] -------------Request-End------------
+2023-11-06 23:02:12.718 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 23:02:12.719 [INF] HeartBeat
+2023-11-06 23:02:12.720 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 23:02:12.723 [INF] -------------Request-Begin------------
+2023-11-06 23:02:12.724 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 23:02:12.725 [INF] 
+
+2023-11-06 23:02:12.726 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 23:02:12.729 [INF] -------------Request-End------------
+2023-11-06 23:02:32.194 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 23:02:32.195 [INF] HeartBeat
+2023-11-06 23:02:32.195 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 23:02:32.199 [INF] -------------Request-Begin------------
+2023-11-06 23:02:32.199 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 23:02:32.201 [INF] 
+
+2023-11-06 23:02:32.202 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 23:02:32.205 [INF] -------------Request-End------------
+2023-11-06 23:05:50.089 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 23:05:50.090 [INF] HeartBeat
+2023-11-06 23:05:50.091 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 23:05:50.095 [INF] -------------Request-Begin------------
+2023-11-06 23:05:50.095 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 23:05:50.097 [INF] 
+
+2023-11-06 23:05:50.098 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 23:05:50.102 [INF] -------------Request-End------------
+2023-11-06 23:06:22.715 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 23:06:22.716 [INF] HeartBeat
+2023-11-06 23:06:22.717 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 23:06:22.721 [INF] -------------Request-Begin------------
+2023-11-06 23:06:22.722 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 23:06:22.723 [INF] 
+
+2023-11-06 23:06:22.724 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 23:06:22.728 [INF] -------------Request-End------------
+2023-11-06 23:06:36.631 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 23:06:36.632 [INF] HeartBeat
+2023-11-06 23:06:36.633 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 23:06:36.636 [INF] -------------Request-Begin------------
+2023-11-06 23:06:36.636 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 23:06:36.638 [INF] 
+
+2023-11-06 23:06:36.638 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":4},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 23:06:36.641 [INF] -------------Request-End------------
+2023-11-06 23:06:38.637 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 23:06:38.638 [INF] HeartBeat
+2023-11-06 23:06:38.639 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 23:06:38.642 [INF] -------------Request-Begin------------
+2023-11-06 23:06:38.643 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+Request Body: 
+2023-11-06 23:06:38.644 [INF] 
+
+2023-11-06 23:06:38.645 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 23:06:38.648 [INF] -------------Request-End------------
+2023-11-06 23:06:45.352 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 23:06:45.353 [INF] HeartBeat
+2023-11-06 23:06:45.354 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 23:06:45.356 [INF] -------------Request-Begin------------
+2023-11-06 23:06:45.357 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 23:06:45.358 [INF] 
+
+2023-11-06 23:06:45.359 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":4},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 23:06:45.361 [INF] -------------Request-End------------
+2023-11-06 23:06:45.953 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 23:06:45.954 [INF] HeartBeat
+2023-11-06 23:06:45.955 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 23:06:45.958 [INF] -------------Request-Begin------------
+2023-11-06 23:06:45.959 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 23:06:45.960 [INF] 
+
+2023-11-06 23:06:45.960 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":3},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":4},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 23:06:45.963 [INF] -------------Request-End------------
+2023-11-06 23:07:01.810 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 23:07:01.810 [INF] HeartBeat
+2023-11-06 23:07:01.811 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 23:07:01.826 [INF] -------------Request-Begin------------
+2023-11-06 23:07:01.827 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}
+2023-11-06 23:07:01.828 [INF] 
+
+2023-11-06 23:07:01.829 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":17,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}}
+2023-11-06 23:07:01.830 [INF] -------------Request-End------------
+2023-11-06 23:07:01.838 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 23:07:01.839 [INF] HeartBeat
+2023-11-06 23:07:01.840 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 23:07:01.843 [INF] -------------Request-Begin------------
+2023-11-06 23:07:01.844 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-06 23:07:01.845 [INF] 
+
+2023-11-06 23:07:01.846 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"email":"ahmet@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"Ahmet Yılmaz","profit":10,"role":"user","credit":2456,"addresses":[{"id":3,"userId":2,"addressLine1":"asdasdas","addressLine2":"dasdasd","city":"asdasda","county":"sdasdasdas","postalCode":"dasdasdasd"}],"orders":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":17,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 23:07:01.850 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 23:07:01.851 [INF] -------------Request-End------------
+2023-11-06 23:07:01.852 [INF] HeartBeat
+2023-11-06 23:07:01.854 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 23:07:01.857 [INF] -------------Request-Begin------------
+2023-11-06 23:07:01.858 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+Request Body: 
+2023-11-06 23:07:01.858 [INF] 
+
+2023-11-06 23:07:01.859 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=10&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712.602,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166.902,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621.202,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":4},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":65},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":24.662,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":65}]}
+2023-11-06 23:07:01.862 [INF] -------------Request-End------------
+2023-11-06 23:07:09.278 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-06 23:07:09.278 [INF] HeartBeat
+2023-11-06 23:07:09.279 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-06 23:07:09.282 [INF] -------------Request-Begin------------
+2023-11-06 23:07:09.283 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+Request Body: 
+2023-11-06 23:07:09.284 [INF] 
+
+2023-11-06 23:07:09.285 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByToken 
+QueryString: ?time=0 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":2,"status":"pending"},{"id":10,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":600,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":13,"userId":2,"productId":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":712,"pictureUrl":"https://i.dummyjson.com/data/products/1/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":14,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":15,"userId":2,"productId":3,"name":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1621,"pictureUrl":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","productType":"smartphones","productBrand":"Samsung","piece":1,"status":"active"},{"id":16,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"},{"id":17,"userId":2,"productId":2,"name":"iPhone X","description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":1166,"pictureUrl":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","productType":"smartphones","productBrand":"Apple","piece":1,"status":"active"}]}
+2023-11-06 23:07:09.288 [INF] -------------Request-End------------

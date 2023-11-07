@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using LinqKit;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 using Vk.Base.Response;
 using Vk.Data.Context;
 using Vk.Data.Domain;
@@ -12,7 +14,8 @@ namespace Vk.Operation;
 public class OrderQueryHandler :
     IRequestHandler<GetAllOrderQuery, ApiResponse<List<OrderResponse>>>,
     IRequestHandler<GetOrderByIdQuery, ApiResponse<OrderResponse>>,
-    IRequestHandler<GetOrderByUserIdQuery, ApiResponse<List<OrderResponse>>>
+    IRequestHandler<GetOrderByUserIdQuery, ApiResponse<List<OrderResponse>>>, 
+    IRequestHandler<GetOrderByParametersQuery, ApiResponse<List<OrderResponse>>>
 {
     private readonly VkDbContext dbContext;
     private readonly IMapper mapper;
@@ -76,5 +79,48 @@ public class OrderQueryHandler :
         List<Order> list = await query.ToListAsync(cancellationToken);
         var mapped = mapper.Map<List<OrderResponse>>(list);
         return new ApiResponse<List<OrderResponse>>(mapped);
+    }
+
+    public async Task<ApiResponse<List<OrderResponse>>> Handle(GetOrderByParametersQuery request, CancellationToken cancellationToken)
+    {
+        var predicate = PredicateBuilder.New<Order>(true);
+        predicate = predicate.And(x => x.UserId == request.UserId);
+        if (request.time == "1")
+        {
+            // Günlük zaman aralığına göre filtrele
+            predicate = predicate.And(x => x.InsertDate.Date == DateTime.Today && x.InsertDate.Year == DateTime.Now.Year && x.InsertDate.Month == DateTime.Now.Month);
+        }
+        else if (request.time == "2")
+        {
+            // Aylık zaman aralığına göre filtrele
+            predicate = predicate.And(x => x.InsertDate.Month == DateTime.Now.Month && x.InsertDate.Year == DateTime.Now.Year);
+        }
+        else if (request.time == "3")
+        {
+            // Yıllık zaman aralığına göre filtrele
+            predicate = predicate.And(x => x.InsertDate.Year == DateTime.Now.Year);
+        }
+
+        if (!string.IsNullOrWhiteSpace(request.Status))
+        {
+            predicate = predicate.And(x => x.Status == request.Status);
+        }
+
+        if (!string.IsNullOrWhiteSpace(request.Description))
+        {
+            predicate = predicate.And(x => x.Description.Contains(request.Description));
+        }
+
+        if (!string.IsNullOrWhiteSpace(request.Name))
+        {
+            predicate = predicate.And(x => x.Name.Contains(request.Name));
+        }
+
+        var list = await dbContext.Set<Order>()
+            .Where(predicate).ToListAsync(cancellationToken);
+
+        var mapped = mapper.Map<List<OrderResponse>>(list);
+        return new ApiResponse<List<OrderResponse>>(mapped);
+
     }
 }

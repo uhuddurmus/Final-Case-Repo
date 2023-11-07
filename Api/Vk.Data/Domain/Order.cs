@@ -19,6 +19,7 @@ public class Order : BaseModel
     public string ProductBrand { get; set; }
     public int Piece { get; set; }
     public string Status { get; set; }
+
 }
 
 public class OrderConfigruration : IEntityTypeConfiguration<Order>

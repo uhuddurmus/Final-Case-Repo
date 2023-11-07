@@ -10,8 +10,13 @@ export class OrderService {
 
   constructor(private http: HttpClient) {}
 
-  getOrdersByToken(time: number): Observable<any> {
-    const url = `${this.baseUrl}Token/GetOrdersByToken?time=${time}`;
+  getOrdersByToken(
+    time: number,
+    name: string,
+    desc: string,
+    status: string
+  ): Observable<any> {
+    const url = `${this.baseUrl}Token/GetOrdersByParameter?Status=${status}&Description=${desc}&Name=${name}&time=${time}`;
 
     // Eğer kullanıcı kimliği gerekiyorsa, Authorization başlığını ekleyin.
     const headers = new HttpHeaders().set('accept', 'text/plain');

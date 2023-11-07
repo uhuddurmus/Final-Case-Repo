@@ -117,5 +117,22 @@ public class TokenController : ControllerBase
         var result = await mediator.Send(operation);
         return result;
     }
+    [HttpGet("GetOrdersByParameter")]
+    [Authorize(Roles = "admin, user")]
+    public async Task<ApiResponse<List<OrderResponse>>> ByToken(
+    [FromQuery] string? Status = null,
+    [FromQuery] string? Description = null,
+    [FromQuery] string? Name = null,
+    [FromQuery] string? time = null
+    )
+    {
+        var token = HttpContext.Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last();
+        // Create a DecodeTokenCommand and send it to Mediator
+        var decodeTokenCommand = new DecodeTokenCommand(token);
+        var Userid = await mediator.Send(decodeTokenCommand);
+        var operation = new GetOrderByParametersQuery(Userid.Response, Status, Description, Name, time);
+        var result = await mediator.Send(operation);
+        return result;
+    }
 
 }
