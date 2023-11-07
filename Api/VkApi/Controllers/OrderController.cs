@@ -53,8 +53,16 @@ public class OrderesController : ControllerBase
         var result = await mediator.Send(operation);
         return result;
     }
+    
+    [HttpPost ("updateOrder")]
+    [Authorize(Roles = "admin , user")]
 
-
+    public async Task<ApiResponse> Get(int id, string status)
+    {
+        var operation = new UpdateOrderCommand(status,id);
+        var result = await mediator.Send(operation);
+        return result;
+    }
     [HttpDelete("{id}")]
     [Authorize(Roles = "admin,user")]
 

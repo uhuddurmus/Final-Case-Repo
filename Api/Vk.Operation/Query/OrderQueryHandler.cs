@@ -84,7 +84,10 @@ public class OrderQueryHandler :
     public async Task<ApiResponse<List<OrderResponse>>> Handle(GetOrderByParametersQuery request, CancellationToken cancellationToken)
     {
         var predicate = PredicateBuilder.New<Order>(true);
-        predicate = predicate.And(x => x.UserId == request.UserId);
+        if (request.UserId != 1)
+        {
+            predicate = predicate.And(x => x.UserId == request.UserId);
+        }
         if (request.time == "1")
         {
             // Günlük zaman aralığına göre filtrele

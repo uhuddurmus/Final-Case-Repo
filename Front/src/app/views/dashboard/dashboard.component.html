@@ -8,6 +8,13 @@
 <c-card class="{{ cad }}">
   <c-card-header>
     <strong>Products List</strong>
+    <button
+      class="btn btn-secondary float-end"
+      *ngIf="id == 1"
+      (click)="addProduct()"
+    >
+      Add Product
+    </button>
   </c-card-header>
   <c-card-body>
     <div class="col-md-6 d-flex">

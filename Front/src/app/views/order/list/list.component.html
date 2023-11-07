@@ -78,6 +78,7 @@
               <th scope="col">Piece</th>
               <th scope="col">Status</th>
               <th scope="col">Delete</th>
+              <th *ngIf="id == 1">Change Status</th>
             </tr>
           </thead>
           <tbody>
@@ -112,6 +113,15 @@
                     </svg>
                   </a>
                 </div>
+              </td>
+              <td *ngIf="id == 1">
+                <button
+                  class="btn btn-secondary"
+                  (click)="setToDone(d.id)"
+                  *ngIf="d.status !== donestatu"
+                >
+                  Set To Done
+                </button>
               </td>
             </tr>
           </tbody>

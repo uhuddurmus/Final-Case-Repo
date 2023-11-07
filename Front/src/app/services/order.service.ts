@@ -10,6 +10,16 @@ export class OrderService {
 
   constructor(private http: HttpClient) {}
 
+  updateOrder(orderId: number, newStatus: string): Observable<any> {
+    const url = `${this.baseUrl}Orderes/updateOrder?id=${orderId}&status=${newStatus}`;
+
+    // Gerekli başlık ayarları
+    const headers = new HttpHeaders({
+      accept: 'text/plain',
+    });
+
+    return this.http.post(url, null, { headers });
+  }
   getOrdersByToken(
     time: number,
     name: string,

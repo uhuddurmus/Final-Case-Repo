@@ -15,6 +15,7 @@ export class DashboardComponent implements OnInit {
   tax: any = 18;
   cad: string = 'd-none';
   value: string = 'text-center';
+  id: any;
   constructor(
     private storage: StorageService,
     private productService: ProductService,
@@ -23,6 +24,7 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit(): void {
     this.updateProducts();
+    this.id = this.storage.getUserInfo().id;
   }
   ref() {
     this.updateProducts();
@@ -40,6 +42,9 @@ export class DashboardComponent implements OnInit {
   navigateToProductPage(id: any) {
     // Use the Router service to navigate to the "product" page
     this.router.navigate([`/product/${id}`]); // Replace 'product' with the actual route path to your product page
+  }
+  addProduct() {
+    this.router.navigate([`/dashboard/addproduct`]); // Replace 'product' with the actual route path to your product page
   }
   updateProducts() {
     this.gain = this.storage.getUserInfo().profit;
