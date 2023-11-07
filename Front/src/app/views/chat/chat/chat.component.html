@@ -1,1 +1,40 @@
-<div>chat</div>
+<!-- chat.component.html -->
+<div class="rounded bg-secondary text-center m-1 p-1">
+  <h3 style="font-weight: bold" class="text-light">CHAT ROOM</h3>
+</div>
+<div *ngIf="UserId == 2">Select User</div>
+<div class="card">
+  <div class="card-body" style="height: 500px; overflow: scroll">
+    <ul>
+      <div class="row" *ngFor="let message of messages">
+        <div [ngClass]="{ 'text-end': message.userId == UserId }">
+          <div style="font-weight: bold">
+            {{ message.userName }}
+          </div>
+          <div>
+            {{ message.Text }}
+          </div>
+        </div>
+        <br />
+      </div>
+    </ul>
+  </div>
+  <div class="card-footer">
+    <div>
+      <input
+        class="form-control"
+        type="text"
+        #messageText
+        id="messageText"
+        placeholder="Message"
+        (keyup.enter)="sendMessage(messageText.value)"
+      />
+      <button
+        class="btn btn-success float-end mt-2"
+        (click)="sendMessage(messageText.value)"
+      >
+        Send
+      </button>
+    </div>
+  </div>
+</div>
