@@ -12,7 +12,7 @@ using Vk.Data.Context;
 namespace Vk.Data.Migrations
 {
     [DbContext(typeof(VkDbContext))]
-    [Migration("20231102111729_Initial")]
+    [Migration("20231107104213_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -160,6 +160,10 @@ namespace Vk.Data.Migrations
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("PaymentMethod")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PictureUrl")
                         .IsRequired()

@@ -19,7 +19,7 @@ public class Order : BaseModel
     public string ProductBrand { get; set; }
     public int Piece { get; set; }
     public string Status { get; set; }
-
+    public string PaymentMethod { get; set; }
 }
 
 public class OrderConfigruration : IEntityTypeConfiguration<Order>
@@ -37,6 +37,7 @@ public class OrderConfigruration : IEntityTypeConfiguration<Order>
         builder.Property(x => x.Description).HasMaxLength(250);
         builder.Property(x => x.Price).IsRequired();
         builder.Property(x => x.Status).IsRequired();
+        builder.Property(x => x.PaymentMethod).IsRequired();
         builder.HasIndex(x => x.UserId);
     }
 }

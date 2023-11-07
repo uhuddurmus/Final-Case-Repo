@@ -26,6 +26,7 @@ export class ProductComponent implements OnInit {
     productBrand: '',
     piece: '',
     status: '',
+    paymentMethod: '',
   };
   constructor(
     private router: Router,

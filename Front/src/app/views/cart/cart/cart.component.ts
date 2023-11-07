@@ -15,6 +15,7 @@ export class CartComponent implements OnInit {
 
   ngOnInit() {
     this.getAllCartItems();
+    console.log(this.cartItems.length);
   }
   isBuyButtonDisabled(): boolean {
     return this.cartItems.length <= 0;

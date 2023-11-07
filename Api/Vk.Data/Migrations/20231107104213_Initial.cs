@@ -134,6 +134,7 @@ namespace Vk.Data.Migrations
                     ProductBrand = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Piece = table.Column<int>(type: "int", nullable: false),
                     Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PaymentMethod = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     InsertUserId = table.Column<int>(type: "int", nullable: false),
                     InsertDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdateUserId = table.Column<int>(type: "int", nullable: false, defaultValue: 0),

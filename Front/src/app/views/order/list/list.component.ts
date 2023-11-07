@@ -24,6 +24,7 @@ export class ListComponent implements OnInit, OnDestroy {
       .getOrdersByToken(this.time, this.name, this.desc, this.status)
       .subscribe((response: any) => {
         this.data = response.response;
+        console.log(this.data);
       });
   }
 

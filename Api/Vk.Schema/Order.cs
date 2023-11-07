@@ -15,7 +15,7 @@ public class OrderRequest
     public int Piece { get; set; }
     public string Status { get; set; }
 
-
+    public string PaymentMethod { get; set; }
 
 }
 
@@ -33,6 +33,7 @@ public class OrderResponse
     public string ProductBrand { get; set; }
     public int Piece { get; set; }
     public string Status { get; set; }
+    public string PaymentMethod { get; set; }
 
 
 }

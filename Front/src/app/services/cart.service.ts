@@ -14,6 +14,7 @@ export class CartItem {
   productBrand: any;
   piece: any;
   status: any;
+  paymentMethod: any;
 }
 export class CartService {
   private cart: CartItem[] = [];

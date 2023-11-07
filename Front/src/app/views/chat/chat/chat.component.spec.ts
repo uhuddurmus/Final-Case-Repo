@@ -1,32 +1,44 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterTestingModule } from '@angular/router/testing';
 
-import { ButtonModule, CardModule, GridModule, ModalModule, PopoverModule, TooltipModule } from '@coreui/angular';
+import {
+  BadgeModule,
+  ButtonModule,
+  CardModule,
+  GridModule,
+  UtilitiesModule,
+} from '@coreui/angular';
 import { IconSetService } from '@coreui/icons-angular';
 import { iconSubset } from '../../../icons/icon-subset';
 import { DocsComponentsModule } from '../../../../components';
-import { ModalsComponent } from './modals.component';
+import { BadgesComponent } from './chat.component';
 
-describe('ModalsComponent', () => {
-  let component: ModalsComponent;
-  let fixture: ComponentFixture<ModalsComponent>;
+describe('BadgesComponent', () => {
+  let component: BadgesComponent;
+  let fixture: ComponentFixture<BadgesComponent>;
   let iconSetService: IconSetService;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ModalsComponent],
-      imports: [ModalModule, NoopAnimationsModule, GridModule, CardModule, PopoverModule, ButtonModule, DocsComponentsModule, RouterTestingModule, TooltipModule],
-      providers: [IconSetService]
-    })
-      .compileComponents();
+      declarations: [BadgesComponent],
+      imports: [
+        BadgeModule,
+        CardModule,
+        GridModule,
+        UtilitiesModule,
+        ButtonModule,
+        DocsComponentsModule,
+        RouterTestingModule,
+      ],
+      providers: [IconSetService],
+    }).compileComponents();
   });
 
   beforeEach(() => {
     iconSetService = TestBed.inject(IconSetService);
     iconSetService.icons = { ...iconSubset };
 
-    fixture = TestBed.createComponent(ModalsComponent);
+    fixture = TestBed.createComponent(BadgesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

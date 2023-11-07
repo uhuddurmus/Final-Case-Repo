@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
 import { DefaultLayoutComponent } from './containers';
 import { Page404Component } from './views/pages/page404/page404.component';
 import { Page500Component } from './views/pages/page500/page500.component';
@@ -66,11 +65,9 @@ const routes: Routes = [
           import('./views/product/product.module').then((m) => m.ProductModule),
       },
       {
-        path: 'notifications',
+        path: 'chat',
         loadChildren: () =>
-          import('./views/notifications/notifications.module').then(
-            (m) => m.NotificationsModule
-          ),
+          import('./views/chat/chat.module').then((m) => m.ChatModule),
       },
       {
         path: 'widgets',

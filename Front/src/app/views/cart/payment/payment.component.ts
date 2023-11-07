@@ -121,6 +121,11 @@ export class PaymentComponent implements OnInit {
       }
     );
     const orderObservables = this.cartItems.map((element: any) => {
+      console.log('element', element);
+
+      element.paymentMethod = 'wallet';
+      console.log('element', element);
+
       return this.OrderService.postOrder(element);
     });
 
@@ -149,6 +154,8 @@ export class PaymentComponent implements OnInit {
   }
   buyWithCard() {
     const orderObservables = this.cartItems.map((element: any) => {
+      element.paymentMethod = 'card';
+
       return this.OrderService.postOrder(element);
     });
 
