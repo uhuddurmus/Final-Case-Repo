@@ -18,4 +18,12 @@ export class UserServiceService {
     };
     return this.http.get(API_URL + '/Token/getUserInfo', httpOptions);
   }
+  getUsers(): Observable<any> {
+    const httpOptions = {
+      headers: new HttpHeaders({
+        accept: 'text/plain',
+      }),
+    };
+    return this.http.get(API_URL + '/Users', httpOptions);
+  }
 }

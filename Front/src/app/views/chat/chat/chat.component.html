@@ -2,8 +2,18 @@
 <div class="rounded bg-secondary text-center m-1 p-1">
   <h3 style="font-weight: bold" class="text-light">CHAT ROOM</h3>
 </div>
-<div *ngIf="UserId == 2">Select User</div>
-<div class="card">
+<div *ngIf="UserId == 1 && !SelectedUser">
+  <div *ngFor="let user of Users" style="font-weight: bold">
+    <input
+      type="radio"
+      name="selecteduser"
+      #{{user.id}}
+      (click)="setUser(user.id)"
+    />
+    {{ user.name }}
+  </div>
+</div>
+<div class="card" *ngIf="SelectedUser">
   <div class="card-body" style="height: 500px; overflow: scroll">
     <ul>
       <div class="row" *ngFor="let message of messages">
@@ -30,10 +40,23 @@
         (keyup.enter)="sendMessage(messageText.value)"
       />
       <button
+        class="btn btn-primary mt-2"
+        (click)="selectNewUser()"
+        *ngIf="UserId == 1"
+      >
+        Select Another User
+      </button>
+      <button
         class="btn btn-success float-end mt-2"
         (click)="sendMessage(messageText.value)"
       >
         Send
+      </button>
+      <button
+        class="btn btn-danger float-start mt-2"
+        (click)="sendToAll(messageText.value)"
+      >
+        Send to All Users
       </button>
     </div>
   </div>

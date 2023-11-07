@@ -29,6 +29,11 @@ public class ChatHub : Hub
     {
         await Groups.AddToGroupAsync(Context.ConnectionId, roomName);
     }
+
+    public async Task LeaveRoom(string roomName)
+    {
+        await Groups.RemoveFromGroupAsync(Context.ConnectionId, roomName);
+    }
     public async Task SendMessageToRoom(Message message)
     {
         try
