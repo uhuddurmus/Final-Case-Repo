@@ -36,17 +36,21 @@ export class LoginComponent {
     this.isMail = this.validateEmail(str);
   }
   onSubmit() {
-    this.isMail = null;
+    console.log('submit');
     const { email, password } = this.loginForm.value;
     this.authService.login(email, password).subscribe({
       next: (data) => {
+        console.log(data);
         this.storage.saveUser(data.response);
         this.router.navigate(['/dashboard']);
       },
       error: (err) => {
-        this.toastr.error(err.error.message, 'Error');
+        console.log('err', err);
+        this.toastr.error('Error');
+        this.storage.clean();
       },
     });
+    this.isMail = null;
 
     //this.authService.login();
   }

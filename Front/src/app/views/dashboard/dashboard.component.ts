@@ -29,6 +29,7 @@ export class DashboardComponent implements OnInit {
   }
   ref() {
     this.updateProducts();
+    this.id = this.storage.getUserInfo().id;
     this.value = 'd-none';
     this.cad = 'mb-4';
   }
@@ -51,6 +52,8 @@ export class DashboardComponent implements OnInit {
     this.router.navigate([`/dashboard/addproduct`]); // Replace 'product' with the actual route path to your product page
   }
   updateProducts() {
+    this.id = this.storage.getUserInfo().id;
+
     this.gain = this.storage.getUserInfo().profit;
 
     this.productService
