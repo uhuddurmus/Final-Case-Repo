@@ -38,6 +38,9 @@ isteklerde time değişkeni numberdir;
 
 ### Backend Api Dökümantasyonu
 
+Detaylı dökümantasyon için projeyi çalıştırabilirsiniz. Swagger ui mevcut.
+
+
 ### Token
 
 ### /vk/api/v1/Token
