@@ -1,6 +1,6 @@
 ### Patika VakıfBank Fullstack dev. Bitirme projesi
 
-#Kurulum
+###Kurulum
 
 Repoyu bilgisayarınıza kaydettikten sonra backend için ilgili paketlerin yüklü olduğundan emin olun.(dotnet etc.)
 terminalden migration dosyanız yoksa Vk.Data dizinine gelip 
@@ -20,11 +20,11 @@ komutu ile migration işleminizi tamamlayın.
 
 ###Backend Api Dökümantasyonu
 
-#/vk/api/v1/Addreses get()
+### /vk/api/v1/Addreses get()
 
 input beklemeden adminin bütün adreslere ulaşmasını sağlar;
 
-#/vk/api/v1/Addreses post()
+### /vk/api/v1/Addreses post()
 
 userid'si verilmiş usera adress eklemeye yarar;
 
