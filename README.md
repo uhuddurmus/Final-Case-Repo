@@ -1,6 +1,6 @@
 ### Patika VakıfBank Fullstack dev. Bitirme projesi
 
-###Kurulum
+### Kurulum
 
 Repoyu bilgisayarınıza kaydettikten sonra backend için ilgili paketlerin yüklü olduğundan emin olun.(dotnet etc.)
 terminalden migration dosyanız yoksa Vk.Data dizinine gelip 
@@ -18,7 +18,7 @@ komutu ile migration işleminizi tamamlayın.
 Önyüzün olduğu dizinde terminale npm install komutu ile gerekli kütüphaneleri indirin. Npm start ile başlıyabilir. (Nodejs gerekli.)
 
 
-###Backend Api Dökümantasyonu
+### Backend Api Dökümantasyonu
 
 ### /vk/api/v1/Addreses get()
 
