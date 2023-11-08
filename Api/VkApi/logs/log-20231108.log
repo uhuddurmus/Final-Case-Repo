@@ -9031,3 +9031,491 @@ QueryString: ?ProductBrand=&ProductType=&Gain=0&Tax=18
 StatusCode: 200 
 Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":647.82,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":6},{"id":2,"name":"iPhone X","description":"An apple mobile which is nothing like apple","price":1060.82,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":6},{"id":3,"name":"iPhone 11","description":"An apple mobile which is nothing like apple","price":1178.82,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":6},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings,","price":70.80,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":7},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":59.00,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":19},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":106.20,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":62},{"id":7,"name":"elma","description":"leziz elma","price":4.72,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":10000}]}
 2023-11-08 17:23:19.515 [INF] -------------Request-End------------
+2023-11-08 17:32:15.674 [INF] App server is starting.
+2023-11-08 17:45:48.028 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 17:45:48.030 [INF] HeartBeat
+2023-11-08 17:45:48.031 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 17:45:48.099 [INF] -------------Request-Begin------------
+2023-11-08 17:45:48.099 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Addreses 
+QueryString:  
+Request Body: 
+2023-11-08 17:45:48.100 [INF] 
+
+2023-11-08 17:45:48.100 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Addreses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 17:45:48.101 [INF] -------------Request-End------------
+2023-11-08 17:46:39.311 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 17:46:39.313 [INF] HeartBeat
+2023-11-08 17:46:39.313 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 17:46:39.319 [INF] -------------Request-Begin------------
+2023-11-08 17:46:39.319 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Addreses 
+QueryString:  
+Request Body: {
+  "userId": 0,
+  "addressLine1": "string",
+  "addressLine2": "string",
+  "city": "string",
+  "county": "string",
+  "postalCode": "string"
+}
+2023-11-08 17:46:39.320 [INF] 
+
+2023-11-08 17:46:39.321 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Addreses 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 17:46:39.322 [INF] -------------Request-End------------
+2023-11-08 17:50:09.160 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 17:50:09.161 [INF] HeartBeat
+2023-11-08 17:50:09.162 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 17:50:09.164 [INF] -------------Request-Begin------------
+2023-11-08 17:50:09.164 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Addreses/1 
+QueryString:  
+Request Body: 
+2023-11-08 17:50:09.165 [INF] 
+
+2023-11-08 17:50:09.166 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Addreses/1 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 17:50:09.167 [INF] -------------Request-End------------
+2023-11-08 17:52:49.860 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 17:52:49.861 [INF] HeartBeat
+2023-11-08 17:52:49.862 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 17:52:49.863 [INF] -------------Request-Begin------------
+2023-11-08 17:52:49.864 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Addreses/ByUserId/1 
+QueryString:  
+Request Body: 
+2023-11-08 17:52:49.865 [INF] 
+
+2023-11-08 17:52:49.866 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Addreses/ByUserId/1 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 17:52:49.866 [INF] -------------Request-End------------
+2023-11-08 17:55:13.718 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 17:55:13.720 [INF] HeartBeat
+2023-11-08 17:55:13.720 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 17:55:13.721 [INF] -------------Request-Begin------------
+2023-11-08 17:55:13.722 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Messages/GetMessageByRoomName 
+QueryString: ?roomName=2 
+Request Body: 
+2023-11-08 17:55:13.723 [INF] 
+
+2023-11-08 17:55:13.723 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Messages/GetMessageByRoomName 
+QueryString: ?roomName=2 
+StatusCode: 401 
+Response Body: 
+2023-11-08 17:55:13.724 [INF] -------------Request-End------------
+2023-11-08 17:56:25.262 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 17:56:25.263 [INF] HeartBeat
+2023-11-08 17:56:25.264 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 17:56:25.265 [INF] -------------Request-Begin------------
+2023-11-08 17:56:25.266 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Messages/2 
+QueryString:  
+Request Body: 
+2023-11-08 17:56:25.266 [INF] 
+
+2023-11-08 17:56:25.267 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Messages/2 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 17:56:25.268 [INF] -------------Request-End------------
+2023-11-08 17:57:48.926 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 17:57:48.928 [INF] HeartBeat
+2023-11-08 17:57:48.929 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 17:57:48.929 [INF] -------------Request-Begin------------
+2023-11-08 17:57:48.930 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: 
+2023-11-08 17:57:48.931 [INF] 
+
+2023-11-08 17:57:48.932 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 17:57:48.933 [INF] -------------Request-End------------
+2023-11-08 17:59:13.720 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 17:59:13.721 [INF] HeartBeat
+2023-11-08 17:59:13.722 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 17:59:13.723 [INF] -------------Request-Begin------------
+2023-11-08 17:59:13.723 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {
+  "userId": 0,
+  "productId": 0,
+  "name": "string",
+  "description": "string",
+  "price": 0,
+  "pictureUrl": "string",
+  "productType": "string",
+  "productBrand": "string",
+  "piece": 0,
+  "status": "string",
+  "paymentMethod": "string"
+}
+2023-11-08 17:59:13.725 [INF] 
+
+2023-11-08 17:59:13.726 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 17:59:13.726 [INF] -------------Request-End------------
+2023-11-08 18:01:07.671 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 18:01:07.673 [INF] HeartBeat
+2023-11-08 18:01:07.674 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 18:01:07.675 [INF] -------------Request-Begin------------
+2023-11-08 18:01:07.675 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes/UpdateProductPiece 
+QueryString:  
+Request Body: 
+2023-11-08 18:01:07.677 [INF] 
+
+2023-11-08 18:01:07.677 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes/UpdateProductPiece 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 18:01:07.678 [INF] -------------Request-End------------
+2023-11-08 18:02:19.102 [INF] App server is starting.
+2023-11-08 18:02:34.762 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 18:02:34.765 [INF] HeartBeat
+2023-11-08 18:02:34.766 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 18:02:34.830 [INF] -------------Request-Begin------------
+2023-11-08 18:02:34.831 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes/updateOrder 
+QueryString:  
+Request Body: 
+2023-11-08 18:02:34.832 [INF] 
+
+2023-11-08 18:02:34.832 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes/updateOrder 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 18:02:34.833 [INF] -------------Request-End------------
+2023-11-08 18:03:25.419 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 18:03:25.420 [INF] HeartBeat
+2023-11-08 18:03:25.421 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 18:03:25.427 [INF] -------------Request-Begin------------
+2023-11-08 18:03:25.427 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/paymentCard 
+QueryString:  
+Request Body: 
+2023-11-08 18:03:25.428 [INF] 
+
+2023-11-08 18:03:25.429 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/paymentCard 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 18:03:25.430 [INF] -------------Request-End------------
+2023-11-08 18:04:12.476 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 18:04:12.478 [INF] HeartBeat
+2023-11-08 18:04:12.479 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 18:04:12.481 [INF] -------------Request-Begin------------
+2023-11-08 18:04:12.482 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString:  
+Request Body: 
+2023-11-08 18:04:12.483 [INF] 
+
+2023-11-08 18:04:12.484 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 18:04:12.485 [INF] -------------Request-End------------
+2023-11-08 18:05:56.005 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 18:05:56.006 [INF] HeartBeat
+2023-11-08 18:05:56.007 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 18:05:56.008 [INF] -------------Request-Begin------------
+2023-11-08 18:05:56.008 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Products 
+QueryString:  
+Request Body: 
+2023-11-08 18:05:56.009 [INF] 
+
+2023-11-08 18:05:56.010 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Products 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 18:05:56.011 [INF] -------------Request-End------------
+2023-11-08 18:08:03.183 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 18:08:03.184 [INF] HeartBeat
+2023-11-08 18:08:03.185 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 18:08:03.186 [INF] -------------Request-Begin------------
+2023-11-08 18:08:03.187 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Products/UpdateProductPiece 
+QueryString:  
+Request Body: 
+2023-11-08 18:08:03.187 [INF] 
+
+2023-11-08 18:08:03.188 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Products/UpdateProductPiece 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 18:08:03.189 [INF] -------------Request-End------------
+2023-11-08 18:32:36.299 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 18:32:36.302 [INF] HeartBeat
+2023-11-08 18:32:36.302 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 18:32:36.757 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-08 18:32:36.760 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-08 18:32:36.761 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-08 18:32:36.766 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-08 18:32:37.232 [INF] -------------Request-Begin------------
+2023-11-08 18:32:37.233 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {
+  "email": "string",
+  "password": "string"
+}
+2023-11-08 18:32:37.235 [INF] 
+
+2023-11-08 18:32:37.236 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":false,"message":"Invalid user informations","response":null}
+2023-11-08 18:32:37.237 [INF] -------------Request-End------------
+2023-11-08 18:34:20.289 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 18:34:20.292 [INF] HeartBeat
+2023-11-08 18:34:20.292 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 18:34:20.294 [INF] -------------Request-Begin------------
+2023-11-08 18:34:20.294 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-08 18:34:20.295 [INF] 
+
+2023-11-08 18:34:20.296 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 18:34:20.297 [INF] -------------Request-End------------
+2023-11-08 18:35:03.469 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 18:35:03.472 [INF] HeartBeat
+2023-11-08 18:35:03.472 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 18:35:03.474 [INF] -------------Request-Begin------------
+2023-11-08 18:35:03.475 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getAdressInfo 
+QueryString:  
+Request Body: 
+2023-11-08 18:35:03.476 [INF] 
+
+2023-11-08 18:35:03.477 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getAdressInfo 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 18:35:03.477 [INF] -------------Request-End------------
+2023-11-08 18:35:36.223 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 18:35:36.224 [INF] HeartBeat
+2023-11-08 18:35:36.225 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 18:35:36.226 [INF] -------------Request-Begin------------
+2023-11-08 18:35:36.226 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=asd&ProductType=asd&Gain=10&Tax=10 
+Request Body: 
+2023-11-08 18:35:36.227 [INF] 
+
+2023-11-08 18:35:36.228 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=asd&ProductType=asd&Gain=10&Tax=10 
+StatusCode: 401 
+Response Body: 
+2023-11-08 18:35:36.229 [INF] -------------Request-End------------
+2023-11-08 18:36:40.470 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 18:36:40.472 [INF] HeartBeat
+2023-11-08 18:36:40.473 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 18:36:40.474 [INF] -------------Request-Begin------------
+2023-11-08 18:36:40.475 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString:  
+Request Body: 
+2023-11-08 18:36:40.476 [INF] 
+
+2023-11-08 18:36:40.477 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 18:36:40.478 [INF] -------------Request-End------------
+2023-11-08 18:37:22.739 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 18:37:22.742 [INF] HeartBeat
+2023-11-08 18:37:22.743 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 18:37:22.744 [INF] -------------Request-Begin------------
+2023-11-08 18:37:22.745 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getReport 
+QueryString:  
+Request Body: 
+2023-11-08 18:37:22.746 [INF] 
+
+2023-11-08 18:37:22.747 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getReport 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 18:37:22.748 [INF] -------------Request-End------------
+2023-11-08 18:37:33.021 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 18:37:33.023 [INF] HeartBeat
+2023-11-08 18:37:33.024 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 18:37:33.025 [INF] -------------Request-Begin------------
+2023-11-08 18:37:33.026 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getReport 
+QueryString: ?time=1 
+Request Body: 
+2023-11-08 18:37:33.027 [INF] 
+
+2023-11-08 18:37:33.028 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getReport 
+QueryString: ?time=1 
+StatusCode: 401 
+Response Body: 
+2023-11-08 18:37:33.028 [INF] -------------Request-End------------
+2023-11-08 18:41:28.531 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 18:41:28.533 [INF] HeartBeat
+2023-11-08 18:41:28.534 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 18:41:28.535 [INF] -------------Request-Begin------------
+2023-11-08 18:41:28.535 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByParameter 
+QueryString: ?Status=active&Description=text&Name=text&time=1 
+Request Body: 
+2023-11-08 18:41:28.536 [INF] 
+
+2023-11-08 18:41:28.537 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByParameter 
+QueryString: ?Status=active&Description=text&Name=text&time=1 
+StatusCode: 401 
+Response Body: 
+2023-11-08 18:41:28.538 [INF] -------------Request-End------------
+2023-11-08 18:42:15.290 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-08 18:42:15.291 [INF] HeartBeat
+2023-11-08 18:42:15.292 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-08 18:42:15.292 [INF] -------------Request-Begin------------
+2023-11-08 18:42:15.294 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: 
+2023-11-08 18:42:15.295 [INF] 
+
+2023-11-08 18:42:15.296 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2023-11-08 18:42:15.296 [INF] -------------Request-End------------

@@ -42,15 +42,7 @@ public class OrderesController : ControllerBase
         return result;
     }
 
-    [HttpGet("UpdateProductPiece")]
-    [Authorize(Roles = "admin")]
-
-    public async Task<ApiResponse> Post(int id,int piece)
-    {
-        var operation = new UpdateProductPieceCommand(id,piece);
-        var result = await mediator.Send(operation);
-        return result;
-    }
+  
     
 
     [HttpPost]
