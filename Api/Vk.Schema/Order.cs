@@ -34,7 +34,7 @@ public class OrderResponse
     public int Piece { get; set; }
     public string Status { get; set; }
     public string PaymentMethod { get; set; }
-
+    public DateTime InsertDate { get; set; }
 
 }
 

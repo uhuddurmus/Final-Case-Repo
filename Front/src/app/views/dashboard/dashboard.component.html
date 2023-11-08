@@ -5,6 +5,42 @@
     width="50%"
   />
 </div>
+<div class="{{ cad }}" *ngIf="id == 1 && warning.length > 0">
+  <div class="mb-2 p-4 row card">
+    Warning Low Stock :
+    <br />
+    <br />
+    <div class="col-md-6">
+      <table cTable>
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Piece</th>
+            <th scope="col">Update</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let d of warning">
+            <th scope="row"></th>
+
+            <th scope="row">{{ d?.name }}</th>
+            <td>{{ d?.piece }}</td>
+            <td>
+              <button
+                (click)="navigateToProductPage(d?.id)"
+                class="btn btn-danger text-light"
+                *ngIf="id == 1"
+              >
+                Update
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
 <c-card class="{{ cad }}">
   <c-card-header>
     <strong>Products List</strong>
@@ -61,8 +97,16 @@
             <button
               (click)="navigateToProductPage(d?.id)"
               class="btn btn-success text-light"
+              *ngIf="id != 1"
             >
               Buy
+            </button>
+            <button
+              (click)="navigateToProductPage(d?.id)"
+              class="btn btn-danger text-light"
+              *ngIf="id == 1"
+            >
+              Change
             </button>
           </div>
         </c-card-footer>

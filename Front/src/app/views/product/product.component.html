@@ -26,7 +26,7 @@
 
             <p style="font-weight: bold">{{ product.productType }}</p>
           </div>
-          <div class="row d-flex justify-content-around">
+          <div *ngIf="userId != 1" class="row d-flex justify-content-around">
             <div style="width: 150px" class="card bg-info mt-5 border-0">
               <div class="d-flex justify-content-around m-2">
                 <div
@@ -55,6 +55,13 @@
             >
               Add to cart
             </button>
+          </div>
+
+          <div *ngIf="userId == 1" class="mt-5">
+            inStock : {{ product.piece }}
+            <br />
+            <input type="number" #piece (keyup)="uPiece(piece.value)" />
+            <button class="ms-2" (click)="updateProduct()">Update Stock</button>
           </div>
         </div>
       </div>

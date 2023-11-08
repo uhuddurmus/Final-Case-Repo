@@ -38,4 +38,12 @@ export class ProductService {
     const headers = new HttpHeaders().set('accept', 'text/plain');
     return this.http.get(url, { headers });
   }
+
+  updateProductStock(id: any, piece: any): Observable<any> {
+    const url = `${this.baseUrl}Orderes/UpdateProductPiece?id=${id}&piece=${piece}`;
+
+    // Eğer kullanıcı kimliği gerekiyorsa, Authorization başlığını ekleyin.
+    const headers = new HttpHeaders().set('accept', 'text/plain');
+    return this.http.get(url, { headers });
+  }
 }

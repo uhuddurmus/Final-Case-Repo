@@ -34,4 +34,13 @@ export const navItems: INavData[] = [
     url: '/chat',
     iconComponent: { name: 'cilEnvelopeOpen' },
   },
+  {
+    title: true,
+    name: 'Report',
+  },
+  {
+    name: 'Reports',
+    url: '/report',
+    iconComponent: { name: 'cil-notes' },
+  },
 ];

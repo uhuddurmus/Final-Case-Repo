@@ -11,8 +11,8 @@ namespace Vk.Operation.Command;
 public class ProductCommandHandler :
     IRequestHandler<CreateProductCommand, ApiResponse<ProductResponse>>,
     IRequestHandler<UpdateProductCommand, ApiResponse>,
-    IRequestHandler<DeleteProductCommand, ApiResponse>
-//IRequestHandler<UpdateProductPieceCommand, ApiResponse>
+    IRequestHandler<DeleteProductCommand, ApiResponse>,
+    IRequestHandler<UpdateProductPieceCommand, ApiResponse>
 
 {
     private readonly VkDbContext dbContext;
@@ -51,12 +51,18 @@ public class ProductCommandHandler :
         await dbContext.SaveChangesAsync(cancellationToken);
         return new ApiResponse();
     }
+
+
     public async Task<ApiResponse> Handle(UpdateProductPieceCommand request, CancellationToken cancellationToken)
     {
         var entity = await dbContext.Set<Product>().FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
         if (entity == null)
         {
             return new ApiResponse("Record not found!");
+        }
+        if (request.Piece<5)
+        {
+            return new ApiResponse("Stock must be bigger than 5!");
         }
         entity.Piece = request.Piece;
         await dbContext.SaveChangesAsync(cancellationToken);

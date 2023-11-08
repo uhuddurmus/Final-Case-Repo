@@ -40,11 +40,6 @@ const routes: Routes = [
           import('./views/theme/theme.module').then((m) => m.ThemeModule),
       },
       {
-        path: 'base',
-        loadChildren: () =>
-          import('./views/base/base.module').then((m) => m.BaseModule),
-      },
-      {
         path: 'buttons',
         loadChildren: () =>
           import('./views/buttons/buttons.module').then((m) => m.ButtonsModule),
@@ -70,14 +65,16 @@ const routes: Routes = [
           import('./views/chat/chat.module').then((m) => m.ChatModule),
       },
       {
-        path: 'widgets',
-        loadChildren: () =>
-          import('./views/widgets/widgets.module').then((m) => m.WidgetsModule),
-      },
-      {
         path: 'pages',
         loadChildren: () =>
           import('./views/pages/pages.module').then((m) => m.PagesModule),
+      },
+      {
+        path: 'report',
+        loadChildren: () =>
+          import('./views/reports/report.module').then(
+            (m) => m.ReportRoutingModule
+          ),
       },
     ],
   },

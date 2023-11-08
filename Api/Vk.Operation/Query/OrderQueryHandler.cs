@@ -56,10 +56,15 @@ public class OrderQueryHandler :
 
     public async Task<ApiResponse<List<OrderResponse>>> Handle(GetOrderByUserIdQuery request, CancellationToken cancellationToken)
     {
-        IQueryable<Order> query = dbContext.Set<Order>()
-            .Include(x => x.User)
+        IQueryable<Order> query = dbContext.Set<Order>();
+
+
+        if(request.UserId!= 1)
+        {
+            query = query.Include(x => x.User)
             .Where(x => x.UserId == request.UserId);
 
+        }
         if (request.time == "1")
         {
             // Günlük zaman aralığına göre filtrele

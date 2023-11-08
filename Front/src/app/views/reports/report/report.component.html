@@ -1,0 +1,111 @@
+<div class="row">
+  <div class="card">
+    <div class="card-header bg-transparent h5">Filter</div>
+    <div class="card-body">
+      <div>
+        <div class="d-flex justify-content-around">
+          <button
+            class="col-md-2 m-1"
+            (click)="updateTime(0)"
+            class="btn btn-secondary"
+          >
+            Reset
+          </button>
+          <button
+            class="col-md-2 m-1"
+            (click)="updateTime(1)"
+            class="btn btn-secondary"
+          >
+            Daily
+          </button>
+          <button
+            class="col-md-2 m-1"
+            (click)="updateTime(2)"
+            class="btn btn-secondary"
+          >
+            Monthly
+          </button>
+          <button
+            class="col-md-2 m-1"
+            (click)="updateTime(3)"
+            class="btn btn-secondary"
+          >
+            Yearly
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-2 d-flex justify-content-around">
+    <div class="card col-md-2 text-center p-4">
+      <p class="text-success">Total Sales</p>
+      <br />
+      <p>{{ totalPrice }} $</p>
+    </div>
+    <div class="card col-md-2 text-center p-4">
+      <p class="text-success">Total Saled Product</p>
+      <br />
+      <p>{{ totalPiece }}</p>
+    </div>
+    <div class="card col-md-2 text-center p-4">
+      <p class="text-success">Most Saled Product</p>
+      <br />
+      <p>{{ mostSaledProduct.name }}</p>
+    </div>
+    <div class="card col-md-2 text-center p-4">
+      <p class="text-success">Total Complated Sales</p>
+      <br />
+      <p>{{ totalDoneProducts }}</p>
+    </div>
+    <div class="card col-md-2 text-center p-4">
+      <p class="text-success">Total Waiting Sales</p>
+      <br />
+      <p>{{ totalWaitingProducts }}</p>
+    </div>
+  </div>
+  <c-card *ngIf="data.length > 0" class="mb-4 mt-2">
+    <c-card-header class="bg-transparent">
+      <strong>Order List</strong>
+    </c-card-header>
+
+    <c-card-body style="max-height: 600px; overflow: scroll">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Method</th>
+            <th scope="col">Price</th>
+            <th scope="col">Piece</th>
+            <th scope="col">Status</th>
+            <th scope="col">Date</th>
+            <th scope="col">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let d of data">
+            <th scope="row">{{ d?.id }}</th>
+            <td>{{ d.name }}</td>
+
+            <td>{{ d.paymentMethod }}</td>
+            <td>{{ d.price }}$</td>
+            <td>{{ d.piece }}</td>
+            <td>{{ d.status }}</td>
+            <td>{{ d.insertDate.slice(0, 10) }}</td>
+            <td class="m-1">{{ d.piece * d.price }}$</td>
+          </tr>
+          <tr>
+            <th scope="row">Total Price</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="m-1">{{ totalPrice }}$</td>
+          </tr>
+        </tbody>
+      </table>
+    </c-card-body>
+  </c-card>
+</div>

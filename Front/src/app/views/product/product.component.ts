@@ -14,6 +14,7 @@ export class ProductComponent implements OnInit {
   gain: any = 0;
   tax: any = 18;
   count: number = 1;
+  piece: any = 0;
   product: any = undefined;
   cart: CartItem = {
     userId: '',
@@ -45,6 +46,10 @@ export class ProductComponent implements OnInit {
       this.count = this.count - 1;
     }
   }
+  uPiece(str: any) {
+    this.piece = str;
+    console.log(this.piece);
+  }
   ngOnInit() {
     this.id = this.router.url.slice(9);
     this.gain = this.storage.getUserInfo().profit;
@@ -53,7 +58,6 @@ export class ProductComponent implements OnInit {
       (response) => {
         // İşlem başarılı olduğunda response işlenebilir.
         this.product = response.response;
-        console.log('product', this.product);
       },
       (error) => {
         // Hata durumunda error işlenebilir.
@@ -61,7 +65,24 @@ export class ProductComponent implements OnInit {
       }
     );
   }
-
+  updateProduct() {
+    if (this.piece > 5) {
+      this.productService.updateProductStock(this.id, this.piece).subscribe(
+        (response) => {
+          // İşlem başarılı olduğunda response işlenebilir.
+          this.toastr.success('Updated');
+          this.router.navigate(['/']);
+        },
+        (error) => {
+          // Hata durumunda error işlenebilir.
+          console.error(error);
+          this.toastr.error('Failed');
+        }
+      );
+    } else {
+      this.toastr.error('Piece must bigger than 5');
+    }
+  }
   addTocart() {
     this.cart.userId = this.userId;
     this.cart.productId = this.product.id;

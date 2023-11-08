@@ -100,7 +100,7 @@ public class TokenController : ControllerBase
         return result;
     }
 
-    [HttpGet("GetOrdersByToken")]
+    [HttpGet("getReport")]
     [Authorize(Roles = "admin, user")]
 
     //time 0 default all

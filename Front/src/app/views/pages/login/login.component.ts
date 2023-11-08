@@ -16,6 +16,8 @@ export class LoginComponent {
     email: new FormControl(''),
     password: new FormControl(''),
   });
+  isMail: any = null;
+
   constructor(
     private authService: AuthService,
     private router: Router,
@@ -23,7 +25,18 @@ export class LoginComponent {
     private toastr: ToastrService,
     private UserService: UserServiceService
   ) {}
+  validateEmail = (email: any) => {
+    return String(email)
+      .toLowerCase()
+      .match(
+        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+      );
+  };
+  upassword(str: any) {
+    this.isMail = this.validateEmail(str);
+  }
   onSubmit() {
+    this.isMail = null;
     const { email, password } = this.loginForm.value;
     this.authService.login(email, password).subscribe({
       next: (data) => {
@@ -33,9 +46,8 @@ export class LoginComponent {
       error: (err) => {
         this.toastr.error(err.error.message, 'Error');
       },
-    })
+    });
 
-
-     //this.authService.login();
+    //this.authService.login();
   }
 }

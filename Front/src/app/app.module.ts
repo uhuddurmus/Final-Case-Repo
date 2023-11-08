@@ -49,6 +49,7 @@ import { IconModule, IconSetService } from '@coreui/icons-angular';
 import { HttpClientModule } from '@angular/common/http';
 import { httpInterceptorProviders } from '../app/helpers/token.interceptor';
 import { ToastrModule } from 'ngx-toastr';
+import { ReportComponent } from './views/reports/report/report.component';
 const APP_CONTAINERS = [
   DefaultFooterComponent,
   DefaultHeaderComponent,
@@ -56,7 +57,7 @@ const APP_CONTAINERS = [
 ];
 
 @NgModule({
-  declarations: [AppComponent, ...APP_CONTAINERS],
+  declarations: [AppComponent, ...APP_CONTAINERS, ReportComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

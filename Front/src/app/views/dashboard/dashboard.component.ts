@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 })
 export class DashboardComponent implements OnInit {
   products: any[] = [];
+  warning: any[] = [];
   productBrand: any = ''; // ProductBrand değişkenini string olarak tanımladık
   productType: any = ''; // ProductType değişkenini string olarak tanımladık
   gain: any = 0;
@@ -39,6 +40,9 @@ export class DashboardComponent implements OnInit {
     this.productType = type;
     this.updateProducts();
   }
+  calculateTotalWaitingProducts() {
+    this.warning = this.products.filter((item) => item.piece <= 5);
+  }
   navigateToProductPage(id: any) {
     // Use the Router service to navigate to the "product" page
     this.router.navigate([`/product/${id}`]); // Replace 'product' with the actual route path to your product page
@@ -59,6 +63,8 @@ export class DashboardComponent implements OnInit {
       .subscribe(
         (response) => {
           this.products = response.response;
+          console.log(this.products);
+          this.calculateTotalWaitingProducts();
         },
         (error) => {
           console.error('Ürün verileri getirilirken hata oluştu:', error);
