@@ -377,4 +377,22 @@ idsi verilen userı günceller.
 idsi verilen userı siler.
 
 
+### Önyüz
+
+Önyüz için Coreui kullanılmıştır.
+
+Detay;
+
+https://coreui.io/angular/docs/getting-started/introduction
+
+Servisler klasörü içinde api bağlatıları ve gerekli servisler mevcut.
+
+Views içinde de gerekli componentler ve sayfalar mevcuttur.
+
+4200 portunda çalışmaktadır.
+
+
+
+
+
 
