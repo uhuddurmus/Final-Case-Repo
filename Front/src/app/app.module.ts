@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import {
+  CommonModule,
   HashLocationStrategy,
   LocationStrategy,
   PathLocationStrategy,
@@ -58,7 +59,12 @@ const APP_CONTAINERS = [
 ];
 
 @NgModule({
-  declarations: [AppComponent, ...APP_CONTAINERS, ReportComponent, UsersComponent],
+  declarations: [
+    AppComponent,
+    ...APP_CONTAINERS,
+    ReportComponent,
+    UsersComponent,
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -81,6 +87,7 @@ const APP_CONTAINERS = [
     SharedModule,
     TabsModule,
     ListGroupModule,
+    CommonModule,
     ProgressModule,
     BadgeModule,
     ListGroupModule,

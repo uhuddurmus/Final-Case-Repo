@@ -46,11 +46,11 @@ public class UsersController : ControllerBase
         return result;
     }
 
-    [HttpPut("{id}")]
+    [HttpPut("updateProfit")]
     [Authorize(Roles = "admin")]
-    public async Task<ApiResponse> Put(int id, [FromBody] UserRequest request)
+    public async Task<ApiResponse> Post(int id, int profit)
     {
-        var operation = new UpdateUserCommand(request, id);
+        var operation = new UpdateUserCommand(id, profit);
         var result = await mediator.Send(operation);
         return result;
     }

@@ -43,4 +43,13 @@ export const navItems: INavData[] = [
     url: '/report',
     iconComponent: { name: 'cil-notes' },
   },
+  {
+    title: true,
+    name: 'Users',
+  },
+  {
+    name: 'Users',
+    url: '/users',
+    iconComponent: { name: 'cilUser' },
+  },
 ];

@@ -40,4 +40,12 @@ export class AuthService {
       return false;
     }
   }
+  isAdmin() {
+    let id = this.storage.getUserInfo().id;
+    if (id == 1) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }

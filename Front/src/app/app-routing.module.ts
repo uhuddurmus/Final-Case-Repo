@@ -6,6 +6,7 @@ import { Page500Component } from './views/pages/page500/page500.component';
 import { LoginComponent } from './views/pages/login/login.component';
 import { RegisterComponent } from './views/pages/register/register.component';
 import { AuthGuardService } from './services/auth-guard.service';
+import { AdminGuardService } from './services/admin-guard.service';
 
 const routes: Routes = [
   {
@@ -35,42 +36,43 @@ const routes: Routes = [
           import('./views/order/order.module').then((m) => m.OrdersModule),
       },
       {
-        path: 'theme',
-        loadChildren: () =>
-          import('./views/theme/theme.module').then((m) => m.ThemeModule),
-      },
-      {
-        path: 'buttons',
-        loadChildren: () =>
-          import('./views/buttons/buttons.module').then((m) => m.ButtonsModule),
-      },
-      {
-        path: 'forms',
-        loadChildren: () =>
-          import('./views/forms/forms.module').then((m) => m.CoreUIFormsModule),
-      },
-      {
         path: 'cart',
+        canActivate: [AuthGuardService],
+
         loadChildren: () =>
           import('./views/cart/cart.module').then((m) => m.CartModule),
       },
       {
+        path: 'users',
+        canActivate: [AuthGuardService, AdminGuardService],
+        //sadece admin girebiliyor
+        loadChildren: () =>
+          import('./views/users/users-routing.module').then(
+            (m) => m.UsersRoutingModule
+          ),
+      },
+      {
         path: 'product/:id',
+        canActivate: [AuthGuardService],
         loadChildren: () =>
           import('./views/product/product.module').then((m) => m.ProductModule),
       },
       {
         path: 'chat',
+        canActivate: [AuthGuardService],
         loadChildren: () =>
           import('./views/chat/chat.module').then((m) => m.ChatModule),
       },
       {
         path: 'pages',
+        canActivate: [AuthGuardService],
         loadChildren: () =>
           import('./views/pages/pages.module').then((m) => m.PagesModule),
       },
       {
         path: 'report',
+        canActivate: [AuthGuardService],
+
         loadChildren: () =>
           import('./views/reports/report.module').then(
             (m) => m.ReportRoutingModule

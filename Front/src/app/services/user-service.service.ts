@@ -26,4 +26,24 @@ export class UserServiceService {
     };
     return this.http.get(API_URL + '/Users', httpOptions);
   }
+  getUserWithId(userId: number): Observable<any> {
+    const httpOptions = {
+      headers: new HttpHeaders({
+        accept: 'text/plain',
+      }),
+    };
+    return this.http.get(API_URL + `/Users/${userId}`, httpOptions);
+  }
+
+  updateProfit(userId: number, newProfit: number): Observable<any> {
+    const httpOptions = {
+      headers: new HttpHeaders({
+        accept: 'text/plain',
+      }),
+    };
+    return this.http.put(
+      API_URL + `/Users/updateProfit?id=${userId}&profit=${newProfit}`,
+      httpOptions
+    );
+  }
 }

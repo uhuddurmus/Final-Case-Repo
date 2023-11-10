@@ -1,0 +1,47 @@
+<div class="card">
+  <div class="card-header bg-primary text-white">User Information</div>
+  <div class="card-body">
+    <dl class="row">
+      <dt class="col-sm-3">Id:</dt>
+      <dd class="col-sm-9">{{ user.id }}</dd>
+
+      <dt class="col-sm-3">Name:</dt>
+      <dd class="col-sm-9">{{ user.fullName }}</dd>
+
+      <dt class="col-sm-3">Email:</dt>
+      <dd class="col-sm-9">{{ user.email }}</dd>
+
+      <dt class="col-sm-3">Profit:</dt>
+      <dd class="col-sm-9">
+        <div class="input-group">
+          <input
+            type="number"
+            class="form-control w-25"
+            #profit
+            placeholder="{{ user.profit }}"
+            (keyup)="uProfit(profit.value)"
+            name="profit"
+            id="profit"
+            style="width: 120px !important"
+          />
+          <div class="input-group-append">
+            <button
+              class="btn btn-primary"
+              type="button"
+              (click)="updateProfit()"
+            >
+              Update Profit
+            </button>
+          </div>
+        </div>
+      </dd>
+
+      <dt class="col-sm-3">Credit:</dt>
+      <dd class="col-sm-9">{{ user.credit }}</dd>
+    </dl>
+    <button (click)="goBack()" class="btn btn-primary mt-3 float-end">
+      Go Back
+    </button>
+  </div>
+  <br />
+</div>

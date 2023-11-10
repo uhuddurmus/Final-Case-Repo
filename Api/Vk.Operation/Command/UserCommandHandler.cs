@@ -44,7 +44,7 @@ public class UserCommandHandler :
         {
             return new ApiResponse("Record not found!");
         }
-        entity.Credit = request.Model.Credit;
+        entity.Profit = request.Profit;
 
         await dbContext.SaveChangesAsync(cancellationToken);
         return new ApiResponse();
