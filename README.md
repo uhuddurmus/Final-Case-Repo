@@ -15,6 +15,8 @@ dotnet ef database update --project  "./Vk.Data" --startup-project "./VkApi"
 
 komutu ile migration işleminizi tamamlayın.
 
+( connection string ve db mevcut olmasına özen gösterin .)
+
 Önyüzün olduğu dizinde terminale npm install komutu ile gerekli kütüphaneleri indirin. Npm start ile başlıyabilir. (Nodejs gerekli.)
 
 ### Statüler
