@@ -1,0 +1,746 @@
+2023-11-10 12:33:46.180 [INF] App server is starting.
+2023-11-10 13:02:09.363 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:02:09.366 [INF] HeartBeat
+2023-11-10 13:02:09.367 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:02:10.088 [WRN] The 'bool' property 'IsActive' on entity type 'Address' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 13:02:10.091 [WRN] The 'bool' property 'IsActive' on entity type 'Order' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 13:02:10.092 [WRN] The 'bool' property 'IsActive' on entity type 'User' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead, so that the default will only be used for inserts when the property value is 'null'.
+2023-11-10 13:02:10.096 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-10 13:02:10.749 [INF] -------------Request-Begin------------
+2023-11-10 13:02:10.749 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Users 
+QueryString:  
+Request Body: {"email":"cem@gmail.com","password":"hello","fullName":"cem sivilcem","profit":20,"role":"user","credit":5}
+2023-11-10 13:02:10.751 [INF] 
+
+2023-11-10 13:02:10.752 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":5,"email":"cem@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"cem sivilcem","profit":20,"role":"user","credit":5,"addresses":[],"orders":[]}}
+2023-11-10 13:02:10.753 [INF] -------------Request-End------------
+2023-11-10 13:02:17.400 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:02:17.400 [INF] HeartBeat
+2023-11-10 13:02:17.401 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:02:17.751 [INF] -------------Request-Begin------------
+2023-11-10 13:02:17.751 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {"email":"cem@gmail.com","password":"hello"}
+2023-11-10 13:02:17.752 [INF] 
+
+2023-11-10 13:02:17.753 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T18:02:17.7481067+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjUiLCJSb2xlIjoidXNlciIsIkVtYWlsIjoiY2VtQGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6InVzZXIiLCJGdWxsTmFtZSI6ImNlbSBzaXZpbGNlbSIsImV4cCI6MTY5OTYyODUzNywiaXNzIjoiVmtBcGkiLCJhdWQiOiJWa0FwaSJ9.xv12TmBXZra3-8OGFNWi5hVp7PT2bK4_84n05GUO9l8","email":"cem@gmail.com"}}
+2023-11-10 13:02:17.754 [INF] -------------Request-End------------
+2023-11-10 13:02:17.776 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:02:17.776 [INF] HeartBeat
+2023-11-10 13:02:17.777 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:02:17.886 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2023-11-10 13:02:17.902 [INF] -------------Request-Begin------------
+2023-11-10 13:02:17.903 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-10 13:02:17.904 [INF] 
+
+2023-11-10 13:02:17.905 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":5,"email":"cem@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"cem sivilcem","profit":20,"role":"user","credit":5,"addresses":[],"orders":[]}}
+2023-11-10 13:02:17.906 [INF] -------------Request-End------------
+2023-11-10 13:02:20.383 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:02:20.383 [INF] HeartBeat
+2023-11-10 13:02:20.384 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:02:20.465 [INF] -------------Request-Begin------------
+2023-11-10 13:02:20.466 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=20&Tax=18 
+Request Body: 
+2023-11-10 13:02:20.467 [INF] 
+
+2023-11-10 13:02:20.468 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=20&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":777.384,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":2,"name":"iPhone X","description":"An apple mobile which is nothing like apple","price":1272.984,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":3,"name":"iPhone 11","description":"An apple mobile which is nothing like apple","price":1414.584,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings,","price":84.96,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":7},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":70.80,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":14},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":127.44,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":62},{"id":7,"name":"elma","description":"leziz elma","price":5.664,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":9997},{"id":8,"name":"Armut","description":"leziz armut","price":14.16,"pictureUrl":"","productType":"meyve","productBrand":"meyveciler","piece":900}]}
+2023-11-10 13:02:20.471 [INF] -------------Request-End------------
+2023-11-10 13:02:25.499 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:02:25.500 [INF] HeartBeat
+2023-11-10 13:02:25.501 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:02:25.517 [INF] -------------Request-Begin------------
+2023-11-10 13:02:25.518 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByParameter 
+QueryString: ?Status=&Description=&Name=&time=0 
+Request Body: 
+2023-11-10 13:02:25.519 [INF] 
+
+2023-11-10 13:02:25.519 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByParameter 
+QueryString: ?Status=&Description=&Name=&time=0 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[]}
+2023-11-10 13:02:25.520 [INF] -------------Request-End------------
+2023-11-10 13:02:27.175 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:02:27.176 [INF] HeartBeat
+2023-11-10 13:02:27.177 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:02:27.182 [INF] -------------Request-Begin------------
+2023-11-10 13:02:27.183 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=20&Tax=18 
+Request Body: 
+2023-11-10 13:02:27.184 [INF] 
+
+2023-11-10 13:02:27.185 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=20&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":777.384,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":2,"name":"iPhone X","description":"An apple mobile which is nothing like apple","price":1272.984,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":3,"name":"iPhone 11","description":"An apple mobile which is nothing like apple","price":1414.584,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings,","price":84.96,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":7},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":70.80,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":14},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":127.44,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":62},{"id":7,"name":"elma","description":"leziz elma","price":5.664,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":9997},{"id":8,"name":"Armut","description":"leziz armut","price":14.16,"pictureUrl":"","productType":"meyve","productBrand":"meyveciler","piece":900}]}
+2023-11-10 13:02:27.188 [INF] -------------Request-End------------
+2023-11-10 13:02:34.960 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:02:34.961 [INF] HeartBeat
+2023-11-10 13:02:34.962 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:02:38.227 [INF] -------------Request-Begin------------
+2023-11-10 13:02:38.228 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=20&Tax=18 
+Request Body: 
+2023-11-10 13:02:38.229 [INF] 
+
+2023-11-10 13:02:38.230 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=20&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":777.384,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":2,"name":"iPhone X","description":"An apple mobile which is nothing like apple","price":1272.984,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":3,"name":"iPhone 11","description":"An apple mobile which is nothing like apple","price":1414.584,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings,","price":84.96,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":7},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":70.80,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":14},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":127.44,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":62},{"id":7,"name":"elma","description":"leziz elma","price":5.664,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":9997},{"id":8,"name":"Armut","description":"leziz armut","price":14.16,"pictureUrl":"","productType":"meyve","productBrand":"meyveciler","piece":900}]}
+2023-11-10 13:02:38.233 [INF] -------------Request-End------------
+2023-11-10 13:12:26.913 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:12:26.914 [INF] HeartBeat
+2023-11-10 13:12:26.915 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:12:30.879 [INF] -------------Request-Begin------------
+2023-11-10 13:12:30.879 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=7&gain=20&tax=18 
+Request Body: 
+2023-11-10 13:12:30.881 [INF] 
+
+2023-11-10 13:12:30.881 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProduct 
+QueryString: ?id=7&gain=20&tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":7,"name":"elma","description":"leziz elma","price":5.664,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":9997}}
+2023-11-10 13:12:30.882 [INF] -------------Request-End------------
+2023-11-10 13:12:54.543 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:12:54.543 [INF] HeartBeat
+2023-11-10 13:12:54.544 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:12:54.598 [INF] -------------Request-Begin------------
+2023-11-10 13:12:54.599 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Addreses 
+QueryString:  
+Request Body: {"userId":5,"postalCode":"34000","county":"turkey","city":"istan","addressLine2":"asdasdas","addressLine1":"asdasd"}
+2023-11-10 13:12:54.600 [INF] 
+
+2023-11-10 13:12:54.601 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Addreses 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":2,"userId":5,"addressLine1":"asdasd","addressLine2":"asdasdas","city":"istan","county":"turkey","postalCode":"34000"}}
+2023-11-10 13:12:54.602 [INF] -------------Request-End------------
+2023-11-10 13:12:54.608 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:12:54.608 [INF] HeartBeat
+2023-11-10 13:12:54.609 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:12:54.620 [INF] -------------Request-Begin------------
+2023-11-10 13:12:54.621 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-10 13:12:54.621 [INF] 
+
+2023-11-10 13:12:54.622 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":5,"email":"cem@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"cem sivilcem","profit":20,"role":"user","credit":5,"addresses":[{"id":2,"userId":5,"addressLine1":"asdasd","addressLine2":"asdasdas","city":"istan","county":"turkey","postalCode":"34000"}],"orders":[]}
+2023-11-10 13:12:54.623 [INF] -------------Request-End------------
+2023-11-10 13:12:59.337 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:12:59.338 [INF] HeartBeat
+2023-11-10 13:12:59.338 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:12:59.358 [INF] -------------Request-Begin------------
+2023-11-10 13:12:59.359 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=5000&isPayment=false 
+Request Body: {"headers":{"normalizedNames":{},"lazyUpdate":null}
+2023-11-10 13:12:59.360 [INF] 
+
+2023-11-10 13:12:59.361 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=5000&isPayment=false 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Success!"}
+2023-11-10 13:12:59.362 [INF] -------------Request-End------------
+2023-11-10 13:12:59.365 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:12:59.366 [INF] HeartBeat
+2023-11-10 13:12:59.366 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:12:59.370 [INF] -------------Request-Begin------------
+2023-11-10 13:12:59.371 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-10 13:12:59.372 [INF] 
+
+2023-11-10 13:12:59.373 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":5,"email":"cem@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"cem sivilcem","profit":20,"role":"user","credit":5005,"addresses":[{"id":2,"userId":5,"addressLine1":"asdasd","addressLine2":"asdasdas","city":"istan","county":"turkey","postalCode":"34000"}],"orders":[]}
+2023-11-10 13:12:59.374 [INF] -------------Request-End------------
+2023-11-10 13:13:00.895 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:13:00.895 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:13:00.896 [INF] HeartBeat
+2023-11-10 13:13:00.896 [INF] HeartBeat
+2023-11-10 13:13:00.897 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:13:00.897 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:13:00.918 [INF] -------------Request-Begin------------
+2023-11-10 13:13:00.919 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=50&isPayment=true 
+Request Body: {"headers":{"normalizedNames":{},"lazyUpdate":null}
+2023-11-10 13:13:00.920 [INF] 
+
+2023-11-10 13:13:00.921 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Payment/Eft 
+QueryString: ?credit=50&isPayment=true 
+StatusCode: 200 
+Response Body: {"success":false,"message":"Success!"}
+2023-11-10 13:13:00.947 [INF] -------------Request-End------------
+2023-11-10 13:13:00.993 [INF] -------------Request-Begin------------
+2023-11-10 13:13:00.994 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+Request Body: {"userId":5,"productId":7,"name":"elma","description":"leziz elma","price":5,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":10,"status":"active","paymentMethod":"wallet"}
+2023-11-10 13:13:00.995 [INF] 
+
+2023-11-10 13:13:00.996 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Orderes 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":13,"userId":5,"productId":7,"name":"elma","description":"leziz elma","price":5,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":10,"status":"active","paymentMethod":"wallet","insertDate":"2023-11-10T13:13:00.9131852+03:00"}}
+2023-11-10 13:13:00.997 [INF] -------------Request-End------------
+2023-11-10 13:13:01.009 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:13:01.010 [INF] HeartBeat
+2023-11-10 13:13:01.011 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:13:01.012 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:13:01.014 [INF] HeartBeat
+2023-11-10 13:13:01.015 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:13:01.016 [INF] -------------Request-Begin------------
+2023-11-10 13:13:01.017 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-10 13:13:01.018 [INF] 
+
+2023-11-10 13:13:01.018 [INF] -------------Request-Begin------------
+2023-11-10 13:13:01.019 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":5,"email":"cem@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"cem sivilcem","profit":20,"role":"user","credit":4955,"addresses":[{"id":2,"userId":5,"addressLine1":"asdasd","addressLine2":"asdasdas","city":"istan","county":"turkey","postalCode":"34000"}],"orders":[{"id":13,"userId":5,"productId":7,"name":"elma","description":"leziz elma","price":5,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":10,"status":"active","paymentMethod":"wallet","insertDate":"2023-11-10T13:13:00.9131852"}]}
+2023-11-10 13:13:01.019 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=20&Tax=18 
+Request Body: 
+2023-11-10 13:13:01.021 [INF] -------------Request-End------------
+2023-11-10 13:13:01.022 [INF] 
+
+2023-11-10 13:13:01.023 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=20&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":777.384,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":2,"name":"iPhone X","description":"An apple mobile which is nothing like apple","price":1272.984,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":3,"name":"iPhone 11","description":"An apple mobile which is nothing like apple","price":1414.584,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings,","price":84.96,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":7},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":70.80,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":14},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":127.44,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":62},{"id":7,"name":"elma","description":"leziz elma","price":5.664,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":9987},{"id":8,"name":"Armut","description":"leziz armut","price":14.16,"pictureUrl":"","productType":"meyve","productBrand":"meyveciler","piece":900}]}
+2023-11-10 13:13:01.026 [INF] -------------Request-End------------
+2023-11-10 13:14:15.295 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:14:15.296 [INF] HeartBeat
+2023-11-10 13:14:15.296 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:14:15.304 [INF] -------------Request-Begin------------
+2023-11-10 13:14:15.305 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=20&Tax=18 
+Request Body: 
+2023-11-10 13:14:15.306 [INF] 
+
+2023-11-10 13:14:15.307 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=20&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":777.384,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":2,"name":"iPhone X","description":"An apple mobile which is nothing like apple","price":1272.984,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":3,"name":"iPhone 11","description":"An apple mobile which is nothing like apple","price":1414.584,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings,","price":84.96,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":7},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":70.80,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":14},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":127.44,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":62},{"id":7,"name":"elma","description":"leziz elma","price":5.664,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":9987},{"id":8,"name":"Armut","description":"leziz armut","price":14.16,"pictureUrl":"","productType":"meyve","productBrand":"meyveciler","piece":900}]}
+2023-11-10 13:14:15.312 [INF] -------------Request-End------------
+2023-11-10 13:14:19.564 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:14:19.567 [INF] HeartBeat
+2023-11-10 13:14:19.568 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:14:19.570 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:14:19.571 [INF] HeartBeat
+2023-11-10 13:14:19.573 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:14:19.580 [INF] -------------Request-Begin------------
+2023-11-10 13:14:19.580 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+Request Body: 
+2023-11-10 13:14:19.581 [INF] 
+
+2023-11-10 13:14:19.582 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+StatusCode: 200 
+Response Body: {"negotiateVersion":1,"connectionId":"9fZX9nKImWsCGOMEBobg8Q","connectionToken":"YVJc7ISKaAK_uf8vbsa46A","availableTransports":[{"transport":"WebSockets","transferFormats":["Text","Binary"]},{"transport":"ServerSentEvents","transferFormats":["Text"]},{"transport":"LongPolling","transferFormats":["Text","Binary"]}]}
+2023-11-10 13:14:19.584 [INF] -------------Request-End------------
+2023-11-10 13:14:19.589 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:14:19.589 [INF] HeartBeat
+2023-11-10 13:14:19.590 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:14:19.601 [INF] -------------Request-Begin------------
+2023-11-10 13:14:19.602 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Messages/GetMessageByRoomName 
+QueryString: ?roomName=5 
+Request Body: 
+2023-11-10 13:14:19.603 [INF] 
+
+2023-11-10 13:14:19.603 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Messages/GetMessageByRoomName 
+QueryString: ?roomName=5 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":72,"userId":1,"userName":"uhud durmus","text":"herkese giden mesaj","roomName":"0"},{"id":73,"userId":1,"userName":"uhud durmus","text":"merha bu mesaj herkese gidecek","roomName":"0"}]}
+2023-11-10 13:14:19.605 [INF] -------------Request-End------------
+2023-11-10 13:14:57.813 [INF] -------------Request-Begin------------
+2023-11-10 13:14:57.814 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /chatHub 
+QueryString: ?id=YVJc7ISKaAK_uf8vbsa46A 
+Request Body: 
+2023-11-10 13:14:57.815 [INF] 
+
+2023-11-10 13:14:57.816 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /chatHub 
+QueryString: ?id=YVJc7ISKaAK_uf8vbsa46A 
+StatusCode: 200 
+Response Body: 
+2023-11-10 13:14:57.817 [INF] -------------Request-End------------
+2023-11-10 13:14:58.081 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:14:58.082 [INF] HeartBeat
+2023-11-10 13:14:58.083 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:14:58.083 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:14:58.083 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:14:58.084 [INF] HeartBeat
+2023-11-10 13:14:58.085 [INF] HeartBeat
+2023-11-10 13:14:58.086 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:14:58.087 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:14:58.089 [INF] -------------Request-Begin------------
+2023-11-10 13:14:58.089 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+Request Body: 
+2023-11-10 13:14:58.091 [INF] 
+
+2023-11-10 13:14:58.094 [INF] -------------Request-Begin------------
+2023-11-10 13:14:58.094 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /chatHub/negotiate 
+QueryString: ?negotiateVersion=1 
+StatusCode: 200 
+Response Body: {"negotiateVersion":1,"connectionId":"ghsGLYbAqeWmJI4rEJuCAA","connectionToken":"058-MsHRxMjr2VXoejKYLg","availableTransports":[{"transport":"WebSockets","transferFormats":["Text","Binary"]},{"transport":"ServerSentEvents","transferFormats":["Text"]},{"transport":"LongPolling","transferFormats":["Text","Binary"]}]}
+2023-11-10 13:14:58.094 [INF] -------------Request-Begin------------
+2023-11-10 13:14:58.095 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-10 13:14:58.097 [INF] -------------Request-End------------
+2023-11-10 13:14:58.097 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Messages/GetMessageByRoomName 
+QueryString: ?roomName=5 
+Request Body: 
+2023-11-10 13:14:58.099 [INF] 
+
+2023-11-10 13:14:58.100 [INF] 
+
+2023-11-10 13:14:58.102 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":5,"email":"cem@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"cem sivilcem","profit":20,"role":"user","credit":4955,"addresses":[{"id":2,"userId":5,"addressLine1":"asdasd","addressLine2":"asdasdas","city":"istan","county":"turkey","postalCode":"34000"}],"orders":[{"id":13,"userId":5,"productId":7,"name":"elma","description":"leziz elma","price":5,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":10,"status":"active","paymentMethod":"wallet","insertDate":"2023-11-10T13:13:00.9131852"}]}
+2023-11-10 13:14:58.103 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Messages/GetMessageByRoomName 
+QueryString: ?roomName=5 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":72,"userId":1,"userName":"uhud durmus","text":"herkese giden mesaj","roomName":"0"},{"id":73,"userId":1,"userName":"uhud durmus","text":"merha bu mesaj herkese gidecek","roomName":"0"}]}
+2023-11-10 13:14:58.104 [INF] -------------Request-End------------
+2023-11-10 13:14:58.106 [INF] -------------Request-End------------
+2023-11-10 13:14:58.142 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:14:58.143 [INF] HeartBeat
+2023-11-10 13:14:58.144 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:15:02.618 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:15:02.619 [INF] HeartBeat
+2023-11-10 13:15:02.620 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:15:02.642 [INF] -------------Request-Begin------------
+2023-11-10 13:15:02.643 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getReport 
+QueryString: ?time=0 
+Request Body: 
+2023-11-10 13:15:02.644 [INF] 
+
+2023-11-10 13:15:02.645 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getReport 
+QueryString: ?time=0 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":13,"userId":5,"productId":7,"name":"elma","description":"leziz elma","price":5,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":10,"status":"active","paymentMethod":"wallet","insertDate":"2023-11-10T13:13:00.9131852"}]}
+2023-11-10 13:15:02.646 [INF] -------------Request-End------------
+2023-11-10 13:15:05.377 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:15:05.378 [INF] HeartBeat
+2023-11-10 13:15:05.378 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:15:05.396 [INF] -------------Request-Begin------------
+2023-11-10 13:15:05.397 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getReport 
+QueryString: ?time=3 
+Request Body: 
+2023-11-10 13:15:05.398 [INF] 
+
+2023-11-10 13:15:05.398 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getReport 
+QueryString: ?time=3 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":13,"userId":5,"productId":7,"name":"elma","description":"leziz elma","price":5,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":10,"status":"active","paymentMethod":"wallet","insertDate":"2023-11-10T13:13:00.9131852"}]}
+2023-11-10 13:15:05.400 [INF] -------------Request-End------------
+2023-11-10 13:15:05.968 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:15:05.968 [INF] HeartBeat
+2023-11-10 13:15:05.969 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:15:05.978 [INF] -------------Request-Begin------------
+2023-11-10 13:15:05.978 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getReport 
+QueryString: ?time=2 
+Request Body: 
+2023-11-10 13:15:05.980 [INF] 
+
+2023-11-10 13:15:05.991 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getReport 
+QueryString: ?time=2 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":13,"userId":5,"productId":7,"name":"elma","description":"leziz elma","price":5,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":10,"status":"active","paymentMethod":"wallet","insertDate":"2023-11-10T13:13:00.9131852"}]}
+2023-11-10 13:15:05.992 [INF] -------------Request-End------------
+2023-11-10 13:15:06.476 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:15:06.477 [INF] HeartBeat
+2023-11-10 13:15:06.477 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:15:06.485 [INF] -------------Request-Begin------------
+2023-11-10 13:15:06.486 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getReport 
+QueryString: ?time=1 
+Request Body: 
+2023-11-10 13:15:06.487 [INF] 
+
+2023-11-10 13:15:06.488 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getReport 
+QueryString: ?time=1 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":13,"userId":5,"productId":7,"name":"elma","description":"leziz elma","price":5,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":10,"status":"active","paymentMethod":"wallet","insertDate":"2023-11-10T13:13:00.9131852"}]}
+2023-11-10 13:15:06.489 [INF] -------------Request-End------------
+2023-11-10 13:15:07.152 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:15:07.153 [INF] HeartBeat
+2023-11-10 13:15:07.154 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:15:07.157 [INF] -------------Request-Begin------------
+2023-11-10 13:15:07.158 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getReport 
+QueryString: ?time=0 
+Request Body: 
+2023-11-10 13:15:07.159 [INF] 
+
+2023-11-10 13:15:07.160 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getReport 
+QueryString: ?time=0 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":13,"userId":5,"productId":7,"name":"elma","description":"leziz elma","price":5,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":10,"status":"active","paymentMethod":"wallet","insertDate":"2023-11-10T13:13:00.9131852"}]}
+2023-11-10 13:15:07.162 [INF] -------------Request-End------------
+2023-11-10 13:15:07.793 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:15:07.794 [INF] HeartBeat
+2023-11-10 13:15:07.795 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:15:07.810 [INF] -------------Request-Begin------------
+2023-11-10 13:15:07.811 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=20&Tax=18 
+Request Body: 
+2023-11-10 13:15:07.812 [INF] 
+
+2023-11-10 13:15:07.813 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=20&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":777.384,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":2,"name":"iPhone X","description":"An apple mobile which is nothing like apple","price":1272.984,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":3,"name":"iPhone 11","description":"An apple mobile which is nothing like apple","price":1414.584,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings,","price":84.96,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":7},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":70.80,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":14},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":127.44,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":62},{"id":7,"name":"elma","description":"leziz elma","price":5.664,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":9987},{"id":8,"name":"Armut","description":"leziz armut","price":14.16,"pictureUrl":"","productType":"meyve","productBrand":"meyveciler","piece":900}]}
+2023-11-10 13:15:07.816 [INF] -------------Request-End------------
+2023-11-10 13:15:08.676 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:15:08.677 [INF] HeartBeat
+2023-11-10 13:15:08.677 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:15:08.681 [INF] -------------Request-Begin------------
+2023-11-10 13:15:08.682 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=20&Tax=18 
+Request Body: 
+2023-11-10 13:15:08.683 [INF] 
+
+2023-11-10 13:15:08.684 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=20&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":777.384,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":2,"name":"iPhone X","description":"An apple mobile which is nothing like apple","price":1272.984,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":3,"name":"iPhone 11","description":"An apple mobile which is nothing like apple","price":1414.584,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings,","price":84.96,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":7},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":70.80,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":14},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":127.44,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":62},{"id":7,"name":"elma","description":"leziz elma","price":5.664,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":9987},{"id":8,"name":"Armut","description":"leziz armut","price":14.16,"pictureUrl":"","productType":"meyve","productBrand":"meyveciler","piece":900}]}
+2023-11-10 13:15:08.687 [INF] -------------Request-End------------
+2023-11-10 13:15:09.755 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:15:09.756 [INF] HeartBeat
+2023-11-10 13:15:09.757 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:15:09.762 [INF] -------------Request-Begin------------
+2023-11-10 13:15:09.762 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByParameter 
+QueryString: ?Status=&Description=&Name=&time=0 
+Request Body: 
+2023-11-10 13:15:09.763 [INF] 
+
+2023-11-10 13:15:09.764 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetOrdersByParameter 
+QueryString: ?Status=&Description=&Name=&time=0 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":13,"userId":5,"productId":7,"name":"elma","description":"leziz elma","price":5,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":10,"status":"active","paymentMethod":"wallet","insertDate":"2023-11-10T13:13:00.9131852"}]}
+2023-11-10 13:15:09.766 [INF] -------------Request-End------------
+2023-11-10 13:16:22.045 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:16:22.046 [INF] HeartBeat
+2023-11-10 13:16:22.046 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:16:22.067 [INF] -------------Request-Begin------------
+2023-11-10 13:16:22.067 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token 
+QueryString:  
+Request Body: {"email":"uhud@gmail.com","password":"hello"}
+2023-11-10 13:16:22.068 [INF] 
+
+2023-11-10 13:16:22.069 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"expireDate":"2023-11-10T18:16:22.0667052+03:00","token":"eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjEiLCJSb2xlIjoiYWRtaW4iLCJFbWFpbCI6InVodWRAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW4iLCJGdWxsTmFtZSI6InVodWQgZHVybXVzIiwiZXhwIjoxNjk5NjI5MzgyLCJpc3MiOiJWa0FwaSIsImF1ZCI6IlZrQXBpIn0.PpY83TjdQV3cLqP2GmQtGxAZHMJ2N6ny1ulxNEV_UYI","email":"uhud@gmail.com"}}
+2023-11-10 13:16:22.071 [INF] -------------Request-End------------
+2023-11-10 13:16:22.083 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:16:22.084 [INF] HeartBeat
+2023-11-10 13:16:22.084 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:16:22.090 [INF] -------------Request-Begin------------
+2023-11-10 13:16:22.091 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-10 13:16:22.092 [INF] 
+
+2023-11-10 13:16:22.093 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"email":"uhud@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"admin","credit":5000,"addresses":[],"orders":[]}}
+2023-11-10 13:16:22.095 [INF] -------------Request-End------------
+2023-11-10 13:16:24.354 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:16:24.355 [INF] HeartBeat
+2023-11-10 13:16:24.356 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:16:24.371 [INF] -------------Request-Begin------------
+2023-11-10 13:16:24.372 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=0&Tax=18 
+Request Body: 
+2023-11-10 13:16:24.373 [INF] 
+
+2023-11-10 13:16:24.373 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=0&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":647.82,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":2,"name":"iPhone X","description":"An apple mobile which is nothing like apple","price":1060.82,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":3,"name":"iPhone 11","description":"An apple mobile which is nothing like apple","price":1178.82,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings,","price":70.80,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":7},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":59.00,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":14},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":106.20,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":62},{"id":7,"name":"elma","description":"leziz elma","price":4.72,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":9987},{"id":8,"name":"Armut","description":"leziz armut","price":11.80,"pictureUrl":"","productType":"meyve","productBrand":"meyveciler","piece":900}]}
+2023-11-10 13:16:24.376 [INF] -------------Request-End------------
+2023-11-10 13:17:55.775 [INF] -------------Request-Begin------------
+2023-11-10 13:17:55.776 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /chatHub 
+QueryString: ?id=058-MsHRxMjr2VXoejKYLg 
+Request Body: 
+2023-11-10 13:17:55.777 [INF] 
+
+2023-11-10 13:17:55.778 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /chatHub 
+QueryString: ?id=058-MsHRxMjr2VXoejKYLg 
+StatusCode: 200 
+Response Body: 
+2023-11-10 13:17:55.779 [INF] -------------Request-End------------
+2023-11-10 13:17:56.068 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:17:56.069 [INF] HeartBeat
+2023-11-10 13:17:56.070 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:17:56.070 [INF] LogErrorHandlerMiddleware.Invoke
+2023-11-10 13:17:56.071 [INF] HeartBeat
+2023-11-10 13:17:56.072 [INF] LogRequestLoggingMiddleware.Invoke
+2023-11-10 13:18:00.913 [INF] -------------Request-Begin------------
+2023-11-10 13:18:00.914 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=0&Tax=18 
+Request Body: 
+2023-11-10 13:18:00.915 [INF] -------------Request-Begin------------
+2023-11-10 13:18:00.916 [INF] 
+
+2023-11-10 13:18:00.917 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+Request Body: 
+2023-11-10 13:18:00.918 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/GetProductsByParameter 
+QueryString: ?ProductBrand=&ProductType=&Gain=0&Tax=18 
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":[{"id":1,"name":"iPhone 9","description":"An apple mobile which is nothing like apple","price":647.82,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":2,"name":"iPhone X","description":"An apple mobile which is nothing like apple","price":1060.82,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":1},{"id":3,"name":"iPhone 11","description":"An apple mobile which is nothing like apple","price":1178.82,"pictureUrl":"https://www.tailorbrands.com/wp-content/uploads/2021/01/apple_logo_1988.jpg","productType":"smartphones","productBrand":"Apple","piece":2},{"id":4,"name":"Round Silver Frame Sun Glasses","description":"A pair of sunglasses can protect your eyes from being hurt. For car driving, vacation travel, outdoor activities, social gatherings,","price":70.80,"pictureUrl":"https://i.dummyjson.com/data/products/81/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":7},{"id":5,"name":"Kabir Singh Square Sunglass","description":"Orignal Metal Kabir Singh design 2020 Sunglasses Men Brand Designer Sun Glasses Kabir Singh Square Sunglass","price":59.00,"pictureUrl":"https://i.dummyjson.com/data/products/82/thumbnail.jpg","productType":"sunglasses","productBrand":"Designer Sun Glasses","piece":14},{"id":6,"name":"Square Sunglasses","description":"Fashion Oversized Square Sunglasses Retro Gradient Big Frame Sunglasses For Women One Piece Gafas Shade Mirror Clear Lens 17059","price":106.20,"pictureUrl":"https://i.dummyjson.com/data/products/83/thumbnail.jpg","productType":"sunglasses","productBrand":"mastar watch","piece":62},{"id":7,"name":"elma","description":"leziz elma","price":4.72,"pictureUrl":"https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg","productType":"meyve","productBrand":"meveciler","piece":9987},{"id":8,"name":"Armut","description":"leziz armut","price":11.80,"pictureUrl":"","productType":"meyve","productBrand":"meyveciler","piece":900}]}
+2023-11-10 13:18:00.919 [INF] 
+
+2023-11-10 13:18:00.923 [INF] -------------Request-End------------
+2023-11-10 13:18:00.924 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:50000 
+Path: /vk/api/v1/Token/getUserInfo 
+QueryString:  
+StatusCode: 200 
+Response Body: {"success":true,"message":"Success","response":{"id":1,"email":"uhud@gmail.com","password":"5d41402abc4b2a76b9719d911017c592","fullName":"uhud durmus","profit":0,"role":"admin","credit":5000,"addresses":[],"orders":[]}}
+2023-11-10 13:18:00.926 [INF] -------------Request-End------------

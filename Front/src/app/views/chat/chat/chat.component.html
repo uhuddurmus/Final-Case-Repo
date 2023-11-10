@@ -55,6 +55,7 @@
       <button
         class="btn btn-danger float-start mt-2"
         (click)="sendToAll(messageText.value)"
+        *ngIf="UserId == 1"
       >
         Send to All Users
       </button>
