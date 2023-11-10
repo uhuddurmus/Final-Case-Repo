@@ -15,7 +15,32 @@ dotnet ef database update --project  "./Vk.Data" --startup-project "./VkApi"
 
 komutu ile migration işleminizi tamamlayın.
 
-Önyüzün olduğu dizinde terminale npm install komutu ile gerekli kütüphaneleri indirin. Npm start ile başlıyabilir. (Nodejs gerekli.)
+( connection string ve db mevcut olmasına özen gösterin .)
+
+Önyüzün olduğu dizinde terminale npm install komutu ile gerekli kütüphaneleri indirin. npm start ile başlıyabilir. (Nodejs gerekli.)
+
+arka tarafta admini oluşturmak için
+```javascript
+{
+  "email": "admin@gmail.com",
+  "password": "admin",
+  "fullName": "Admin",
+  "profit": 0,
+  "role": "admin",
+  "credit": 5000
+}
+```
+jsonunu /vk/api/v1/Users ucuna post edin ilk user admin yapmak için. 
+
+diğer user, product, order  vs önyüz veya swaggerdan oluşturulabilir. 
+
+böylece ;
+admin@gmail.com"
+admin
+bilgileriyle login olabilirsiniz.
+
+
+----------------------------------------------------------------------
 
 ### Statüler
 
